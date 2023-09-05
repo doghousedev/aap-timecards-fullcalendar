@@ -61,6 +61,32 @@ function generateUniqueId() {
     return randomId.toString();
 }
 
+// Callback function for handling event deletion
+function handleDelete(event) {
+    Swal.fire({
+        title: 'Delete Event',
+        text: 'Are you sure you want to delete this event?',
+        icon: 'warning',
+        showCancelButton: true,
+        confirmButtonText: 'Delete',
+        showLoaderOnConfirm: true,
+        preConfirm: () => {
+            // You can perform the deletion logic here
+            // Update the events array and calendar accordingly
+        }
+    }).then((result) => {
+        if (result.isConfirmed) {
+            // Delete the event from the events array
+            const eventIndex = events.findIndex(e => e.id === event.id);
+            if (eventIndex !== -1) {
+                events.splice(eventIndex, 1);
+                updateEventsArray(events);
+                calendar.getEventById(event.id).remove();
+            }
+        }
+    });
+}
+
 // Callback function for handling event resizing
 function handleEventResize(info) {
     const eventId = info.event.id;
@@ -90,19 +116,63 @@ function handleTimeRangeSelection(info) {
     const selectedStartTime = info.start;
     const selectedEndTime = info.end;
 
-    addUserEvent(selectedStartTime, selectedEndTime);
+    showConfirmationDialog('Add Event', 'Do you want to add an event for the selected time range?')
+        .then((result) => {
+            if (result.isConfirmed) {
+                addUserEvent(selectedStartTime, selectedEndTime);
+            }
+        });
 }
 
 // Callback function for handling event click
-function handleEventClick(info) {
-    const eventId = info.event.id;
-    const event = events.find(event => event.id === eventId);
+// Function to show a modal form for editing an event
+function handleEventClick(event) {
+    const eventStartISO = event.start.toISOString().split('T')[0];
+    const eventEndISO = event.end.toISOString().split('T')[0];
 
-    if (event) {
-        console.log('Clicked event data:', event);
-        // Display event details in a modal or some other way
-    }
+    Swal.fire({
+        title: 'Edit Event',
+        html: `
+        <input type="text" id="eventTitle" value="${event.title}" class="swal2-input" placeholder="Event title">
+        <label for="eventStart">Event start:</label>
+        <input type="date" id="eventStart" value="${eventStartISO}" class="swal2-input">
+        <label for="eventEnd">Event end:</label>
+        <input type="date" id="eventEnd" value="${eventEndISO}" class="swal2-input">
+      `,
+        showCancelButton: true,
+        showDenyButton: true, // Add the delete button
+        confirmButtonText: 'Save',
+        denyButtonText: 'Delete', // Customize the delete button text
+        showLoaderOnConfirm: true,
+    }).then((result) => {
+        if (result.isConfirmed) {
+            const newTitle = Swal.getPopup().querySelector('#eventTitle').value;
+            const newStart = new Date(Swal.getPopup().querySelector('#eventStart').value);
+            const newEnd = new Date(Swal.getPopup().querySelector('#eventEnd').value);
+
+            // Update the events array
+            const updatedEvent = {
+                id: event.id,
+                title: newTitle,
+                start: newStart,
+                end: newEnd
+            };
+            updateEventsArray(updatedEvent);
+
+            // Update the event in the calendar
+            const calendarEvent = calendar.getEventById(event.id);
+            if (calendarEvent) {
+                calendarEvent.setProp('title', newTitle);
+                calendarEvent.setStart(newStart);
+                calendarEvent.setEnd(newEnd);
+            }
+        } else if (result.isDenied) { // If delete button was clicked
+            handleDelete(event);
+        }
+    });
 }
+
+
 
 // Initialize FullCalendar with events and addUserEvent callback
 function initializeFullCalendar(events) {
@@ -115,11 +185,27 @@ function initializeFullCalendar(events) {
         editable: true,
         eventDrop: handleEventDrop,
         eventResize: handleEventResize,
-        eventClick: handleEventClick
-    });
+        eventClick: function (info) {
+            const event = info.event;
+            handleEventClick(event);
+        }
+
+    })
 
     // Render the initialized calendar
     calendar.render();
+}
+
+// Function to show a confirmation dialog
+function showConfirmationDialog(title, text) {
+    return Swal.fire({
+        title: title,
+        text: text,
+        icon: 'question',
+        showCancelButton: true,
+        confirmButtonText: 'Yes',
+        cancelButtonText: 'No'
+    });
 }
 
 // Function to transform the platform data to FullCalendar events
@@ -147,6 +233,7 @@ function updateEventsArray(updatedEvent) {
     } else {
         events.push(updatedEvent);
     }
+    console.log('Updated events array:', events);
 }
 //#endregion Utility functions
 
