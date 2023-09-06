@@ -276,7 +276,7 @@ function transformToFullCalendarEvents(jsonData) {
 
     console.log(jsonData)
     return records.map(record => {
-        const description = record.multiobjectlookup?.displayValue;
+        const description = record.mutliobjectlookup?.displayValue;
         const title = `${record.id}-${record.created_id?.displayValue}-${description}`;
 
         return {
