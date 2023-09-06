@@ -17,6 +17,7 @@ async function fetchAndInitializeCalendar() {
         // Transform the data
         events = transformToFullCalendarEvents(platformData);
 
+        console.log('Events:', events);
         // Initialize FullCalendar with the events and addUserEvent callback
         initializeFullCalendar(events);
 
@@ -28,15 +29,31 @@ async function fetchAndInitializeCalendar() {
 
 //#region Utility functions
 // Callback function for adding a user-created event
-function addUserEvent(startTime, endTime) {
-    const newUserEvent = {
-        id: generateUniqueId(),
-        title: 'User Event',
-        start: startTime,
-        end: endTime
-    };
-    updateEventsArray(newUserEvent);
-    calendar.addEvent(newUserEvent);
+function addUserEvent(startTime, endTime, title) {
+    showEventForm('Add Timecard', startTime.toISOString(), endTime.toISOString(), title, (result) => {
+        const eventTitle = Swal.getPopup().querySelector('#eventTitle').value;
+        const eventStart = new Date(Swal.getPopup().querySelector('#eventStart').value + 'T' + startTime.toISOString().split('T')[1]);
+        const eventEnd = new Date(Swal.getPopup().querySelector('#eventEnd').value + 'T' + endTime.toISOString().split('T')[1]);
+
+        // Validate input and add the event
+        if (eventTitle && eventStart && eventEnd) {
+            const isValid = eventStart < eventEnd;
+            if (isValid) {
+                const newUserEvent = {
+                    id: generateUniqueId(),
+                    title: eventTitle,
+                    start: eventStart,
+                    end: eventEnd
+                };
+                updateEventsArray(newUserEvent);
+                calendar.addEvent(newUserEvent);
+            } else {
+                Swal.showValidationMessage('End time must be after start time');
+            }
+        } else {
+            Swal.showValidationMessage('All fields are required');
+        }
+    });
 }
 
 // Function to format time to HH:mm:ss format
@@ -87,6 +104,33 @@ function handleDelete(event) {
     });
 }
 
+// Function to show a modal form for editing an event
+function handleEventClick(event) {
+    // Get the event's start and end datetime values in ISO format
+    const eventStartISO = event.start.toISOString();
+    const eventEndISO = event.end.toISOString();
+
+    showEventForm('Edit Event', eventStartISO, eventEndISO, event.title, (formData) => {
+        // Handle form submission here
+        const updatedEvent = {
+            id: event.id,
+            title: formData.title,
+            start: new Date(formData.start),
+            end: new Date(formData.end)
+        };
+        updateEventsArray(updatedEvent);
+
+        // Update the event in the calendar
+        const calendarEvent = calendar.getEventById(event.id);
+        if (calendarEvent) {
+            calendarEvent.setProp('title', formData.title);
+            calendarEvent.setStart(updatedEvent.start);
+            calendarEvent.setEnd(updatedEvent.end);
+        }
+    });
+}
+
+
 // Callback function for handling event resizing
 function handleEventResize(info) {
     const eventId = info.event.id;
@@ -115,64 +159,9 @@ function handleEventDrop(info) {
 function handleTimeRangeSelection(info) {
     const selectedStartTime = info.start;
     const selectedEndTime = info.end;
-
-    showConfirmationDialog('Add Event', 'Do you want to add an event for the selected time range?')
-        .then((result) => {
-            if (result.isConfirmed) {
-                addUserEvent(selectedStartTime, selectedEndTime);
-            }
-        });
+    console.log('Selected time range:', selectedStartTime, selectedEndTime);
+    addUserEvent(selectedStartTime, selectedEndTime, 'myNameHere');
 }
-
-// Callback function for handling event click
-// Function to show a modal form for editing an event
-function handleEventClick(event) {
-    const eventStartISO = event.start.toISOString().split('T')[0];
-    const eventEndISO = event.end.toISOString().split('T')[0];
-
-    Swal.fire({
-        title: 'Edit Event',
-        html: `
-        <input type="text" id="eventTitle" value="${event.title}" class="swal2-input" placeholder="Event title">
-        <label for="eventStart">Event start:</label>
-        <input type="date" id="eventStart" value="${eventStartISO}" class="swal2-input">
-        <label for="eventEnd">Event end:</label>
-        <input type="date" id="eventEnd" value="${eventEndISO}" class="swal2-input">
-      `,
-        showCancelButton: true,
-        showDenyButton: true, // Add the delete button
-        confirmButtonText: 'Save',
-        denyButtonText: 'Delete', // Customize the delete button text
-        showLoaderOnConfirm: true,
-    }).then((result) => {
-        if (result.isConfirmed) {
-            const newTitle = Swal.getPopup().querySelector('#eventTitle').value;
-            const newStart = new Date(Swal.getPopup().querySelector('#eventStart').value);
-            const newEnd = new Date(Swal.getPopup().querySelector('#eventEnd').value);
-
-            // Update the events array
-            const updatedEvent = {
-                id: event.id,
-                title: newTitle,
-                start: newStart,
-                end: newEnd
-            };
-            updateEventsArray(updatedEvent);
-
-            // Update the event in the calendar
-            const calendarEvent = calendar.getEventById(event.id);
-            if (calendarEvent) {
-                calendarEvent.setProp('title', newTitle);
-                calendarEvent.setStart(newStart);
-                calendarEvent.setEnd(newEnd);
-            }
-        } else if (result.isDenied) { // If delete button was clicked
-            handleDelete(event);
-        }
-    });
-}
-
-
 
 // Initialize FullCalendar with events and addUserEvent callback
 function initializeFullCalendar(events) {
@@ -188,7 +177,8 @@ function initializeFullCalendar(events) {
         eventClick: function (info) {
             const event = info.event;
             handleEventClick(event);
-        }
+        },
+        timeZone: 'America/New_York', // Set the time zone to 'America/New_York'
 
     })
 
@@ -205,6 +195,69 @@ function showConfirmationDialog(title, text) {
         showCancelButton: true,
         confirmButtonText: 'Yes',
         cancelButtonText: 'No'
+    });
+}
+
+// Function to show an event form
+function showEventForm(title, startValue, endValue, titleValue, callback) {
+    // Function to format a date in the required format for datetime-local input
+    function formatDateForInput(date) {
+        const year = date.getFullYear();
+        const month = String(date.getMonth() + 1).padStart(2, '0');
+        const day = String(date.getDate()).padStart(2, '0');
+        const hours = String(date.getHours()).padStart(2, '0');
+        const minutes = String(date.getMinutes()).padStart(2, '0');
+        return `${year}-${month}-${day}T${hours}:${minutes}`;
+    }
+
+    startValue = formatDateForInput(new Date(startValue));
+    endValue = formatDateForInput(new Date(endValue));
+
+    Swal.fire({
+        title: title,
+        html: `
+        <form class="custom-form">
+            <div class="form-row">
+                <label for="eventTitle">Title:</label>
+                <input type="text" id="eventTitle" value="${titleValue}" class="swal2-input">
+            </div>
+            <div class="form-row">
+                <label for="eventStart">Start:</label>
+                <input type="datetime-local" id="eventStart" value="${startValue}" class="swal2-input">
+            </div>
+            <div class="form-row">
+                <label for="eventEnd">End:</label>
+                <input type="datetime-local" id="eventEnd" value="${endValue}" class="swal2-input">
+            </div>
+        </form>
+      `,
+        showCancelButton: true,
+        showDenyButton: true, // Add the delete button
+        confirmButtonText: 'Save',
+        denyButtonText: 'Delete', // Customize the delete button text
+        showLoaderOnConfirm: true,
+        preConfirm: () => {
+            const newTitle = Swal.getPopup().querySelector('#eventTitle').value;
+            const newStart = new Date(Swal.getPopup().querySelector('#eventStart').value);
+            const newEnd = new Date(Swal.getPopup().querySelector('#eventEnd').value);
+            // You can perform validation and updating here
+
+            // Invoke the callback with the form values
+            callback({
+                title: newTitle,
+                start: newStart,
+                end: newEnd
+            });
+        },
+        customClass: {
+            input: 'swal2-input-text',
+            confirmButton: 'swal2-confirm-button',
+            denyButton: 'swal2-deny-button',
+        }
+    }).then((result) => {
+        if (result.isDenied) { // If delete button was clicked
+            handleDelete(event);
+        }
     });
 }
 
@@ -226,7 +279,13 @@ function transformToFullCalendarEvents(platformData) {
     });
 }
 
+// Function to update the events array
 function updateEventsArray(updatedEvent) {
+    // Ensure that start and end dates are in ISO format
+    console.log('Updated event:', updatedEvent);
+    updatedEvent.start = updatedEvent.start.toISOString();
+    updatedEvent.end = updatedEvent.end.toISOString();
+
     const eventIndex = events.findIndex(event => event.id === updatedEvent.id);
     if (eventIndex !== -1) {
         events[eventIndex] = updatedEvent;
@@ -240,15 +299,8 @@ function updateEventsArray(updatedEvent) {
 //#region  Time Card App Todos
 /****************************************************************************************
 
-- fix drop and drag to update to the array of events correctly
-- fix resize to update to the array of events correctly
-- correctly parse date and time as local time not GMT
-- add the delete functionality
-- modal form to lookup the objects and the related info
 - CRUD to REST API
 - modify the select to a single function instead of two
-- add the ability to add a new event from the calendar
-- add the ability to add a new event from the modal form
 - make this a svelte app so we can pack it in a single file like we do with svelte-ts-grid
 - make it TS and add the types
 *********************************************************************************************/
