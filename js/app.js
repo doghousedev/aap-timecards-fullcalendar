@@ -43,7 +43,6 @@ async function fetchAndInitializeCalendar() {
         const data = await response.json();
 
         events = transformToFullCalendarEvents(data);
-        console.log('Events:', events);
 
         initializeFullCalendar(events);
 

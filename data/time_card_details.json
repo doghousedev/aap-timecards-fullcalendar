@@ -16,7 +16,7 @@
             "direct_entry_elapsed_time": "",
             "elapsed_time": "2",
             "elapsed_time_entry": "2",
-            "end_date_time": "2023-09-06T22:00:00.000Z",
+            "end_date_time": "2023-09-06T17:00:00.000Z",
             "end_time": {
                 "content": "1200",
                 "displayValue": "12:00 pm"
@@ -67,7 +67,7 @@
                 "uri": "https://net-av.agileappscloud.com/networking/rest/record/7f3bf69d0dc542f4bb72a37e43de82c2/1409374942"
             },
             "search_string": "1249368622",
-            "start_date_time": "2023-09-06T12:00:00.000Z",
+            "start_date_time": "2023-09-06T10:00:00.000Z",
             "start_time": {
                 "content": "1000",
                 "displayValue": "10:00 am"
