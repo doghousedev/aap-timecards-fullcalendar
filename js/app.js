@@ -6,27 +6,6 @@ let nextEventId = 1;
 
 //#endregion decalrations
 
-//#region Main Entry Point
-async function fetchAndInitializeCalendar() {
-    try {
-        // Fetch the JSON data from the file
-        const response = await fetch('./data/time_card_details.json');
-        const data = await response.json();
-        const platformData = data.platform;
-
-        // Transform the data
-        events = transformToFullCalendarEvents(platformData);
-
-        console.log('Events:', events);
-        // Initialize FullCalendar with the events and addUserEvent callback
-        initializeFullCalendar(events);
-
-    } catch (error) {
-        console.error('Error fetching JSON data:', error);
-    }
-}
-//#endregion Main Entry Point
-
 //#region Utility functions
 // Callback function for adding a user-created event
 function addUserEvent(startTime, endTime, title) {
@@ -56,6 +35,23 @@ function addUserEvent(startTime, endTime, title) {
     });
 }
 
+// Function to fetch the JSON data and initialize the calendar
+async function fetchAndInitializeCalendar() {
+    try {
+        // Fetch the JSON data from the file
+        const response = await fetch('./data/time_card_details.json');
+        const data = await response.json();
+
+        events = transformToFullCalendarEvents(data);
+        console.log('Events:', events);
+
+        initializeFullCalendar(events);
+
+    } catch (error) {
+        console.error('Error fetching JSON data:', error);
+    }
+}
+
 // Function to format time to HH:mm:ss format
 function formatTime(timeString) {
     const [hourMinute, ampm] = timeString.split(' ');
@@ -71,6 +67,16 @@ function formatTime(timeString) {
     hour = hour.padStart(2, '0');
 
     return `${hour}:${minute}:00`;
+}
+
+// Function to format a date for datetime-local input
+function formatDatetimeForInput(date) {
+    const year = date.getFullYear();
+    const month = String(date.getMonth() + 1).padStart(2, '0');
+    const day = String(date.getDate()).padStart(2, '0');
+    const hours = String(date.getHours()).padStart(2, '0');
+    const minutes = String(date.getMinutes()).padStart(2, '0');
+    return `${year}-${month}-${day}T${hours}:${minutes}`;
 }
 
 function generateUniqueId() {
@@ -104,13 +110,17 @@ function handleDelete(event) {
     });
 }
 
-// Function to show a modal form for editing an event
-function handleEventClick(event) {
-    // Get the event's start and end datetime values in ISO format
-    const eventStartISO = event.start.toISOString();
-    const eventEndISO = event.end.toISOString();
+// Callback function for handling event click
+function handleEventClick(info) {
+    const event = info.event;
+    console.log(`Event clicked: \n ${event.start} \n, ${event.end} \n ${event.title}`);
 
-    showEventForm('Edit Event', eventStartISO, eventEndISO, event.title, (formData) => {
+    // Get the event's start and end datetime values formatted for datetime-local input
+    const eventStartFormatted = formatDatetimeForInput(event.start);
+    const eventEndFormatted = formatDatetimeForInput(event.end);
+
+    // Display the form
+    showEventForm('Edit TimeCard', eventStartFormatted, eventEndFormatted, event.title, (formData) => {
         // Handle form submission here
         const updatedEvent = {
             id: event.id,
@@ -145,6 +155,7 @@ function handleEventResize(info) {
 
 // Callback function for handling event drop
 function handleEventDrop(info) {
+    console.log('Event dropped:', info);
     const eventId = info.event.id;
     const updatedEvent = {
         id: eventId,
@@ -174,16 +185,13 @@ function initializeFullCalendar(events) {
         editable: true,
         eventDrop: handleEventDrop,
         eventResize: handleEventResize,
-        eventClick: function (info) {
-            const event = info.event;
-            handleEventClick(event);
-        },
+        eventClick: handleEventClick,
         timeZone: 'America/New_York', // Set the time zone to 'America/New_York'
-
     })
 
     // Render the initialized calendar
     calendar.render();
+    console.log("Calendar time zone: ", calendar.getOption('timeZone'));
 }
 
 // Function to show a confirmation dialog
@@ -262,22 +270,24 @@ function showEventForm(title, startValue, endValue, titleValue, callback) {
 }
 
 // Function to transform the platform data to FullCalendar events
-function transformToFullCalendarEvents(platformData) {
-    const records = platformData?.record || [];
+function transformToFullCalendarEvents(jsonData) {
+    // Ensure records is an array
+    let records = Array.isArray(jsonData.platform.record) ? jsonData.platform.record : [jsonData.platform.record];
+
+    console.log(jsonData)
     return records.map(record => {
-        const startDateTime = `${record.entry_date}T${formatTime(record.start_time?.displayValue)}`;
-        const endDateTime = `${record.entry_date}T${formatTime(record.end_time?.displayValue)}`;
         const description = record.multiobjectlookup?.displayValue;
-        const title = `${record.id}-${record.created_id?.displayValue}-${record.mutliobjectlookup?.displayValue}`;
+        const title = `${record.id}-${record.created_id?.displayValue}-${description}`;
 
         return {
             id: record.id,
             title: title,
-            start: startDateTime,
-            end: endDateTime
+            start: record.start_date_time,
+            end: record.end_date_time
         };
     });
 }
+
 
 // Function to update the events array
 function updateEventsArray(updatedEvent) {
