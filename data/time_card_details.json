@@ -4,75 +4,3949 @@
             "code": "0",
             "description": "Success"
         },
-        "record": {
-            "created_id": {
-                "content": "06c836a659904b9c8b0419682f7d4728",
-                "displayValue": "Ronald Baylin",
-                "type": "",
-                "uri": "https://net-av.agileappscloud.com/networking/rest/user/06c836a659904b9c8b0419682f7d4728"
+        "record": [
+            {
+                "created_id": {
+                    "content": "212a4d7d6f724ca9a4bb881769e5d47d",
+                    "displayValue": "Daniel Chenault",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/212a4d7d6f724ca9a4bb881769e5d47d"
+                },
+                "date_created": "2023-09-06T12:46:36.000Z",
+                "date_modified": "2023-09-12T21:38:53.000Z",
+                "elapsed_time": "4",
+                "elapsed_time_entry": "4",
+                "end_date_time": "2023-09-05T18:00:00.000Z",
+                "end_time": {
+                    "content": "1400",
+                    "displayValue": "2:00 pm"
+                },
+                "entry_date": "2023-09-05",
+                "entry_type": "",
+                "id": "15701907",
+                "modified_id": {
+                    "content": "3",
+                    "displayValue": " System",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/3"
+                },
+                "mutliobjectlookup": {
+                    "content": "1698452539",
+                    "displayValue": "SO-23-05924 - NASA AUDIO ISSUE",
+                    "type": "7ba5266e8b0a42599579576ca8caf764",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7ba5266e8b0a42599579576ca8caf764/1698452539"
+                },
+                "name": "Daniel Chenault - 09/05/2023",
+                "notes": "Travel and looked at audio issue,",
+                "object_id": "f857546418b44dfa82e1776234372bed",
+                "owner_id": {
+                    "content": "4",
+                    "displayValue": "Open Ownership",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/4"
+                },
+                "owner_team_id": {
+                    "content": "1",
+                    "displayValue": "My Team",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/team/1"
+                },
+                "pay_type": {
+                    "content": "1.0",
+                    "displayValue": "REG"
+                },
+                "payroll_phase": {
+                    "content": "300-SERVICE",
+                    "displayValue": "300-SERVICE"
+                },
+                "record_locator": "Daniel Chenault - 09/05/2023",
+                "related_time_card_master": {
+                    "content": "1393978374",
+                    "displayValue": "Daniel Chenault - 09/05/2023",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7f3bf69d0dc542f4bb72a37e43de82c2/1393978374"
+                },
+                "search_string": "15701907",
+                "start_date_time": "2023-09-05T14:00:00.000Z",
+                "start_time": {
+                    "content": "1000",
+                    "displayValue": "10:00 am"
+                }
             },
-            "date_created": "2023-09-06T21:40:18.000Z",
-            "date_modified": "2023-09-06T21:52:05.000Z",
-            "direct_entry_elapsed_time": "",
-            "elapsed_time": "2",
-            "elapsed_time_entry": "2",
-            "end_date_time": "2023-09-06T17:00:00.000Z",
-            "end_time": {
-                "content": "1200",
-                "displayValue": "12:00 pm"
+            {
+                "created_id": {
+                    "content": "06c836a659904b9c8b0419682f7d4728",
+                    "displayValue": "Ronald Baylin",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/06c836a659904b9c8b0419682f7d4728"
+                },
+                "date_created": "2023-09-12T13:47:45.000Z",
+                "date_modified": "2023-09-12T21:35:43.000Z",
+                "elapsed_time": "9",
+                "elapsed_time_entry": "9",
+                "end_date_time": "2023-09-05T21:00:00.000Z",
+                "end_time": {
+                    "content": "1700",
+                    "displayValue": "5:00 pm"
+                },
+                "entry_date": "2023-09-05",
+                "entry_type": "",
+                "id": "105690104",
+                "modified_id": {
+                    "content": "3",
+                    "displayValue": " System",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/3"
+                },
+                "mutliobjectlookup": {
+                    "content": "390564660",
+                    "displayValue": "Sales",
+                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/390564660"
+                },
+                "name": "Ronald Baylin - 09/05/2023",
+                "notes": "Armistead Gardens",
+                "object_id": "f857546418b44dfa82e1776234372bed",
+                "owner_id": {
+                    "content": "4",
+                    "displayValue": "Open Ownership",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/4"
+                },
+                "owner_team_id": {
+                    "content": "1",
+                    "displayValue": "My Team",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/team/1"
+                },
+                "pay_type": {
+                    "content": "1.0",
+                    "displayValue": "REG"
+                },
+                "payroll_phase": {
+                    "content": "020-PROPOSAL",
+                    "displayValue": "020-PROPOSAL"
+                },
+                "record_locator": "Ronald Baylin - 09/05/2023",
+                "related_time_card_master": {
+                    "content": "376164237",
+                    "displayValue": "Ronald Baylin - 09/05/2023",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7f3bf69d0dc542f4bb72a37e43de82c2/376164237"
+                },
+                "search_string": "105690104",
+                "start_date_time": "2023-09-05T12:00:00.000Z",
+                "start_time": {
+                    "content": "0800",
+                    "displayValue": "8:00 am"
+                }
             },
-            "entry_date": "2023-09-06",
-            "entry_type": "",
-            "id": "1249368622",
-            "modified_id": {
-                "content": "3",
-                "displayValue": " System",
-                "type": "",
-                "uri": "https://net-av.agileappscloud.com/networking/rest/user/3"
+            {
+                "created_id": {
+                    "content": "212a4d7d6f724ca9a4bb881769e5d47d",
+                    "displayValue": "Daniel Chenault",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/212a4d7d6f724ca9a4bb881769e5d47d"
+                },
+                "date_created": "2023-09-05T10:38:11.000Z",
+                "date_modified": "2023-09-12T21:37:09.000Z",
+                "elapsed_time": "1",
+                "elapsed_time_entry": "1",
+                "end_date_time": "2023-09-01T18:00:00.000Z",
+                "end_time": {
+                    "content": "1400",
+                    "displayValue": "2:00 pm"
+                },
+                "entry_date": "2023-09-01",
+                "entry_type": "",
+                "id": "171438801",
+                "modified_id": {
+                    "content": "3",
+                    "displayValue": " System",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/3"
+                },
+                "mutliobjectlookup": {
+                    "content": "1922894207",
+                    "displayValue": "SO-23-05927 - No Video ",
+                    "type": "7ba5266e8b0a42599579576ca8caf764",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7ba5266e8b0a42599579576ca8caf764/1922894207"
+                },
+                "name": "Daniel Chenault - 09/01/2023",
+                "notes": "Travel and resolved the problem.",
+                "object_id": "f857546418b44dfa82e1776234372bed",
+                "owner_id": {
+                    "content": "4",
+                    "displayValue": "Open Ownership",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/4"
+                },
+                "owner_team_id": {
+                    "content": "1",
+                    "displayValue": "My Team",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/team/1"
+                },
+                "pay_type": {
+                    "content": "1.0",
+                    "displayValue": "REG"
+                },
+                "payroll_phase": {
+                    "content": "300-SERVICE",
+                    "displayValue": "300-SERVICE"
+                },
+                "record_locator": "Daniel Chenault - 09/01/2023",
+                "related_time_card_master": {
+                    "content": "1858526127",
+                    "displayValue": "Daniel Chenault - 09/01/2023",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7f3bf69d0dc542f4bb72a37e43de82c2/1858526127"
+                },
+                "search_string": "171438801",
+                "start_date_time": "2023-09-01T17:00:00.000Z",
+                "start_time": {
+                    "content": "1300",
+                    "displayValue": "1:00 pm"
+                }
             },
-            "mutliobjectlookup": {
-                "content": "546956554",
-                "displayValue": "Information Technology",
-                "type": "5520d6ff09864d5d9b2fc9c711f6d729",
-                "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/546956554"
+            {
+                "created_id": {
+                    "content": "212a4d7d6f724ca9a4bb881769e5d47d",
+                    "displayValue": "Daniel Chenault",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/212a4d7d6f724ca9a4bb881769e5d47d"
+                },
+                "date_created": "2023-09-06T12:46:36.000Z",
+                "date_modified": "2023-09-12T21:38:52.000Z",
+                "elapsed_time": "3",
+                "elapsed_time_entry": "3",
+                "end_date_time": "2023-09-05T14:00:00.000Z",
+                "end_time": {
+                    "content": "1000",
+                    "displayValue": "10:00 am"
+                },
+                "entry_date": "2023-09-05",
+                "entry_type": "",
+                "id": "217902377",
+                "modified_id": {
+                    "content": "3",
+                    "displayValue": " System",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/3"
+                },
+                "mutliobjectlookup": {
+                    "content": "730286401",
+                    "displayValue": "Service",
+                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/730286401"
+                },
+                "name": "Daniel Chenault - 09/05/2023",
+                "notes": "General work, calls, emails, follow ups, scheduling.",
+                "object_id": "f857546418b44dfa82e1776234372bed",
+                "owner_id": {
+                    "content": "4",
+                    "displayValue": "Open Ownership",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/4"
+                },
+                "owner_team_id": {
+                    "content": "1",
+                    "displayValue": "My Team",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/team/1"
+                },
+                "pay_type": {
+                    "content": "1.0",
+                    "displayValue": "REG"
+                },
+                "payroll_phase": {
+                    "content": "300-SERVICE",
+                    "displayValue": "300-SERVICE"
+                },
+                "record_locator": "Daniel Chenault - 09/05/2023",
+                "related_time_card_master": {
+                    "content": "1393978374",
+                    "displayValue": "Daniel Chenault - 09/05/2023",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7f3bf69d0dc542f4bb72a37e43de82c2/1393978374"
+                },
+                "search_string": "217902377",
+                "start_date_time": "2023-09-05T11:00:00.000Z",
+                "start_time": {
+                    "content": "0700",
+                    "displayValue": "7:00 am"
+                }
             },
-            "name": "Ronald Baylin - 09/06/2023",
-            "notes": "sfsdfsdfsdfsdfsdf",
-            "object_id": "f857546418b44dfa82e1776234372bed",
-            "owner_id": {
-                "content": "4",
-                "displayValue": "Open Ownership",
-                "type": "",
-                "uri": "https://net-av.agileappscloud.com/networking/rest/user/4"
+            {
+                "created_id": {
+                    "content": "212a4d7d6f724ca9a4bb881769e5d47d",
+                    "displayValue": "Daniel Chenault",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/212a4d7d6f724ca9a4bb881769e5d47d"
+                },
+                "date_created": "2023-08-30T11:58:28.000Z",
+                "date_modified": "2023-09-12T21:40:28.000Z",
+                "elapsed_time": "6",
+                "elapsed_time_entry": "6",
+                "end_date_time": "2023-08-29T18:00:00.000Z",
+                "end_time": {
+                    "content": "1400",
+                    "displayValue": "2:00 pm"
+                },
+                "entry_date": "2023-08-29",
+                "entry_type": "",
+                "id": "275697784",
+                "modified_id": {
+                    "content": "3",
+                    "displayValue": " System",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/3"
+                },
+                "mutliobjectlookup": {
+                    "content": "730286401",
+                    "displayValue": "Service",
+                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/730286401"
+                },
+                "name": "Daniel Chenault - 08/29/2023",
+                "notes": "Calls, emails, follow ups, meeting, and scheduling.",
+                "object_id": "f857546418b44dfa82e1776234372bed",
+                "owner_id": {
+                    "content": "4",
+                    "displayValue": "Open Ownership",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/4"
+                },
+                "owner_team_id": {
+                    "content": "1",
+                    "displayValue": "My Team",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/team/1"
+                },
+                "pay_type": {
+                    "content": "1.0",
+                    "displayValue": "REG"
+                },
+                "payroll_phase": {
+                    "content": "300-SERVICE",
+                    "displayValue": "300-SERVICE"
+                },
+                "record_locator": "Daniel Chenault - 08/29/2023",
+                "related_time_card_master": {
+                    "content": "1894901003",
+                    "displayValue": "Daniel Chenault - 08/29/2023",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7f3bf69d0dc542f4bb72a37e43de82c2/1894901003"
+                },
+                "search_string": "275697784",
+                "start_date_time": "2023-08-29T12:00:00.000Z",
+                "start_time": {
+                    "content": "0800",
+                    "displayValue": "8:00 am"
+                }
             },
-            "owner_team_id": {
-                "content": "1",
-                "displayValue": "My Team",
-                "type": "",
-                "uri": "https://net-av.agileappscloud.com/networking/rest/team/1"
+            {
+                "created_id": {
+                    "content": "1e5bb44ec77845c69a10d01df47d3f25",
+                    "displayValue": "Nathan Smith",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/1e5bb44ec77845c69a10d01df47d3f25"
+                },
+                "date_created": "2023-09-05T13:14:25.000Z",
+                "date_modified": "2023-09-12T21:39:11.000Z",
+                "elapsed_time": "8",
+                "elapsed_time_entry": "8",
+                "end_date_time": "2023-09-01T21:00:00.000Z",
+                "end_time": {
+                    "content": "1700",
+                    "displayValue": "5:00 pm"
+                },
+                "entry_date": "2023-09-01",
+                "entry_type": "",
+                "id": "277788949",
+                "modified_id": {
+                    "content": "3",
+                    "displayValue": " System",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/3"
+                },
+                "mutliobjectlookup": {
+                    "content": "705015018",
+                    "displayValue": "Operations",
+                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/705015018"
+                },
+                "name": "Nathan Smith - 09/01/2023",
+                "notes": "office work, opportunities",
+                "object_id": "f857546418b44dfa82e1776234372bed",
+                "owner_id": {
+                    "content": "4",
+                    "displayValue": "Open Ownership",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/4"
+                },
+                "owner_team_id": {
+                    "content": "1",
+                    "displayValue": "My Team",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/team/1"
+                },
+                "pay_type": {
+                    "content": "1.0",
+                    "displayValue": "REG"
+                },
+                "payroll_phase": {
+                    "content": "099-OVERHEAD",
+                    "displayValue": "099-OVERHEAD"
+                },
+                "record_locator": "Nathan Smith - 09/01/2023",
+                "related_time_card_master": {
+                    "content": "1028316813",
+                    "displayValue": "Nathan Smith - 09/01/2023",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7f3bf69d0dc542f4bb72a37e43de82c2/1028316813"
+                },
+                "search_string": "277788949",
+                "start_date_time": "2023-09-01T13:00:00.000Z",
+                "start_time": {
+                    "content": "0900",
+                    "displayValue": "9:00 am"
+                }
             },
-            "pay_type": {
-                "content": "1.0",
-                "displayValue": "REG"
+            {
+                "created_id": {
+                    "content": "1e5bb44ec77845c69a10d01df47d3f25",
+                    "displayValue": "Nathan Smith",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/1e5bb44ec77845c69a10d01df47d3f25"
+                },
+                "date_created": "2023-09-05T13:20:00.000Z",
+                "date_modified": "2023-09-12T21:39:04.000Z",
+                "elapsed_time": "8",
+                "elapsed_time_entry": "8",
+                "end_date_time": "2023-09-04T21:00:00.000Z",
+                "end_time": {
+                    "content": "1700",
+                    "displayValue": "5:00 pm"
+                },
+                "entry_date": "2023-09-04",
+                "entry_type": "",
+                "id": "297092455",
+                "modified_id": {
+                    "content": "3",
+                    "displayValue": " System",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/3"
+                },
+                "mutliobjectlookup": {
+                    "content": "1336142659",
+                    "displayValue": "PTO",
+                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/1336142659"
+                },
+                "name": "Nathan Smith - 09/04/2023",
+                "notes": "labor day holiday",
+                "object_id": "f857546418b44dfa82e1776234372bed",
+                "owner_id": {
+                    "content": "4",
+                    "displayValue": "Open Ownership",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/4"
+                },
+                "owner_team_id": {
+                    "content": "1",
+                    "displayValue": "My Team",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/team/1"
+                },
+                "pay_type": {
+                    "content": "1.0",
+                    "displayValue": "REG"
+                },
+                "payroll_phase": {
+                    "content": "096-PTO",
+                    "displayValue": "096-PTO"
+                },
+                "record_locator": "Nathan Smith - 09/04/2023",
+                "related_time_card_master": {
+                    "content": "1006489016",
+                    "displayValue": "Nathan Smith - 09/04/2023",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7f3bf69d0dc542f4bb72a37e43de82c2/1006489016"
+                },
+                "search_string": "297092455",
+                "start_date_time": "2023-09-04T13:00:00.000Z",
+                "start_time": {
+                    "content": "0900",
+                    "displayValue": "9:00 am"
+                }
             },
-            "payroll_phase": {
-                "content": "099-OVERHEAD",
-                "displayValue": "099-OVERHEAD"
+            {
+                "created_id": {
+                    "content": "1e5bb44ec77845c69a10d01df47d3f25",
+                    "displayValue": "Nathan Smith",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/1e5bb44ec77845c69a10d01df47d3f25"
+                },
+                "date_created": "2023-09-01T14:08:09.000Z",
+                "date_modified": "2023-09-12T21:39:26.000Z",
+                "elapsed_time": "8",
+                "elapsed_time_entry": "8",
+                "end_date_time": "2023-08-31T21:00:00.000Z",
+                "end_time": {
+                    "content": "1700",
+                    "displayValue": "5:00 pm"
+                },
+                "entry_date": "2023-08-31",
+                "entry_type": "",
+                "id": "404364113",
+                "modified_id": {
+                    "content": "3",
+                    "displayValue": " System",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/3"
+                },
+                "mutliobjectlookup": {
+                    "content": "705015018",
+                    "displayValue": "Operations",
+                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/705015018"
+                },
+                "name": "Nathan Smith - 08/31/2023",
+                "notes": "internal, shop clean, assist tyler",
+                "object_id": "f857546418b44dfa82e1776234372bed",
+                "owner_id": {
+                    "content": "4",
+                    "displayValue": "Open Ownership",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/4"
+                },
+                "owner_team_id": {
+                    "content": "1",
+                    "displayValue": "My Team",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/team/1"
+                },
+                "pay_type": {
+                    "content": "1.0",
+                    "displayValue": "REG"
+                },
+                "payroll_phase": {
+                    "content": "099-OVERHEAD",
+                    "displayValue": "099-OVERHEAD"
+                },
+                "record_locator": "Nathan Smith - 08/31/2023",
+                "related_time_card_master": {
+                    "content": "2052775299",
+                    "displayValue": "Nathan Smith - 08/31/2023",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7f3bf69d0dc542f4bb72a37e43de82c2/2052775299"
+                },
+                "search_string": "404364113",
+                "start_date_time": "2023-08-31T13:00:00.000Z",
+                "start_time": {
+                    "content": "0900",
+                    "displayValue": "9:00 am"
+                }
             },
-            "record_locator": "Ronald Baylin - 09/06/2023",
-            "related_time_card_master": {
-                "content": "1409374942",
-                "displayValue": "Ronald Baylin - 09/06/2023",
-                "type": "",
-                "uri": "https://net-av.agileappscloud.com/networking/rest/record/7f3bf69d0dc542f4bb72a37e43de82c2/1409374942"
+            {
+                "created_id": {
+                    "content": "06c836a659904b9c8b0419682f7d4728",
+                    "displayValue": "Ronald Baylin",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/06c836a659904b9c8b0419682f7d4728"
+                },
+                "date_created": "2023-09-12T13:49:19.000Z",
+                "date_modified": "2023-09-12T21:35:57.000Z",
+                "elapsed_time": "9",
+                "elapsed_time_entry": "9",
+                "end_date_time": "2023-09-04T21:00:00.000Z",
+                "end_time": {
+                    "content": "1700",
+                    "displayValue": "5:00 pm"
+                },
+                "entry_date": "2023-09-04",
+                "entry_type": "",
+                "id": "427716107",
+                "modified_id": {
+                    "content": "3",
+                    "displayValue": " System",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/3"
+                },
+                "mutliobjectlookup": {
+                    "content": "1400804969",
+                    "displayValue": "Administration",
+                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/1400804969"
+                },
+                "name": "Ronald Baylin - 09/04/2023",
+                "notes": "general business mgt",
+                "object_id": "f857546418b44dfa82e1776234372bed",
+                "owner_id": {
+                    "content": "4",
+                    "displayValue": "Open Ownership",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/4"
+                },
+                "owner_team_id": {
+                    "content": "1",
+                    "displayValue": "My Team",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/team/1"
+                },
+                "pay_type": {
+                    "content": "1.0",
+                    "displayValue": "REG"
+                },
+                "payroll_phase": {
+                    "content": "099-OVERHEAD",
+                    "displayValue": "099-OVERHEAD"
+                },
+                "record_locator": "Ronald Baylin - 09/04/2023",
+                "related_time_card_master": {
+                    "content": "1849566026",
+                    "displayValue": "Ronald Baylin - 09/04/2023",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7f3bf69d0dc542f4bb72a37e43de82c2/1849566026"
+                },
+                "search_string": "427716107",
+                "start_date_time": "2023-09-04T12:00:00.000Z",
+                "start_time": {
+                    "content": "0800",
+                    "displayValue": "8:00 am"
+                }
             },
-            "search_string": "1249368622",
-            "start_date_time": "2023-09-06T10:00:00.000Z",
-            "start_time": {
-                "content": "1000",
-                "displayValue": "10:00 am"
+            {
+                "created_id": {
+                    "content": "06c836a659904b9c8b0419682f7d4728",
+                    "displayValue": "Ronald Baylin",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/06c836a659904b9c8b0419682f7d4728"
+                },
+                "date_created": "2023-09-12T14:01:54.000Z",
+                "date_modified": "2023-09-12T21:35:34.000Z",
+                "elapsed_time": "9",
+                "elapsed_time_entry": "9",
+                "end_date_time": "2023-09-07T23:00:00.000Z",
+                "end_time": {
+                    "content": "1900",
+                    "displayValue": "7:00 pm"
+                },
+                "entry_date": "2023-09-07",
+                "entry_type": "",
+                "id": "430401015",
+                "modified_id": {
+                    "content": "3",
+                    "displayValue": " System",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/3"
+                },
+                "mutliobjectlookup": {
+                    "content": "1400804969",
+                    "displayValue": "Administration",
+                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/1400804969"
+                },
+                "name": "Ronald Baylin - 09/07/2023",
+                "notes": "General Admin",
+                "object_id": "f857546418b44dfa82e1776234372bed",
+                "owner_id": {
+                    "content": "4",
+                    "displayValue": "Open Ownership",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/4"
+                },
+                "owner_team_id": {
+                    "content": "1",
+                    "displayValue": "My Team",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/team/1"
+                },
+                "pay_type": {
+                    "content": "1.0",
+                    "displayValue": "REG"
+                },
+                "payroll_phase": {
+                    "content": "099-OVERHEAD",
+                    "displayValue": "099-OVERHEAD"
+                },
+                "record_locator": "Ronald Baylin - 09/07/2023",
+                "related_time_card_master": {
+                    "content": "2092632268",
+                    "displayValue": "Ronald Baylin - 09/07/2023",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7f3bf69d0dc542f4bb72a37e43de82c2/2092632268"
+                },
+                "search_string": "430401015",
+                "start_date_time": "2023-09-07T14:00:00.000Z",
+                "start_time": {
+                    "content": "1000",
+                    "displayValue": "10:00 am"
+                }
+            },
+            {
+                "created_id": {
+                    "content": "1e5bb44ec77845c69a10d01df47d3f25",
+                    "displayValue": "Nathan Smith",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/1e5bb44ec77845c69a10d01df47d3f25"
+                },
+                "date_created": "2023-09-12T15:22:53.000Z",
+                "date_modified": "2023-09-12T21:34:32.000Z",
+                "elapsed_time": "8",
+                "elapsed_time_entry": "8",
+                "end_date_time": "2023-09-11T21:00:00.000Z",
+                "end_time": {
+                    "content": "1700",
+                    "displayValue": "5:00 pm"
+                },
+                "entry_date": "2023-09-11",
+                "entry_type": "",
+                "id": "556849603",
+                "modified_id": {
+                    "content": "3",
+                    "displayValue": " System",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/3"
+                },
+                "mutliobjectlookup": {
+                    "content": "705015018",
+                    "displayValue": "Operations",
+                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/705015018"
+                },
+                "name": "Nathan Smith - 09/11/2023",
+                "notes": "shop work, quotes, po reconcile, etc",
+                "object_id": "f857546418b44dfa82e1776234372bed",
+                "owner_id": {
+                    "content": "4",
+                    "displayValue": "Open Ownership",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/4"
+                },
+                "owner_team_id": {
+                    "content": "1",
+                    "displayValue": "My Team",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/team/1"
+                },
+                "pay_type": {
+                    "content": "1.0",
+                    "displayValue": "REG"
+                },
+                "payroll_phase": {
+                    "content": "099-OVERHEAD",
+                    "displayValue": "099-OVERHEAD"
+                },
+                "record_locator": "Nathan Smith - 09/11/2023",
+                "related_time_card_master": {
+                    "content": "1580646752",
+                    "displayValue": "Nathan Smith - 09/11/2023",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7f3bf69d0dc542f4bb72a37e43de82c2/1580646752"
+                },
+                "search_string": "556849603",
+                "start_date_time": "2023-09-11T13:00:00.000Z",
+                "start_time": {
+                    "content": "0900",
+                    "displayValue": "9:00 am"
+                }
+            },
+            {
+                "created_id": {
+                    "content": "1e5bb44ec77845c69a10d01df47d3f25",
+                    "displayValue": "Nathan Smith",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/1e5bb44ec77845c69a10d01df47d3f25"
+                },
+                "date_created": "2023-08-30T14:20:15.000Z",
+                "date_modified": "2023-09-12T14:54:26.000Z",
+                "elapsed_time": "2.5",
+                "elapsed_time_entry": "2.5",
+                "end_date_time": "2023-08-29T21:00:00.000Z",
+                "end_time": {
+                    "content": "1700",
+                    "displayValue": "5:00 pm"
+                },
+                "entry_date": "2023-08-29",
+                "entry_type": "",
+                "id": "625020470",
+                "modified_id": {
+                    "content": "1e5bb44ec77845c69a10d01df47d3f25",
+                    "displayValue": "Nathan Smith",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/1e5bb44ec77845c69a10d01df47d3f25"
+                },
+                "mutliobjectlookup": {
+                    "content": "974368252",
+                    "displayValue": "5103-DYNACON-TSU-IWB",
+                    "type": "c85c189652f2450da6b66c02ed927778",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/c85c189652f2450da6b66c02ed927778/974368252"
+                },
+                "name": "Nathan Smith - 08/29/2023",
+                "notes": "assist danny in installation of new SmartBoard on second floor",
+                "object_id": "f857546418b44dfa82e1776234372bed",
+                "owner_id": {
+                    "content": "4",
+                    "displayValue": "Open Ownership",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/4"
+                },
+                "owner_team_id": {
+                    "content": "1",
+                    "displayValue": "My Team",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/team/1"
+                },
+                "pay_type": {
+                    "content": "1.0",
+                    "displayValue": "REG"
+                },
+                "payroll_phase": {
+                    "content": "220-INSTALL",
+                    "displayValue": "220-INSTALL"
+                },
+                "record_locator": "Nathan Smith - 08/29/2023",
+                "related_time_card_master": {
+                    "content": "1067885646",
+                    "displayValue": "Nathan Smith - 08/29/2023",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7f3bf69d0dc542f4bb72a37e43de82c2/1067885646"
+                },
+                "search_string": "625020470",
+                "start_date_time": "2023-08-29T18:50:00.000Z",
+                "start_time": {
+                    "content": "1450",
+                    "displayValue": "2:30 pm"
+                }
+            },
+            {
+                "created_id": {
+                    "content": "212a4d7d6f724ca9a4bb881769e5d47d",
+                    "displayValue": "Daniel Chenault",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/212a4d7d6f724ca9a4bb881769e5d47d"
+                },
+                "date_created": "2023-09-11T10:26:03.000Z",
+                "date_modified": "2023-09-12T21:36:35.000Z",
+                "elapsed_time": "2",
+                "elapsed_time_entry": "2",
+                "end_date_time": "2023-09-08T20:00:00.000Z",
+                "end_time": {
+                    "content": "1600",
+                    "displayValue": "4:00 pm"
+                },
+                "entry_date": "2023-09-08",
+                "entry_type": "",
+                "id": "641528741",
+                "modified_id": {
+                    "content": "3",
+                    "displayValue": " System",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/3"
+                },
+                "mutliobjectlookup": {
+                    "content": "951539393",
+                    "displayValue": "SO-23-05923 - Clear Touch Wont Power On",
+                    "type": "7ba5266e8b0a42599579576ca8caf764",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7ba5266e8b0a42599579576ca8caf764/951539393"
+                },
+                "name": "Daniel Chenault - 09/08/2023",
+                "notes": "Travel and loaded lift. met driver and helped pick up.",
+                "object_id": "f857546418b44dfa82e1776234372bed",
+                "owner_id": {
+                    "content": "4",
+                    "displayValue": "Open Ownership",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/4"
+                },
+                "owner_team_id": {
+                    "content": "1",
+                    "displayValue": "My Team",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/team/1"
+                },
+                "pay_type": {
+                    "content": "1.0",
+                    "displayValue": "REG"
+                },
+                "payroll_phase": {
+                    "content": "300-SERVICE",
+                    "displayValue": "300-SERVICE"
+                },
+                "record_locator": "Daniel Chenault - 09/08/2023",
+                "related_time_card_master": {
+                    "content": "1488309669",
+                    "displayValue": "Daniel Chenault - 09/08/2023",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7f3bf69d0dc542f4bb72a37e43de82c2/1488309669"
+                },
+                "search_string": "641528741",
+                "start_date_time": "2023-09-08T18:00:00.000Z",
+                "start_time": {
+                    "content": "1400",
+                    "displayValue": "2:00 pm"
+                }
+            },
+            {
+                "created_id": {
+                    "content": "06c836a659904b9c8b0419682f7d4728",
+                    "displayValue": "Ronald Baylin",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/06c836a659904b9c8b0419682f7d4728"
+                },
+                "date_created": "2023-09-12T21:43:58.000Z",
+                "date_modified": "2023-09-12T21:54:01.000Z",
+                "elapsed_time": "8",
+                "elapsed_time_entry": "8",
+                "end_date_time": "2023-09-12T21:00:00.000Z",
+                "end_time": {
+                    "content": "1700",
+                    "displayValue": "5:00 pm"
+                },
+                "entry_date": "2023-09-12",
+                "entry_type": "",
+                "id": "645335517",
+                "modified_id": {
+                    "content": "3",
+                    "displayValue": " System",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/3"
+                },
+                "mutliobjectlookup": {
+                    "content": "546956554",
+                    "displayValue": "Information Technology",
+                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/546956554"
+                },
+                "name": "Ronald Baylin - 09/12/2023",
+                "notes": "various items and sales and stuff",
+                "object_id": "f857546418b44dfa82e1776234372bed",
+                "owner_id": {
+                    "content": "4",
+                    "displayValue": "Open Ownership",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/4"
+                },
+                "owner_team_id": {
+                    "content": "1",
+                    "displayValue": "My Team",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/team/1"
+                },
+                "pay_type": {
+                    "content": "1.0",
+                    "displayValue": "REG"
+                },
+                "payroll_phase": {
+                    "content": "099-OVERHEAD",
+                    "displayValue": "099-OVERHEAD"
+                },
+                "record_locator": "Ronald Baylin - 09/12/2023",
+                "related_time_card_master": {
+                    "content": "1696955207",
+                    "displayValue": "Ronald Baylin - 09/12/2023",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7f3bf69d0dc542f4bb72a37e43de82c2/1696955207"
+                },
+                "search_string": "645335517",
+                "start_date_time": "2023-09-12T13:00:00.000Z",
+                "start_time": {
+                    "content": "0900",
+                    "displayValue": "9:00 am"
+                }
+            },
+            {
+                "created_id": {
+                    "content": "06c836a659904b9c8b0419682f7d4728",
+                    "displayValue": "Ronald Baylin",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/06c836a659904b9c8b0419682f7d4728"
+                },
+                "date_created": "2023-09-01T15:13:47.000Z",
+                "date_modified": "2023-09-01T15:14:25.000Z",
+                "elapsed_time": "7",
+                "elapsed_time_entry": "7",
+                "end_date_time": "2023-08-31T20:00:00.000Z",
+                "end_time": {
+                    "content": "1600",
+                    "displayValue": "4:00 pm"
+                },
+                "entry_date": "2023-08-31",
+                "entry_type": "",
+                "id": "682538171",
+                "modified_id": {
+                    "content": "3",
+                    "displayValue": " System",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/3"
+                },
+                "mutliobjectlookup": {
+                    "content": "390564660",
+                    "displayValue": "Sales",
+                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/390564660"
+                },
+                "name": "Ronald Baylin - 2023-08-31 00:00:00",
+                "notes": "Armistead Gradens and  other",
+                "object_id": "f857546418b44dfa82e1776234372bed",
+                "owner_id": {
+                    "content": "4",
+                    "displayValue": "Open Ownership",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/4"
+                },
+                "owner_team_id": {
+                    "content": "1",
+                    "displayValue": "My Team",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/team/1"
+                },
+                "pay_type": {
+                    "content": "1.0",
+                    "displayValue": "REG"
+                },
+                "payroll_phase": {
+                    "content": "020-PROPOSAL",
+                    "displayValue": "020-PROPOSAL"
+                },
+                "record_locator": "Ronald Baylin - 2023-08-31 00:00:00",
+                "related_time_card_master": {
+                    "content": "511659056",
+                    "displayValue": "Ronald Baylin - 08/31/2023",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7f3bf69d0dc542f4bb72a37e43de82c2/511659056"
+                },
+                "search_string": "682538171",
+                "start_date_time": "2023-08-31T13:00:00.000Z",
+                "start_time": {
+                    "content": "0900",
+                    "displayValue": "9:00 am"
+                }
+            },
+            {
+                "created_id": {
+                    "content": "212a4d7d6f724ca9a4bb881769e5d47d",
+                    "displayValue": "Daniel Chenault",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/212a4d7d6f724ca9a4bb881769e5d47d"
+                },
+                "date_created": "2023-08-28T11:49:53.000Z",
+                "date_modified": "2023-08-29T10:31:07.000Z",
+                "elapsed_time": "4",
+                "elapsed_time_entry": "4",
+                "end_date_time": "2023-08-28T14:00:00.000Z",
+                "end_time": {
+                    "content": "1000",
+                    "displayValue": "10:00 am"
+                },
+                "entry_date": "2023-08-28",
+                "entry_type": "",
+                "id": "706146365",
+                "modified_id": {
+                    "content": "3",
+                    "displayValue": " System",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/3"
+                },
+                "mutliobjectlookup": {
+                    "content": "393840490",
+                    "displayValue": "5106-BECHTEL-RESTON-CONFCENTER-UPGRADE",
+                    "type": "c85c189652f2450da6b66c02ed927778",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/c85c189652f2450da6b66c02ed927778/393840490"
+                },
+                "name": "Daniel Chenault - 2023-08-21 00:00:00",
+                "notes": "Travel to, located and tested cat6 line. Installed wireless mic receiver.",
+                "object_id": "f857546418b44dfa82e1776234372bed",
+                "owner_id": {
+                    "content": "4",
+                    "displayValue": "Open Ownership",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/4"
+                },
+                "owner_team_id": {
+                    "content": "1",
+                    "displayValue": "My Team",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/team/1"
+                },
+                "pay_type": {
+                    "content": "1.0",
+                    "displayValue": "REG"
+                },
+                "payroll_phase": {
+                    "content": "220-INSTALL",
+                    "displayValue": "220-INSTALL"
+                },
+                "record_locator": "Daniel Chenault - 2023-08-21 00:00:00",
+                "related_time_card_master": {
+                    "content": "1504864707",
+                    "displayValue": "Daniel Chenault - 08/21/2023",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7f3bf69d0dc542f4bb72a37e43de82c2/1504864707"
+                },
+                "search_string": "706146365",
+                "start_date_time": "2023-08-28T10:00:00.000Z",
+                "start_time": {
+                    "content": "0600",
+                    "displayValue": "6:00 am"
+                }
+            },
+            {
+                "created_id": {
+                    "content": "d8191d0baac14244a11ff87470122b6d",
+                    "displayValue": "Tyler Baylin",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/d8191d0baac14244a11ff87470122b6d"
+                },
+                "date_created": "2023-09-01T20:54:21.000Z",
+                "date_modified": "2023-09-12T21:39:19.000Z",
+                "elapsed_time": "8",
+                "elapsed_time_entry": "8",
+                "end_date_time": "2023-09-01T21:00:00.000Z",
+                "end_time": {
+                    "content": "1700",
+                    "displayValue": "5:00 pm"
+                },
+                "entry_date": "2023-09-01",
+                "entry_type": "",
+                "id": "747713181",
+                "modified_id": {
+                    "content": "3",
+                    "displayValue": " System",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/3"
+                },
+                "mutliobjectlookup": {
+                    "content": "546956554",
+                    "displayValue": "Information Technology",
+                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/546956554"
+                },
+                "name": "Tyler Baylin - 09/01/2023",
+                "notes": "Sales, Proposals, Ted proposal, Chong Opps review, manage beoing project.",
+                "object_id": "f857546418b44dfa82e1776234372bed",
+                "owner_id": {
+                    "content": "4",
+                    "displayValue": "Open Ownership",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/4"
+                },
+                "owner_team_id": {
+                    "content": "1",
+                    "displayValue": "My Team",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/team/1"
+                },
+                "pay_type": {
+                    "content": "1.0",
+                    "displayValue": "REG"
+                },
+                "payroll_phase": {
+                    "content": "099-OVERHEAD",
+                    "displayValue": "099-OVERHEAD"
+                },
+                "record_locator": "Tyler Baylin - 09/01/2023",
+                "related_time_card_master": {
+                    "content": "522402426",
+                    "displayValue": "Tyler Baylin - 09/01/2023",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7f3bf69d0dc542f4bb72a37e43de82c2/522402426"
+                },
+                "search_string": "747713181",
+                "start_date_time": "2023-09-01T13:00:00.000Z",
+                "start_time": {
+                    "content": "0900",
+                    "displayValue": "9:00 am"
+                }
+            },
+            {
+                "created_id": {
+                    "content": "d8191d0baac14244a11ff87470122b6d",
+                    "displayValue": "Tyler Baylin",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/d8191d0baac14244a11ff87470122b6d"
+                },
+                "date_created": "2023-09-08T15:56:28.000Z",
+                "date_modified": "2023-09-12T21:38:35.000Z",
+                "elapsed_time": "9",
+                "elapsed_time_entry": "9",
+                "end_date_time": "2023-09-08T23:00:00.000Z",
+                "end_time": {
+                    "content": "1900",
+                    "displayValue": "7:00 pm"
+                },
+                "entry_date": "2023-09-08",
+                "entry_type": "",
+                "id": "778478038",
+                "modified_id": {
+                    "content": "3",
+                    "displayValue": " System",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/3"
+                },
+                "mutliobjectlookup": {
+                    "content": "546956554",
+                    "displayValue": "Information Technology",
+                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/546956554"
+                },
+                "name": "Tyler Baylin - 09/08/2023",
+                "notes": "opportunities, ted meetings, greg smith remote support",
+                "object_id": "f857546418b44dfa82e1776234372bed",
+                "owner_id": {
+                    "content": "4",
+                    "displayValue": "Open Ownership",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/4"
+                },
+                "owner_team_id": {
+                    "content": "1",
+                    "displayValue": "My Team",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/team/1"
+                },
+                "pay_type": {
+                    "content": "1.0",
+                    "displayValue": "REG"
+                },
+                "payroll_phase": {
+                    "content": "099-OVERHEAD",
+                    "displayValue": "099-OVERHEAD"
+                },
+                "record_locator": "Tyler Baylin - 09/08/2023",
+                "related_time_card_master": {
+                    "content": "1874642438",
+                    "displayValue": "Tyler Baylin - 09/08/2023",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7f3bf69d0dc542f4bb72a37e43de82c2/1874642438"
+                },
+                "search_string": "778478038",
+                "start_date_time": "2023-09-08T14:00:00.000Z",
+                "start_time": {
+                    "content": "1000",
+                    "displayValue": "10:00 am"
+                }
+            },
+            {
+                "created_id": {
+                    "content": "212a4d7d6f724ca9a4bb881769e5d47d",
+                    "displayValue": "Daniel Chenault",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/212a4d7d6f724ca9a4bb881769e5d47d"
+                },
+                "date_created": "2023-08-29T10:41:20.000Z",
+                "date_modified": "2023-09-12T21:40:14.000Z",
+                "elapsed_time": "5",
+                "elapsed_time_entry": "5",
+                "end_date_time": "2023-08-28T15:30:00.000Z",
+                "end_time": {
+                    "content": "1150",
+                    "displayValue": "11:30 am"
+                },
+                "entry_date": "2023-08-28",
+                "entry_type": "",
+                "id": "904084909",
+                "modified_id": {
+                    "content": "3",
+                    "displayValue": " System",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/3"
+                },
+                "mutliobjectlookup": {
+                    "content": "730286401",
+                    "displayValue": "Service",
+                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/730286401"
+                },
+                "name": "Daniel Chenault - 08/28/2023",
+                "notes": "Emails, calls, follow-ups, scheduling, data entry.",
+                "object_id": "f857546418b44dfa82e1776234372bed",
+                "owner_id": {
+                    "content": "4",
+                    "displayValue": "Open Ownership",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/4"
+                },
+                "owner_team_id": {
+                    "content": "1",
+                    "displayValue": "My Team",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/team/1"
+                },
+                "pay_type": {
+                    "content": "1.0",
+                    "displayValue": "REG"
+                },
+                "payroll_phase": {
+                    "content": "300-SERVICE",
+                    "displayValue": "300-SERVICE"
+                },
+                "record_locator": "Daniel Chenault - 08/28/2023",
+                "related_time_card_master": {
+                    "content": "283852472",
+                    "displayValue": "Daniel Chenault - 08/28/2023",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7f3bf69d0dc542f4bb72a37e43de82c2/283852472"
+                },
+                "search_string": "904084909",
+                "start_date_time": "2023-08-28T10:30:00.000Z",
+                "start_time": {
+                    "content": "0650",
+                    "displayValue": "6:30 am"
+                }
+            },
+            {
+                "created_id": {
+                    "content": "06c836a659904b9c8b0419682f7d4728",
+                    "displayValue": "Ronald Baylin",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/06c836a659904b9c8b0419682f7d4728"
+                },
+                "date_created": "2023-09-12T21:48:29.000Z",
+                "date_modified": "2023-09-12T21:48:29.000Z",
+                "elapsed_time": "6.75",
+                "elapsed_time_entry": "",
+                "end_date_time": "",
+                "end_time": {
+                    "content": "1675",
+                    "displayValue": "4:45 pm"
+                },
+                "entry_date": "2023-09-13",
+                "entry_type": "",
+                "id": "944943070",
+                "modified_id": {
+                    "content": "06c836a659904b9c8b0419682f7d4728",
+                    "displayValue": "Ronald Baylin",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/06c836a659904b9c8b0419682f7d4728"
+                },
+                "mutliobjectlookup": {
+                    "content": "390564660",
+                    "displayValue": "Sales",
+                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/390564660"
+                },
+                "name": "Ronald Baylin - 09/13/2023",
+                "notes": "working on proposals with nathan",
+                "object_id": "f857546418b44dfa82e1776234372bed",
+                "owner_id": {
+                    "content": "4",
+                    "displayValue": "Open Ownership",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/4"
+                },
+                "owner_team_id": {
+                    "content": "1",
+                    "displayValue": "My Team",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/team/1"
+                },
+                "pay_type": "",
+                "payroll_phase": {
+                    "content": "099-OVERHEAD",
+                    "displayValue": "099-OVERHEAD"
+                },
+                "record_locator": "Ronald Baylin - 09/13/2023",
+                "related_time_card_master": {
+                    "content": "171046227",
+                    "displayValue": "Ronald Baylin - 09/13/2023",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7f3bf69d0dc542f4bb72a37e43de82c2/171046227"
+                },
+                "search_string": "944943070",
+                "start_date_time": "",
+                "start_time": {
+                    "content": "1000",
+                    "displayValue": "10:00 am"
+                }
+            },
+            {
+                "created_id": {
+                    "content": "d8191d0baac14244a11ff87470122b6d",
+                    "displayValue": "Tyler Baylin",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/d8191d0baac14244a11ff87470122b6d"
+                },
+                "date_created": "2023-08-30T14:25:14.000Z",
+                "date_modified": "2023-09-12T21:40:22.000Z",
+                "elapsed_time": "2",
+                "elapsed_time_entry": "2",
+                "end_date_time": "2023-08-29T15:00:00.000Z",
+                "end_time": {
+                    "content": "1100",
+                    "displayValue": "11:00 am"
+                },
+                "entry_date": "2023-08-29",
+                "entry_type": "",
+                "id": "948589469",
+                "modified_id": {
+                    "content": "3",
+                    "displayValue": " System",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/3"
+                },
+                "mutliobjectlookup": {
+                    "content": "1336142659",
+                    "displayValue": "PTO",
+                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/1336142659"
+                },
+                "name": "Tyler Baylin - 08/29/2023",
+                "notes": "PTO sick PTO sick PTO sick",
+                "object_id": "f857546418b44dfa82e1776234372bed",
+                "owner_id": {
+                    "content": "4",
+                    "displayValue": "Open Ownership",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/4"
+                },
+                "owner_team_id": {
+                    "content": "1",
+                    "displayValue": "My Team",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/team/1"
+                },
+                "pay_type": {
+                    "content": "1.0",
+                    "displayValue": "REG"
+                },
+                "payroll_phase": {
+                    "content": "096-PTO",
+                    "displayValue": "096-PTO"
+                },
+                "record_locator": "Tyler Baylin - 08/29/2023",
+                "related_time_card_master": {
+                    "content": "182747483",
+                    "displayValue": "Tyler Baylin - 08/29/2023",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7f3bf69d0dc542f4bb72a37e43de82c2/182747483"
+                },
+                "search_string": "948589469",
+                "start_date_time": "2023-08-29T13:00:00.000Z",
+                "start_time": {
+                    "content": "0900",
+                    "displayValue": "9:00 am"
+                }
+            },
+            {
+                "created_id": {
+                    "content": "212a4d7d6f724ca9a4bb881769e5d47d",
+                    "displayValue": "Daniel Chenault",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/212a4d7d6f724ca9a4bb881769e5d47d"
+                },
+                "date_created": "2023-09-11T10:26:03.000Z",
+                "date_modified": "2023-09-12T21:36:35.000Z",
+                "elapsed_time": "4",
+                "elapsed_time_entry": "4",
+                "end_date_time": "2023-09-08T17:00:00.000Z",
+                "end_time": {
+                    "content": "1300",
+                    "displayValue": "1:00 pm"
+                },
+                "entry_date": "2023-09-08",
+                "entry_type": "",
+                "id": "960011545",
+                "modified_id": {
+                    "content": "3",
+                    "displayValue": " System",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/3"
+                },
+                "mutliobjectlookup": {
+                    "content": "730286401",
+                    "displayValue": "Service",
+                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/730286401"
+                },
+                "name": "Daniel Chenault - 09/08/2023",
+                "notes": "General work, calls, emails, follow ups and scheduling.  Meeting and reviewed project.",
+                "object_id": "f857546418b44dfa82e1776234372bed",
+                "owner_id": {
+                    "content": "4",
+                    "displayValue": "Open Ownership",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/4"
+                },
+                "owner_team_id": {
+                    "content": "1",
+                    "displayValue": "My Team",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/team/1"
+                },
+                "pay_type": {
+                    "content": "1.0",
+                    "displayValue": "REG"
+                },
+                "payroll_phase": {
+                    "content": "300-SERVICE",
+                    "displayValue": "300-SERVICE"
+                },
+                "record_locator": "Daniel Chenault - 09/08/2023",
+                "related_time_card_master": {
+                    "content": "1488309669",
+                    "displayValue": "Daniel Chenault - 09/08/2023",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7f3bf69d0dc542f4bb72a37e43de82c2/1488309669"
+                },
+                "search_string": "960011545",
+                "start_date_time": "2023-09-08T13:00:00.000Z",
+                "start_time": {
+                    "content": "0900",
+                    "displayValue": "9:00 am"
+                }
+            },
+            {
+                "created_id": {
+                    "content": "06c836a659904b9c8b0419682f7d4728",
+                    "displayValue": "Ronald Baylin",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/06c836a659904b9c8b0419682f7d4728"
+                },
+                "date_created": "2023-09-12T13:52:47.000Z",
+                "date_modified": "2023-09-12T21:26:22.000Z",
+                "elapsed_time": "8.5",
+                "elapsed_time_entry": "8.5",
+                "end_date_time": "2023-09-08T21:00:00.000Z",
+                "end_time": {
+                    "content": "1700",
+                    "displayValue": "5:00 pm"
+                },
+                "entry_date": "2023-09-08",
+                "entry_type": "",
+                "id": "967830373",
+                "modified_id": {
+                    "content": "3",
+                    "displayValue": " System",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/3"
+                },
+                "mutliobjectlookup": {
+                    "content": "390564660",
+                    "displayValue": "Sales",
+                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/390564660"
+                },
+                "name": "Ronald Baylin - 09/08/2023",
+                "notes": "FFCU Quotes.",
+                "object_id": "f857546418b44dfa82e1776234372bed",
+                "owner_id": {
+                    "content": "4",
+                    "displayValue": "Open Ownership",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/4"
+                },
+                "owner_team_id": {
+                    "content": "1",
+                    "displayValue": "My Team",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/team/1"
+                },
+                "pay_type": {
+                    "content": "1.0",
+                    "displayValue": "REG"
+                },
+                "payroll_phase": {
+                    "content": "020-PROPOSAL",
+                    "displayValue": "020-PROPOSAL"
+                },
+                "record_locator": "Ronald Baylin - 09/08/2023",
+                "related_time_card_master": {
+                    "content": "1668691382",
+                    "displayValue": "Ronald Baylin - 09/08/2023",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7f3bf69d0dc542f4bb72a37e43de82c2/1668691382"
+                },
+                "search_string": "967830373",
+                "start_date_time": "2023-09-08T12:30:00.000Z",
+                "start_time": {
+                    "content": "0850",
+                    "displayValue": "8:30 am"
+                }
+            },
+            {
+                "created_id": {
+                    "content": "1e5bb44ec77845c69a10d01df47d3f25",
+                    "displayValue": "Nathan Smith",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/1e5bb44ec77845c69a10d01df47d3f25"
+                },
+                "date_created": "2023-08-30T14:18:57.000Z",
+                "date_modified": "2023-09-12T21:40:35.000Z",
+                "elapsed_time": "8",
+                "elapsed_time_entry": "8",
+                "end_date_time": "2023-08-28T21:00:00.000Z",
+                "end_time": {
+                    "content": "1700",
+                    "displayValue": "5:00 pm"
+                },
+                "entry_date": "2023-08-28",
+                "entry_type": "",
+                "id": "971770660",
+                "modified_id": {
+                    "content": "3",
+                    "displayValue": " System",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/3"
+                },
+                "mutliobjectlookup": {
+                    "content": "705015018",
+                    "displayValue": "Operations",
+                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/705015018"
+                },
+                "name": "Nathan Smith - 08/28/2023",
+                "notes": "work from home monday",
+                "object_id": "f857546418b44dfa82e1776234372bed",
+                "owner_id": {
+                    "content": "4",
+                    "displayValue": "Open Ownership",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/4"
+                },
+                "owner_team_id": {
+                    "content": "1",
+                    "displayValue": "My Team",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/team/1"
+                },
+                "pay_type": {
+                    "content": "1.0",
+                    "displayValue": "REG"
+                },
+                "payroll_phase": {
+                    "content": "099-OVERHEAD",
+                    "displayValue": "099-OVERHEAD"
+                },
+                "record_locator": "Nathan Smith - 08/28/2023",
+                "related_time_card_master": {
+                    "content": "454518874",
+                    "displayValue": "Nathan Smith - 08/28/2023",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7f3bf69d0dc542f4bb72a37e43de82c2/454518874"
+                },
+                "search_string": "971770660",
+                "start_date_time": "2023-08-28T13:00:00.000Z",
+                "start_time": {
+                    "content": "0900",
+                    "displayValue": "9:00 am"
+                }
+            },
+            {
+                "created_id": {
+                    "content": "d8191d0baac14244a11ff87470122b6d",
+                    "displayValue": "Tyler Baylin",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/d8191d0baac14244a11ff87470122b6d"
+                },
+                "date_created": "2023-09-08T15:56:59.000Z",
+                "date_modified": "2023-09-12T21:38:13.000Z",
+                "elapsed_time": "8",
+                "elapsed_time_entry": "8",
+                "end_date_time": "2023-09-07T21:00:00.000Z",
+                "end_time": {
+                    "content": "1700",
+                    "displayValue": "5:00 pm"
+                },
+                "entry_date": "2023-09-07",
+                "entry_type": "",
+                "id": "1036597555",
+                "modified_id": {
+                    "content": "3",
+                    "displayValue": " System",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/3"
+                },
+                "mutliobjectlookup": {
+                    "content": "546956554",
+                    "displayValue": "Information Technology",
+                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/546956554"
+                },
+                "name": "Tyler Baylin - 09/07/2023",
+                "notes": "opportunities, ted meetings",
+                "object_id": "f857546418b44dfa82e1776234372bed",
+                "owner_id": {
+                    "content": "4",
+                    "displayValue": "Open Ownership",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/4"
+                },
+                "owner_team_id": {
+                    "content": "1",
+                    "displayValue": "My Team",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/team/1"
+                },
+                "pay_type": {
+                    "content": "1.0",
+                    "displayValue": "REG"
+                },
+                "payroll_phase": {
+                    "content": "020-PROPOSAL",
+                    "displayValue": "020-PROPOSAL"
+                },
+                "record_locator": "Tyler Baylin - 09/07/2023",
+                "related_time_card_master": {
+                    "content": "1706180025",
+                    "displayValue": "Tyler Baylin - 09/07/2023",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7f3bf69d0dc542f4bb72a37e43de82c2/1706180025"
+                },
+                "search_string": "1036597555",
+                "start_date_time": "2023-09-07T13:00:00.000Z",
+                "start_time": {
+                    "content": "0900",
+                    "displayValue": "9:00 am"
+                }
+            },
+            {
+                "created_id": {
+                    "content": "06c836a659904b9c8b0419682f7d4728",
+                    "displayValue": "Ronald Baylin",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/06c836a659904b9c8b0419682f7d4728"
+                },
+                "date_created": "2023-08-31T14:41:48.000Z",
+                "date_modified": "2023-09-01T15:14:59.000Z",
+                "elapsed_time": "7",
+                "elapsed_time_entry": "7",
+                "end_date_time": "2023-08-30T20:00:00.000Z",
+                "end_time": {
+                    "content": "1600",
+                    "displayValue": "4:00 pm"
+                },
+                "entry_date": "2023-08-30",
+                "entry_type": "",
+                "id": "1101458550",
+                "modified_id": {
+                    "content": "3",
+                    "displayValue": " System",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/3"
+                },
+                "mutliobjectlookup": {
+                    "content": "705015018",
+                    "displayValue": "Operations",
+                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/705015018"
+                },
+                "name": "Ronald Baylin - 2023-08-30 00:00:00",
+                "notes": "Worked on pricing and getting the roles defined for the sales processes.",
+                "object_id": "f857546418b44dfa82e1776234372bed",
+                "owner_id": {
+                    "content": "4",
+                    "displayValue": "Open Ownership",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/4"
+                },
+                "owner_team_id": {
+                    "content": "1",
+                    "displayValue": "My Team",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/team/1"
+                },
+                "pay_type": {
+                    "content": "1.0",
+                    "displayValue": "REG"
+                },
+                "payroll_phase": {
+                    "content": "020-PROPOSAL",
+                    "displayValue": "020-PROPOSAL"
+                },
+                "record_locator": "Ronald Baylin - 2023-08-30 00:00:00",
+                "related_time_card_master": {
+                    "content": "1866607308",
+                    "displayValue": "Ronald Baylin - 08/30/2023",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7f3bf69d0dc542f4bb72a37e43de82c2/1866607308"
+                },
+                "search_string": "1101458550",
+                "start_date_time": "2023-08-30T13:00:00.000Z",
+                "start_time": {
+                    "content": "0900",
+                    "displayValue": "9:00 am"
+                }
+            },
+            {
+                "created_id": {
+                    "content": "d8191d0baac14244a11ff87470122b6d",
+                    "displayValue": "Tyler Baylin",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/d8191d0baac14244a11ff87470122b6d"
+                },
+                "date_created": "2023-08-30T14:25:14.000Z",
+                "date_modified": "2023-09-12T21:40:22.000Z",
+                "elapsed_time": "6",
+                "elapsed_time_entry": "6",
+                "end_date_time": "2023-08-29T21:00:00.000Z",
+                "end_time": {
+                    "content": "1700",
+                    "displayValue": "5:00 pm"
+                },
+                "entry_date": "2023-08-29",
+                "entry_type": "",
+                "id": "1112810485",
+                "modified_id": {
+                    "content": "3",
+                    "displayValue": " System",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/3"
+                },
+                "mutliobjectlookup": {
+                    "content": "390564660",
+                    "displayValue": "Sales",
+                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/390564660"
+                },
+                "name": "Tyler Baylin - 08/29/2023",
+                "notes": "IT, Overhead, STOPSO opps.",
+                "object_id": "f857546418b44dfa82e1776234372bed",
+                "owner_id": {
+                    "content": "4",
+                    "displayValue": "Open Ownership",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/4"
+                },
+                "owner_team_id": {
+                    "content": "1",
+                    "displayValue": "My Team",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/team/1"
+                },
+                "pay_type": {
+                    "content": "1.0",
+                    "displayValue": "REG"
+                },
+                "payroll_phase": {
+                    "content": "099-OVERHEAD",
+                    "displayValue": "099-OVERHEAD"
+                },
+                "record_locator": "Tyler Baylin - 08/29/2023",
+                "related_time_card_master": {
+                    "content": "182747483",
+                    "displayValue": "Tyler Baylin - 08/29/2023",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7f3bf69d0dc542f4bb72a37e43de82c2/182747483"
+                },
+                "search_string": "1112810485",
+                "start_date_time": "2023-08-29T15:00:00.000Z",
+                "start_time": {
+                    "content": "1100",
+                    "displayValue": "11:00 am"
+                }
+            },
+            {
+                "created_id": {
+                    "content": "d8191d0baac14244a11ff87470122b6d",
+                    "displayValue": "Tyler Baylin",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/d8191d0baac14244a11ff87470122b6d"
+                },
+                "date_created": "2023-09-08T15:55:03.000Z",
+                "date_modified": "2023-09-12T21:38:26.000Z",
+                "elapsed_time": "8",
+                "elapsed_time_entry": "8",
+                "end_date_time": "2023-09-04T21:00:00.000Z",
+                "end_time": {
+                    "content": "1700",
+                    "displayValue": "5:00 pm"
+                },
+                "entry_date": "2023-09-04",
+                "entry_type": "",
+                "id": "1119106648",
+                "modified_id": {
+                    "content": "3",
+                    "displayValue": " System",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/3"
+                },
+                "mutliobjectlookup": {
+                    "content": "1336142659",
+                    "displayValue": "PTO",
+                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/1336142659"
+                },
+                "name": "Tyler Baylin - 09/04/2023",
+                "notes": "PTO L Day pto pto",
+                "object_id": "f857546418b44dfa82e1776234372bed",
+                "owner_id": {
+                    "content": "4",
+                    "displayValue": "Open Ownership",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/4"
+                },
+                "owner_team_id": {
+                    "content": "1",
+                    "displayValue": "My Team",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/team/1"
+                },
+                "pay_type": {
+                    "content": "1.0",
+                    "displayValue": "REG"
+                },
+                "payroll_phase": {
+                    "content": "096-PTO",
+                    "displayValue": "096-PTO"
+                },
+                "record_locator": "Tyler Baylin - 09/04/2023",
+                "related_time_card_master": {
+                    "content": "1407621911",
+                    "displayValue": "Tyler Baylin - 09/04/2023",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7f3bf69d0dc542f4bb72a37e43de82c2/1407621911"
+                },
+                "search_string": "1119106648",
+                "start_date_time": "2023-09-04T13:00:00.000Z",
+                "start_time": {
+                    "content": "0900",
+                    "displayValue": "9:00 am"
+                }
+            },
+            {
+                "created_id": {
+                    "content": "d8191d0baac14244a11ff87470122b6d",
+                    "displayValue": "Tyler Baylin",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/d8191d0baac14244a11ff87470122b6d"
+                },
+                "date_created": "2023-09-08T15:57:49.000Z",
+                "date_modified": "2023-09-12T21:38:04.000Z",
+                "elapsed_time": "8",
+                "elapsed_time_entry": "8",
+                "end_date_time": "2023-09-06T21:00:00.000Z",
+                "end_time": {
+                    "content": "1700",
+                    "displayValue": "5:00 pm"
+                },
+                "entry_date": "2023-09-06",
+                "entry_type": "",
+                "id": "1189230278",
+                "modified_id": {
+                    "content": "3",
+                    "displayValue": " System",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/3"
+                },
+                "mutliobjectlookup": {
+                    "content": "546956554",
+                    "displayValue": "Information Technology",
+                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/546956554"
+                },
+                "name": "Tyler Baylin - 09/06/2023",
+                "notes": "opportunities, ted meetings",
+                "object_id": "f857546418b44dfa82e1776234372bed",
+                "owner_id": {
+                    "content": "4",
+                    "displayValue": "Open Ownership",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/4"
+                },
+                "owner_team_id": {
+                    "content": "1",
+                    "displayValue": "My Team",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/team/1"
+                },
+                "pay_type": {
+                    "content": "1.0",
+                    "displayValue": "REG"
+                },
+                "payroll_phase": {
+                    "content": "020-PROPOSAL",
+                    "displayValue": "020-PROPOSAL"
+                },
+                "record_locator": "Tyler Baylin - 09/06/2023",
+                "related_time_card_master": {
+                    "content": "1748160337",
+                    "displayValue": "Tyler Baylin - 09/06/2023",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7f3bf69d0dc542f4bb72a37e43de82c2/1748160337"
+                },
+                "search_string": "1189230278",
+                "start_date_time": "2023-09-06T13:00:00.000Z",
+                "start_time": {
+                    "content": "0900",
+                    "displayValue": "9:00 am"
+                }
+            },
+            {
+                "created_id": {
+                    "content": "06c836a659904b9c8b0419682f7d4728",
+                    "displayValue": "Ronald Baylin",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/06c836a659904b9c8b0419682f7d4728"
+                },
+                "date_created": "2023-09-06T21:40:18.000Z",
+                "date_modified": "2023-09-07T15:17:35.000Z",
+                "elapsed_time": "2",
+                "elapsed_time_entry": "2",
+                "end_date_time": "2023-09-06T16:00:00.000Z",
+                "end_time": {
+                    "content": "1200",
+                    "displayValue": "12:00 pm"
+                },
+                "entry_date": "2023-09-06",
+                "entry_type": "",
+                "id": "1249368622",
+                "modified_id": {
+                    "content": "3",
+                    "displayValue": " System",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/3"
+                },
+                "mutliobjectlookup": {
+                    "content": "546956554",
+                    "displayValue": "Information Technology",
+                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/546956554"
+                },
+                "name": "Ronald Baylin - 2023-09-06 00:00:00",
+                "notes": "sfsdfsdfsdfsdfsdf",
+                "object_id": "f857546418b44dfa82e1776234372bed",
+                "owner_id": {
+                    "content": "4",
+                    "displayValue": "Open Ownership",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/4"
+                },
+                "owner_team_id": {
+                    "content": "1",
+                    "displayValue": "My Team",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/team/1"
+                },
+                "pay_type": {
+                    "content": "1.0",
+                    "displayValue": "REG"
+                },
+                "payroll_phase": {
+                    "content": "099-OVERHEAD",
+                    "displayValue": "099-OVERHEAD"
+                },
+                "record_locator": "Ronald Baylin - 2023-09-06 00:00:00",
+                "related_time_card_master": {
+                    "content": "1409374942",
+                    "displayValue": "Ronald Baylin - 09/06/2023",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7f3bf69d0dc542f4bb72a37e43de82c2/1409374942"
+                },
+                "search_string": "1249368622",
+                "start_date_time": "2023-09-06T14:00:00.000Z",
+                "start_time": {
+                    "content": "1000",
+                    "displayValue": "10:00 am"
+                }
+            },
+            {
+                "created_id": {
+                    "content": "d8191d0baac14244a11ff87470122b6d",
+                    "displayValue": "Tyler Baylin",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/d8191d0baac14244a11ff87470122b6d"
+                },
+                "date_created": "2023-09-01T15:24:18.000Z",
+                "date_modified": "2023-09-01T15:25:02.000Z",
+                "elapsed_time": "6.5",
+                "elapsed_time_entry": "6.5",
+                "end_date_time": "2023-08-31T21:00:00.000Z",
+                "end_time": {
+                    "content": "1700",
+                    "displayValue": "5:00 pm"
+                },
+                "entry_date": "2023-08-31",
+                "entry_type": "",
+                "id": "1273645882",
+                "modified_id": {
+                    "content": "3",
+                    "displayValue": " System",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/3"
+                },
+                "mutliobjectlookup": {
+                    "content": "546956554",
+                    "displayValue": "Information Technology",
+                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/546956554"
+                },
+                "name": "Tyler Baylin - 2023-08-31 00:00:00",
+                "notes": "Agile, Overhead, Ted sales, etc..",
+                "object_id": "f857546418b44dfa82e1776234372bed",
+                "owner_id": {
+                    "content": "4",
+                    "displayValue": "Open Ownership",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/4"
+                },
+                "owner_team_id": {
+                    "content": "1",
+                    "displayValue": "My Team",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/team/1"
+                },
+                "pay_type": {
+                    "content": "1.0",
+                    "displayValue": "REG"
+                },
+                "payroll_phase": {
+                    "content": "099-OVERHEAD",
+                    "displayValue": "099-OVERHEAD"
+                },
+                "record_locator": "Tyler Baylin - 2023-08-31 00:00:00",
+                "related_time_card_master": {
+                    "content": "2032530435",
+                    "displayValue": "Tyler Baylin - 08/31/2023",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7f3bf69d0dc542f4bb72a37e43de82c2/2032530435"
+                },
+                "search_string": "1273645882",
+                "start_date_time": "2023-08-31T14:50:00.000Z",
+                "start_time": {
+                    "content": "1050",
+                    "displayValue": "10:30 am"
+                }
+            },
+            {
+                "created_id": {
+                    "content": "212a4d7d6f724ca9a4bb881769e5d47d",
+                    "displayValue": "Daniel Chenault",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/212a4d7d6f724ca9a4bb881769e5d47d"
+                },
+                "date_created": "2023-09-05T10:38:11.000Z",
+                "date_modified": "2023-09-12T21:37:09.000Z",
+                "elapsed_time": "6",
+                "elapsed_time_entry": "6",
+                "end_date_time": "2023-09-01T17:00:00.000Z",
+                "end_time": {
+                    "content": "1300",
+                    "displayValue": "1:00 pm"
+                },
+                "entry_date": "2023-09-01",
+                "entry_type": "",
+                "id": "1316800565",
+                "modified_id": {
+                    "content": "3",
+                    "displayValue": " System",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/3"
+                },
+                "mutliobjectlookup": {
+                    "content": "730286401",
+                    "displayValue": "Service",
+                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/730286401"
+                },
+                "name": "Daniel Chenault - 09/01/2023",
+                "notes": "General work, calls, emails, follow ups, meeting, and scheduling.",
+                "object_id": "f857546418b44dfa82e1776234372bed",
+                "owner_id": {
+                    "content": "4",
+                    "displayValue": "Open Ownership",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/4"
+                },
+                "owner_team_id": {
+                    "content": "1",
+                    "displayValue": "My Team",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/team/1"
+                },
+                "pay_type": {
+                    "content": "1.0",
+                    "displayValue": "REG"
+                },
+                "payroll_phase": {
+                    "content": "300-SERVICE",
+                    "displayValue": "300-SERVICE"
+                },
+                "record_locator": "Daniel Chenault - 09/01/2023",
+                "related_time_card_master": {
+                    "content": "1858526127",
+                    "displayValue": "Daniel Chenault - 09/01/2023",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7f3bf69d0dc542f4bb72a37e43de82c2/1858526127"
+                },
+                "search_string": "1316800565",
+                "start_date_time": "2023-09-01T11:00:00.000Z",
+                "start_time": {
+                    "content": "0700",
+                    "displayValue": "7:00 am"
+                }
+            },
+            {
+                "created_id": {
+                    "content": "06c836a659904b9c8b0419682f7d4728",
+                    "displayValue": "Ronald Baylin",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/06c836a659904b9c8b0419682f7d4728"
+                },
+                "date_created": "2023-08-30T13:38:57.000Z",
+                "date_modified": "2023-09-08T19:30:18.000Z",
+                "elapsed_time": "10",
+                "elapsed_time_entry": "10",
+                "end_date_time": "2023-08-28T22:00:00.000Z",
+                "end_time": {
+                    "content": "1800",
+                    "displayValue": "6:00 pm"
+                },
+                "entry_date": "2023-08-28",
+                "entry_type": "",
+                "id": "1382995796",
+                "modified_id": {
+                    "content": "3",
+                    "displayValue": " System",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/3"
+                },
+                "mutliobjectlookup": {
+                    "content": "390564660",
+                    "displayValue": "Sales",
+                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/390564660"
+                },
+                "name": "Ronald Baylin - 2023-08-28 00:00:00",
+                "notes": "Working on the Armistead Quote",
+                "object_id": "f857546418b44dfa82e1776234372bed",
+                "owner_id": {
+                    "content": "4",
+                    "displayValue": "Open Ownership",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/4"
+                },
+                "owner_team_id": {
+                    "content": "1",
+                    "displayValue": "My Team",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/team/1"
+                },
+                "pay_type": {
+                    "content": "1.0",
+                    "displayValue": "REG"
+                },
+                "payroll_phase": {
+                    "content": "099-OVERHEAD",
+                    "displayValue": "099-OVERHEAD"
+                },
+                "record_locator": "Ronald Baylin - 2023-08-28 00:00:00",
+                "related_time_card_master": {
+                    "content": "960556088",
+                    "displayValue": "Ronald Baylin - 08/28/2023",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7f3bf69d0dc542f4bb72a37e43de82c2/960556088"
+                },
+                "search_string": "1382995796",
+                "start_date_time": "2023-08-28T12:00:00.000Z",
+                "start_time": {
+                    "content": "0800",
+                    "displayValue": "8:00 am"
+                }
+            },
+            {
+                "created_id": {
+                    "content": "d8191d0baac14244a11ff87470122b6d",
+                    "displayValue": "Tyler Baylin",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/d8191d0baac14244a11ff87470122b6d"
+                },
+                "date_created": "2023-09-08T15:55:53.000Z",
+                "date_modified": "2023-09-12T21:38:21.000Z",
+                "elapsed_time": "8",
+                "elapsed_time_entry": "8",
+                "end_date_time": "2023-09-05T21:00:00.000Z",
+                "end_time": {
+                    "content": "1700",
+                    "displayValue": "5:00 pm"
+                },
+                "entry_date": "2023-09-05",
+                "entry_type": "",
+                "id": "1383233491",
+                "modified_id": {
+                    "content": "3",
+                    "displayValue": " System",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/3"
+                },
+                "mutliobjectlookup": {
+                    "content": "546956554",
+                    "displayValue": "Information Technology",
+                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/546956554"
+                },
+                "name": "Tyler Baylin - 09/05/2023",
+                "notes": "opportunities, ted meetings",
+                "object_id": "f857546418b44dfa82e1776234372bed",
+                "owner_id": {
+                    "content": "4",
+                    "displayValue": "Open Ownership",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/4"
+                },
+                "owner_team_id": {
+                    "content": "1",
+                    "displayValue": "My Team",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/team/1"
+                },
+                "pay_type": {
+                    "content": "1.0",
+                    "displayValue": "REG"
+                },
+                "payroll_phase": {
+                    "content": "099-OVERHEAD",
+                    "displayValue": "099-OVERHEAD"
+                },
+                "record_locator": "Tyler Baylin - 09/05/2023",
+                "related_time_card_master": {
+                    "content": "2048300555",
+                    "displayValue": "Tyler Baylin - 09/05/2023",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7f3bf69d0dc542f4bb72a37e43de82c2/2048300555"
+                },
+                "search_string": "1383233491",
+                "start_date_time": "2023-09-05T13:00:00.000Z",
+                "start_time": {
+                    "content": "0900",
+                    "displayValue": "9:00 am"
+                }
+            },
+            {
+                "created_id": {
+                    "content": "212a4d7d6f724ca9a4bb881769e5d47d",
+                    "displayValue": "Daniel Chenault",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/212a4d7d6f724ca9a4bb881769e5d47d"
+                },
+                "date_created": "2023-09-08T16:31:29.000Z",
+                "date_modified": "2023-09-12T21:37:56.000Z",
+                "elapsed_time": "8",
+                "elapsed_time_entry": "8",
+                "end_date_time": "2023-09-06T19:00:00.000Z",
+                "end_time": {
+                    "content": "1500",
+                    "displayValue": "3:00 pm"
+                },
+                "entry_date": "2023-09-06",
+                "entry_type": "",
+                "id": "1385196100",
+                "modified_id": {
+                    "content": "3",
+                    "displayValue": " System",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/3"
+                },
+                "mutliobjectlookup": {
+                    "content": "730286401",
+                    "displayValue": "Service",
+                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/730286401"
+                },
+                "name": "Daniel Chenault - 09/06/2023",
+                "notes": "General work, agile app training,  calls, emails, follow ups, shop time.",
+                "object_id": "f857546418b44dfa82e1776234372bed",
+                "owner_id": {
+                    "content": "4",
+                    "displayValue": "Open Ownership",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/4"
+                },
+                "owner_team_id": {
+                    "content": "1",
+                    "displayValue": "My Team",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/team/1"
+                },
+                "pay_type": {
+                    "content": "1.0",
+                    "displayValue": "REG"
+                },
+                "payroll_phase": {
+                    "content": "300-SERVICE",
+                    "displayValue": "300-SERVICE"
+                },
+                "record_locator": "Daniel Chenault - 09/06/2023",
+                "related_time_card_master": {
+                    "content": "1730129299",
+                    "displayValue": "Daniel Chenault - 09/06/2023",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7f3bf69d0dc542f4bb72a37e43de82c2/1730129299"
+                },
+                "search_string": "1385196100",
+                "start_date_time": "2023-09-06T11:00:00.000Z",
+                "start_time": {
+                    "content": "0700",
+                    "displayValue": "7:00 am"
+                }
+            },
+            {
+                "created_id": {
+                    "content": "212a4d7d6f724ca9a4bb881769e5d47d",
+                    "displayValue": "Daniel Chenault",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/212a4d7d6f724ca9a4bb881769e5d47d"
+                },
+                "date_created": "2023-09-11T10:26:02.000Z",
+                "date_modified": "2023-09-12T21:36:35.000Z",
+                "elapsed_time": "3",
+                "elapsed_time_entry": "3",
+                "end_date_time": "2023-09-08T13:00:00.000Z",
+                "end_time": {
+                    "content": "0900",
+                    "displayValue": "9:00 am"
+                },
+                "entry_date": "2023-09-08",
+                "entry_type": "",
+                "id": "1410484300",
+                "modified_id": {
+                    "content": "3",
+                    "displayValue": " System",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/3"
+                },
+                "mutliobjectlookup": {
+                    "content": "1963527184",
+                    "displayValue": "SO-23-05928 - Projector Maintenance ",
+                    "type": "7ba5266e8b0a42599579576ca8caf764",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7ba5266e8b0a42599579576ca8caf764/1963527184"
+                },
+                "name": "Daniel Chenault - 09/08/2023",
+                "notes": "Travel and Serviced projectors",
+                "object_id": "f857546418b44dfa82e1776234372bed",
+                "owner_id": {
+                    "content": "4",
+                    "displayValue": "Open Ownership",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/4"
+                },
+                "owner_team_id": {
+                    "content": "1",
+                    "displayValue": "My Team",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/team/1"
+                },
+                "pay_type": {
+                    "content": "1.0",
+                    "displayValue": "REG"
+                },
+                "payroll_phase": {
+                    "content": "300-SERVICE",
+                    "displayValue": "300-SERVICE"
+                },
+                "record_locator": "Daniel Chenault - 09/08/2023",
+                "related_time_card_master": {
+                    "content": "1488309669",
+                    "displayValue": "Daniel Chenault - 09/08/2023",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7f3bf69d0dc542f4bb72a37e43de82c2/1488309669"
+                },
+                "search_string": "1410484300",
+                "start_date_time": "2023-09-08T10:00:00.000Z",
+                "start_time": {
+                    "content": "0600",
+                    "displayValue": "6:00 am"
+                }
+            },
+            {
+                "created_id": {
+                    "content": "212a4d7d6f724ca9a4bb881769e5d47d",
+                    "displayValue": "Daniel Chenault",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/212a4d7d6f724ca9a4bb881769e5d47d"
+                },
+                "date_created": "2023-08-29T10:41:20.000Z",
+                "date_modified": "2023-09-12T21:40:14.000Z",
+                "elapsed_time": "3",
+                "elapsed_time_entry": "3",
+                "end_date_time": "2023-08-28T18:30:00.000Z",
+                "end_time": {
+                    "content": "1450",
+                    "displayValue": "2:30 pm"
+                },
+                "entry_date": "2023-08-28",
+                "entry_type": "",
+                "id": "1433208978",
+                "modified_id": {
+                    "content": "3",
+                    "displayValue": " System",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/3"
+                },
+                "mutliobjectlookup": {
+                    "content": "951539393",
+                    "displayValue": "SO-23-05923 - Clear Touch Wont Power On",
+                    "type": "7ba5266e8b0a42599579576ca8caf764",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7ba5266e8b0a42599579576ca8caf764/951539393"
+                },
+                "name": "Daniel Chenault - 08/28/2023",
+                "notes": "Waited on delivery, called delivery company, and received the display.  spoke with the client, and scheduled installation.",
+                "object_id": "f857546418b44dfa82e1776234372bed",
+                "owner_id": {
+                    "content": "4",
+                    "displayValue": "Open Ownership",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/4"
+                },
+                "owner_team_id": {
+                    "content": "1",
+                    "displayValue": "My Team",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/team/1"
+                },
+                "pay_type": {
+                    "content": "1.0",
+                    "displayValue": "REG"
+                },
+                "payroll_phase": {
+                    "content": "300-SERVICE",
+                    "displayValue": "300-SERVICE"
+                },
+                "record_locator": "Daniel Chenault - 08/28/2023",
+                "related_time_card_master": {
+                    "content": "283852472",
+                    "displayValue": "Daniel Chenault - 08/28/2023",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7f3bf69d0dc542f4bb72a37e43de82c2/283852472"
+                },
+                "search_string": "1433208978",
+                "start_date_time": "2023-08-28T15:30:00.000Z",
+                "start_time": {
+                    "content": "1150",
+                    "displayValue": "11:30 am"
+                }
+            },
+            {
+                "created_id": {
+                    "content": "06c836a659904b9c8b0419682f7d4728",
+                    "displayValue": "Ronald Baylin",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/06c836a659904b9c8b0419682f7d4728"
+                },
+                "date_created": "2023-09-03T01:49:16.000Z",
+                "date_modified": "2023-09-03T01:49:16.000Z",
+                "elapsed_time": "2",
+                "elapsed_time_entry": "2",
+                "end_date_time": "2023-09-03T02:00:00.000Z",
+                "end_time": {
+                    "content": "2200",
+                    "displayValue": "10:00 pm"
+                },
+                "entry_date": "2023-09-02",
+                "entry_type": "",
+                "id": "1534905666",
+                "modified_id": {
+                    "content": "3",
+                    "displayValue": " System",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/3"
+                },
+                "mutliobjectlookup": {
+                    "content": "546956554",
+                    "displayValue": "Information Technology",
+                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/546956554"
+                },
+                "name": "Ronald Baylin - 2023-09-02 00:00:00",
+                "notes": "fixing the timecards java class",
+                "object_id": "f857546418b44dfa82e1776234372bed",
+                "owner_id": {
+                    "content": "4",
+                    "displayValue": "Open Ownership",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/4"
+                },
+                "owner_team_id": {
+                    "content": "1",
+                    "displayValue": "My Team",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/team/1"
+                },
+                "pay_type": {
+                    "content": "1.0",
+                    "displayValue": "REG"
+                },
+                "payroll_phase": {
+                    "content": "099-OVERHEAD",
+                    "displayValue": "099-OVERHEAD"
+                },
+                "record_locator": "Ronald Baylin - 2023-09-02 00:00:00",
+                "related_time_card_master": {
+                    "content": "1591138571",
+                    "displayValue": "Ronald Baylin - 09/02/2023",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7f3bf69d0dc542f4bb72a37e43de82c2/1591138571"
+                },
+                "search_string": "1534905666",
+                "start_date_time": "2023-09-03T00:00:00.000Z",
+                "start_time": {
+                    "content": "2000",
+                    "displayValue": "8:00 pm"
+                }
+            },
+            {
+                "created_id": {
+                    "content": "d8191d0baac14244a11ff87470122b6d",
+                    "displayValue": "Tyler Baylin",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/d8191d0baac14244a11ff87470122b6d"
+                },
+                "date_created": "2023-08-30T14:22:25.000Z",
+                "date_modified": "2023-08-30T14:25:28.000Z",
+                "elapsed_time": "5",
+                "elapsed_time_entry": "5",
+                "end_date_time": "2023-08-28T18:00:00.000Z",
+                "end_time": {
+                    "content": "1400",
+                    "displayValue": "2:00 pm"
+                },
+                "entry_date": "2023-08-28",
+                "entry_type": "",
+                "id": "1574099715",
+                "modified_id": {
+                    "content": "3",
+                    "displayValue": " System",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/3"
+                },
+                "mutliobjectlookup": {
+                    "content": "1336142659",
+                    "displayValue": "PTO",
+                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/1336142659"
+                },
+                "name": "Tyler Baylin - 2023-08-28 00:00:00",
+                "notes": "PTO sick PTO sick PTO sick",
+                "object_id": "f857546418b44dfa82e1776234372bed",
+                "owner_id": {
+                    "content": "4",
+                    "displayValue": "Open Ownership",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/4"
+                },
+                "owner_team_id": {
+                    "content": "1",
+                    "displayValue": "My Team",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/team/1"
+                },
+                "pay_type": {
+                    "content": "1.0",
+                    "displayValue": "REG"
+                },
+                "payroll_phase": {
+                    "content": "099-OVERHEAD",
+                    "displayValue": "099-OVERHEAD"
+                },
+                "record_locator": "Tyler Baylin - 2023-08-28 00:00:00",
+                "related_time_card_master": {
+                    "content": "163045284",
+                    "displayValue": "Tyler Baylin - 08/28/2023",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7f3bf69d0dc542f4bb72a37e43de82c2/163045284"
+                },
+                "search_string": "1574099715",
+                "start_date_time": "2023-08-28T13:00:00.000Z",
+                "start_time": {
+                    "content": "0900",
+                    "displayValue": "9:00 am"
+                }
+            },
+            {
+                "created_id": {
+                    "content": "212a4d7d6f724ca9a4bb881769e5d47d",
+                    "displayValue": "Daniel Chenault",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/212a4d7d6f724ca9a4bb881769e5d47d"
+                },
+                "date_created": "2023-08-30T11:58:28.000Z",
+                "date_modified": "2023-09-12T21:40:29.000Z",
+                "elapsed_time": "2",
+                "elapsed_time_entry": "2",
+                "end_date_time": "2023-08-29T20:00:00.000Z",
+                "end_time": {
+                    "content": "1600",
+                    "displayValue": "4:00 pm"
+                },
+                "entry_date": "2023-08-29",
+                "entry_type": "",
+                "id": "1582410233",
+                "modified_id": {
+                    "content": "3",
+                    "displayValue": " System",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/3"
+                },
+                "mutliobjectlookup": {
+                    "content": "951539393",
+                    "displayValue": "SO-23-05923 - Clear Touch Wont Power On",
+                    "type": "7ba5266e8b0a42599579576ca8caf764",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7ba5266e8b0a42599579576ca8caf764/951539393"
+                },
+                "name": "Daniel Chenault - 08/29/2023",
+                "notes": "Travel and swapped out displays, packed display to be shipped back.",
+                "object_id": "f857546418b44dfa82e1776234372bed",
+                "owner_id": {
+                    "content": "4",
+                    "displayValue": "Open Ownership",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/4"
+                },
+                "owner_team_id": {
+                    "content": "1",
+                    "displayValue": "My Team",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/team/1"
+                },
+                "pay_type": {
+                    "content": "1.0",
+                    "displayValue": "REG"
+                },
+                "payroll_phase": {
+                    "content": "300-SERVICE",
+                    "displayValue": "300-SERVICE"
+                },
+                "record_locator": "Daniel Chenault - 08/29/2023",
+                "related_time_card_master": {
+                    "content": "1894901003",
+                    "displayValue": "Daniel Chenault - 08/29/2023",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7f3bf69d0dc542f4bb72a37e43de82c2/1894901003"
+                },
+                "search_string": "1582410233",
+                "start_date_time": "2023-08-29T18:00:00.000Z",
+                "start_time": {
+                    "content": "1400",
+                    "displayValue": "2:00 pm"
+                }
+            },
+            {
+                "created_id": {
+                    "content": "212a4d7d6f724ca9a4bb881769e5d47d",
+                    "displayValue": "Daniel Chenault",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/212a4d7d6f724ca9a4bb881769e5d47d"
+                },
+                "date_created": "2023-09-06T12:37:38.000Z",
+                "date_modified": "2023-09-12T21:38:44.000Z",
+                "elapsed_time": "8",
+                "elapsed_time_entry": "8",
+                "end_date_time": "2023-09-04T19:00:00.000Z",
+                "end_time": {
+                    "content": "1500",
+                    "displayValue": "3:00 pm"
+                },
+                "entry_date": "2023-09-04",
+                "entry_type": "",
+                "id": "1605403157",
+                "modified_id": {
+                    "content": "3",
+                    "displayValue": " System",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/3"
+                },
+                "mutliobjectlookup": {
+                    "content": "1336142659",
+                    "displayValue": "PTO",
+                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/1336142659"
+                },
+                "name": "Daniel Chenault - 09/04/2023",
+                "notes": "Happy labor day!!",
+                "object_id": "f857546418b44dfa82e1776234372bed",
+                "owner_id": {
+                    "content": "4",
+                    "displayValue": "Open Ownership",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/4"
+                },
+                "owner_team_id": {
+                    "content": "1",
+                    "displayValue": "My Team",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/team/1"
+                },
+                "pay_type": {
+                    "content": "1.0",
+                    "displayValue": "REG"
+                },
+                "payroll_phase": {
+                    "content": "096-PTO",
+                    "displayValue": "096-PTO"
+                },
+                "record_locator": "Daniel Chenault - 09/04/2023",
+                "related_time_card_master": {
+                    "content": "109548867",
+                    "displayValue": "Daniel Chenault - 09/04/2023",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7f3bf69d0dc542f4bb72a37e43de82c2/109548867"
+                },
+                "search_string": "1605403157",
+                "start_date_time": "2023-09-04T11:00:00.000Z",
+                "start_time": {
+                    "content": "0700",
+                    "displayValue": "7:00 am"
+                }
+            },
+            {
+                "created_id": {
+                    "content": "d8191d0baac14244a11ff87470122b6d",
+                    "displayValue": "Tyler Baylin",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/d8191d0baac14244a11ff87470122b6d"
+                },
+                "date_created": "2023-09-01T15:24:18.000Z",
+                "date_modified": "2023-09-01T15:25:02.000Z",
+                "elapsed_time": "2.5",
+                "elapsed_time_entry": "2.5",
+                "end_date_time": "2023-08-31T14:50:00.000Z",
+                "end_time": {
+                    "content": "1050",
+                    "displayValue": "10:30 am"
+                },
+                "entry_date": "2023-08-31",
+                "entry_type": "",
+                "id": "1609831318",
+                "modified_id": {
+                    "content": "3",
+                    "displayValue": " System",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/3"
+                },
+                "mutliobjectlookup": {
+                    "content": "789510892",
+                    "displayValue": "SO-23-05926 - APG VIsit",
+                    "type": "7ba5266e8b0a42599579576ca8caf764",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7ba5266e8b0a42599579576ca8caf764/789510892"
+                },
+                "name": "Tyler Baylin - 2023-08-31 00:00:00",
+                "notes": "visit and meet with evan. look at rooms",
+                "object_id": "f857546418b44dfa82e1776234372bed",
+                "owner_id": {
+                    "content": "4",
+                    "displayValue": "Open Ownership",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/4"
+                },
+                "owner_team_id": {
+                    "content": "1",
+                    "displayValue": "My Team",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/team/1"
+                },
+                "pay_type": {
+                    "content": "1.0",
+                    "displayValue": "REG"
+                },
+                "payroll_phase": {
+                    "content": "300-SERVICE",
+                    "displayValue": "300-SERVICE"
+                },
+                "record_locator": "Tyler Baylin - 2023-08-31 00:00:00",
+                "related_time_card_master": {
+                    "content": "2032530435",
+                    "displayValue": "Tyler Baylin - 08/31/2023",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7f3bf69d0dc542f4bb72a37e43de82c2/2032530435"
+                },
+                "search_string": "1609831318",
+                "start_date_time": "2023-08-31T12:00:00.000Z",
+                "start_time": {
+                    "content": "0800",
+                    "displayValue": "8:00 am"
+                }
+            },
+            {
+                "created_id": {
+                    "content": "1e5bb44ec77845c69a10d01df47d3f25",
+                    "displayValue": "Nathan Smith",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/1e5bb44ec77845c69a10d01df47d3f25"
+                },
+                "date_created": "2023-09-08T19:38:45.000Z",
+                "date_modified": "2023-09-12T21:37:38.000Z",
+                "elapsed_time": "8",
+                "elapsed_time_entry": "8",
+                "end_date_time": "2023-09-07T21:00:00.000Z",
+                "end_time": {
+                    "content": "1700",
+                    "displayValue": "5:00 pm"
+                },
+                "entry_date": "2023-09-07",
+                "entry_type": "",
+                "id": "1642850976",
+                "modified_id": {
+                    "content": "3",
+                    "displayValue": " System",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/3"
+                },
+                "mutliobjectlookup": {
+                    "content": "705015018",
+                    "displayValue": "Operations",
+                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/705015018"
+                },
+                "name": "Nathan Smith - 09/07/2023",
+                "notes": "office day, proposals, etc.",
+                "object_id": "f857546418b44dfa82e1776234372bed",
+                "owner_id": {
+                    "content": "4",
+                    "displayValue": "Open Ownership",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/4"
+                },
+                "owner_team_id": {
+                    "content": "1",
+                    "displayValue": "My Team",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/team/1"
+                },
+                "pay_type": {
+                    "content": "1.0",
+                    "displayValue": "REG"
+                },
+                "payroll_phase": {
+                    "content": "099-OVERHEAD",
+                    "displayValue": "099-OVERHEAD"
+                },
+                "record_locator": "Nathan Smith - 09/07/2023",
+                "related_time_card_master": {
+                    "content": "729863531",
+                    "displayValue": "Nathan Smith - 09/07/2023",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7f3bf69d0dc542f4bb72a37e43de82c2/729863531"
+                },
+                "search_string": "1642850976",
+                "start_date_time": "2023-09-07T13:00:00.000Z",
+                "start_time": {
+                    "content": "0900",
+                    "displayValue": "9:00 am"
+                }
+            },
+            {
+                "created_id": {
+                    "content": "06c836a659904b9c8b0419682f7d4728",
+                    "displayValue": "Ronald Baylin",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/06c836a659904b9c8b0419682f7d4728"
+                },
+                "date_created": "2023-08-30T13:43:37.000Z",
+                "date_modified": "2023-08-31T11:34:23.000Z",
+                "elapsed_time": "10",
+                "elapsed_time_entry": "10",
+                "end_date_time": "2023-08-29T19:00:00.000Z",
+                "end_time": {
+                    "content": "1500",
+                    "displayValue": "3:00 pm"
+                },
+                "entry_date": "2023-08-29",
+                "entry_type": "",
+                "id": "1649799956",
+                "modified_id": {
+                    "content": "3",
+                    "displayValue": " System",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/3"
+                },
+                "mutliobjectlookup": {
+                    "content": "1313159781",
+                    "displayValue": "5122-BOEING-FT-BELVOIR-2AB01",
+                    "type": "c85c189652f2450da6b66c02ed927778",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/c85c189652f2450da6b66c02ed927778/1313159781"
+                },
+                "name": "Ronald Baylin - 2023-08-29 00:00:00",
+                "notes": "Installed new Clapper code but it didn't work.Repatched temp fix. Adjusted auto input selections to show correct HDMI input on source selection",
+                "object_id": "f857546418b44dfa82e1776234372bed",
+                "owner_id": {
+                    "content": "4",
+                    "displayValue": "Open Ownership",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/4"
+                },
+                "owner_team_id": {
+                    "content": "1",
+                    "displayValue": "My Team",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/team/1"
+                },
+                "pay_type": {
+                    "content": "1.0",
+                    "displayValue": "REG"
+                },
+                "payroll_phase": {
+                    "content": "130-COMMISSION",
+                    "displayValue": "130-COMMISSION"
+                },
+                "record_locator": "Ronald Baylin - 2023-08-29 00:00:00",
+                "related_time_card_master": {
+                    "content": "277640554",
+                    "displayValue": "Ronald Baylin - 08/29/2023",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7f3bf69d0dc542f4bb72a37e43de82c2/277640554"
+                },
+                "search_string": "1649799956",
+                "start_date_time": "2023-08-29T09:00:00.000Z",
+                "start_time": {
+                    "content": "0500",
+                    "displayValue": "5:00 am"
+                }
+            },
+            {
+                "created_id": {
+                    "content": "1e5bb44ec77845c69a10d01df47d3f25",
+                    "displayValue": "Nathan Smith",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/1e5bb44ec77845c69a10d01df47d3f25"
+                },
+                "date_created": "2023-09-08T19:40:04.000Z",
+                "date_modified": "2023-09-08T19:40:04.000Z",
+                "elapsed_time": "8",
+                "elapsed_time_entry": "8",
+                "end_date_time": "2023-09-08T20:00:00.000Z",
+                "end_time": {
+                    "content": "1600",
+                    "displayValue": "4:00 pm"
+                },
+                "entry_date": "2023-09-08",
+                "entry_type": "",
+                "id": "1666150352",
+                "modified_id": {
+                    "content": "3",
+                    "displayValue": " System",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/3"
+                },
+                "mutliobjectlookup": {
+                    "content": "705015018",
+                    "displayValue": "Operations",
+                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/705015018"
+                },
+                "name": "Nathan Smith - 2023-09-08 00:00:00",
+                "notes": "pickup lift from towson, coordinate cleartouch pckup w/Danny, office day, proposals, etc.",
+                "object_id": "f857546418b44dfa82e1776234372bed",
+                "owner_id": {
+                    "content": "4",
+                    "displayValue": "Open Ownership",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/4"
+                },
+                "owner_team_id": {
+                    "content": "1",
+                    "displayValue": "My Team",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/team/1"
+                },
+                "pay_type": {
+                    "content": "1.0",
+                    "displayValue": "REG"
+                },
+                "payroll_phase": {
+                    "content": "099-OVERHEAD",
+                    "displayValue": "099-OVERHEAD"
+                },
+                "record_locator": "Nathan Smith - 2023-09-08 00:00:00",
+                "related_time_card_master": {
+                    "content": "1422491681",
+                    "displayValue": "Nathan Smith - 09/08/2023",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7f3bf69d0dc542f4bb72a37e43de82c2/1422491681"
+                },
+                "search_string": "1666150352",
+                "start_date_time": "2023-09-08T12:00:00.000Z",
+                "start_time": {
+                    "content": "0800",
+                    "displayValue": "8:00 am"
+                }
+            },
+            {
+                "created_id": {
+                    "content": "1e5bb44ec77845c69a10d01df47d3f25",
+                    "displayValue": "Nathan Smith",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/1e5bb44ec77845c69a10d01df47d3f25"
+                },
+                "date_created": "2023-09-01T14:07:33.000Z",
+                "date_modified": "2023-09-12T21:40:40.000Z",
+                "elapsed_time": "8",
+                "elapsed_time_entry": "8",
+                "end_date_time": "2023-08-30T21:00:00.000Z",
+                "end_time": {
+                    "content": "1700",
+                    "displayValue": "5:00 pm"
+                },
+                "entry_date": "2023-08-30",
+                "entry_type": "",
+                "id": "1728130293",
+                "modified_id": {
+                    "content": "3",
+                    "displayValue": " System",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/3"
+                },
+                "mutliobjectlookup": {
+                    "content": "705015018",
+                    "displayValue": "Operations",
+                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/705015018"
+                },
+                "name": "Nathan Smith - 08/30/2023",
+                "notes": "work on armistead quote, towson valt",
+                "object_id": "f857546418b44dfa82e1776234372bed",
+                "owner_id": {
+                    "content": "4",
+                    "displayValue": "Open Ownership",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/4"
+                },
+                "owner_team_id": {
+                    "content": "1",
+                    "displayValue": "My Team",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/team/1"
+                },
+                "pay_type": {
+                    "content": "1.0",
+                    "displayValue": "REG"
+                },
+                "payroll_phase": {
+                    "content": "099-OVERHEAD",
+                    "displayValue": "099-OVERHEAD"
+                },
+                "record_locator": "Nathan Smith - 08/30/2023",
+                "related_time_card_master": {
+                    "content": "276737291",
+                    "displayValue": "Nathan Smith - 08/30/2023",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7f3bf69d0dc542f4bb72a37e43de82c2/276737291"
+                },
+                "search_string": "1728130293",
+                "start_date_time": "2023-08-30T13:00:00.000Z",
+                "start_time": {
+                    "content": "0900",
+                    "displayValue": "9:00 am"
+                }
+            },
+            {
+                "created_id": {
+                    "content": "06c836a659904b9c8b0419682f7d4728",
+                    "displayValue": "Ronald Baylin",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/06c836a659904b9c8b0419682f7d4728"
+                },
+                "date_created": "2023-09-01T15:16:26.000Z",
+                "date_modified": "2023-09-03T01:47:33.000Z",
+                "elapsed_time": "8",
+                "elapsed_time_entry": "8",
+                "end_date_time": "2023-09-01T22:00:00.000Z",
+                "end_time": {
+                    "content": "1800",
+                    "displayValue": "6:00 pm"
+                },
+                "entry_date": "2023-09-01",
+                "entry_type": "",
+                "id": "1730309235",
+                "modified_id": {
+                    "content": "3",
+                    "displayValue": " System",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/3"
+                },
+                "mutliobjectlookup": {
+                    "content": "1336142659",
+                    "displayValue": "PTO",
+                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/1336142659"
+                },
+                "name": "Ronald Baylin - 2023-09-01 00:00:00",
+                "notes": "PTO day for the day",
+                "object_id": "f857546418b44dfa82e1776234372bed",
+                "owner_id": {
+                    "content": "4",
+                    "displayValue": "Open Ownership",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/4"
+                },
+                "owner_team_id": {
+                    "content": "1",
+                    "displayValue": "My Team",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/team/1"
+                },
+                "pay_type": {
+                    "content": "1.0",
+                    "displayValue": "REG"
+                },
+                "payroll_phase": {
+                    "content": "099-OVERHEAD",
+                    "displayValue": "099-OVERHEAD"
+                },
+                "record_locator": "Ronald Baylin - 2023-09-01 00:00:00",
+                "related_time_card_master": {
+                    "content": "426496858",
+                    "displayValue": "Ronald Baylin - 09/01/2023",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7f3bf69d0dc542f4bb72a37e43de82c2/426496858"
+                },
+                "search_string": "1730309235",
+                "start_date_time": "2023-09-01T14:00:00.000Z",
+                "start_time": {
+                    "content": "1000",
+                    "displayValue": "10:00 am"
+                }
+            },
+            {
+                "created_id": {
+                    "content": "06c836a659904b9c8b0419682f7d4728",
+                    "displayValue": "Ronald Baylin",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/06c836a659904b9c8b0419682f7d4728"
+                },
+                "date_created": "2023-09-11T21:55:22.000Z",
+                "date_modified": "2023-09-12T21:22:11.000Z",
+                "elapsed_time": "9",
+                "elapsed_time_entry": "9",
+                "end_date_time": "2023-09-11T21:00:00.000Z",
+                "end_time": {
+                    "content": "1700",
+                    "displayValue": "5:00 pm"
+                },
+                "entry_date": "2023-09-11",
+                "entry_type": "",
+                "id": "1736791106",
+                "modified_id": {
+                    "content": "3",
+                    "displayValue": " System",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/3"
+                },
+                "mutliobjectlookup": {
+                    "content": "546956554",
+                    "displayValue": "Information Technology",
+                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/546956554"
+                },
+                "name": "Ronald Baylin - 09/11/2023",
+                "notes": "testing timecards applications",
+                "object_id": "f857546418b44dfa82e1776234372bed",
+                "owner_id": {
+                    "content": "4",
+                    "displayValue": "Open Ownership",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/4"
+                },
+                "owner_team_id": {
+                    "content": "1",
+                    "displayValue": "My Team",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/team/1"
+                },
+                "pay_type": {
+                    "content": "1.0",
+                    "displayValue": "REG"
+                },
+                "payroll_phase": {
+                    "content": "099-OVERHEAD",
+                    "displayValue": "099-OVERHEAD"
+                },
+                "record_locator": "Ronald Baylin - 09/11/2023",
+                "related_time_card_master": {
+                    "content": "684163105",
+                    "displayValue": "Ronald Baylin - 09/11/2023",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7f3bf69d0dc542f4bb72a37e43de82c2/684163105"
+                },
+                "search_string": "1736791106",
+                "start_date_time": "2023-09-11T12:00:00.000Z",
+                "start_time": {
+                    "content": "0800",
+                    "displayValue": "8:00 am"
+                }
+            },
+            {
+                "created_id": {
+                    "content": "d8191d0baac14244a11ff87470122b6d",
+                    "displayValue": "Tyler Baylin",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/d8191d0baac14244a11ff87470122b6d"
+                },
+                "date_created": "2023-09-01T15:26:00.000Z",
+                "date_modified": "2023-09-12T21:40:46.000Z",
+                "elapsed_time": "9",
+                "elapsed_time_entry": "9",
+                "end_date_time": "2023-08-30T22:00:00.000Z",
+                "end_time": {
+                    "content": "1800",
+                    "displayValue": "6:00 pm"
+                },
+                "entry_date": "2023-08-30",
+                "entry_type": "",
+                "id": "1835582879",
+                "modified_id": {
+                    "content": "3",
+                    "displayValue": " System",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/3"
+                },
+                "mutliobjectlookup": {
+                    "content": "546956554",
+                    "displayValue": "Information Technology",
+                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/546956554"
+                },
+                "name": "Tyler Baylin - 08/30/2023",
+                "notes": "agile, IT, Overhead, Ted Meetings, System fixes",
+                "object_id": "f857546418b44dfa82e1776234372bed",
+                "owner_id": {
+                    "content": "4",
+                    "displayValue": "Open Ownership",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/4"
+                },
+                "owner_team_id": {
+                    "content": "1",
+                    "displayValue": "My Team",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/team/1"
+                },
+                "pay_type": {
+                    "content": "1.0",
+                    "displayValue": "REG"
+                },
+                "payroll_phase": {
+                    "content": "099-OVERHEAD",
+                    "displayValue": "099-OVERHEAD"
+                },
+                "record_locator": "Tyler Baylin - 08/30/2023",
+                "related_time_card_master": {
+                    "content": "1948365245",
+                    "displayValue": "Tyler Baylin - 08/30/2023",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7f3bf69d0dc542f4bb72a37e43de82c2/1948365245"
+                },
+                "search_string": "1835582879",
+                "start_date_time": "2023-08-30T13:00:00.000Z",
+                "start_time": {
+                    "content": "0900",
+                    "displayValue": "9:00 am"
+                }
+            },
+            {
+                "created_id": {
+                    "content": "1e5bb44ec77845c69a10d01df47d3f25",
+                    "displayValue": "Nathan Smith",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/1e5bb44ec77845c69a10d01df47d3f25"
+                },
+                "date_created": "2023-08-30T14:20:14.000Z",
+                "date_modified": "2023-09-12T14:54:25.000Z",
+                "elapsed_time": "5.5",
+                "elapsed_time_entry": "5",
+                "end_date_time": "2023-08-29T18:00:00.000Z",
+                "end_time": {
+                    "content": "1450",
+                    "displayValue": "2:30 pm"
+                },
+                "entry_date": "2023-08-29",
+                "entry_type": "",
+                "id": "1847010415",
+                "modified_id": {
+                    "content": "1e5bb44ec77845c69a10d01df47d3f25",
+                    "displayValue": "Nathan Smith",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/1e5bb44ec77845c69a10d01df47d3f25"
+                },
+                "mutliobjectlookup": {
+                    "content": "705015018",
+                    "displayValue": "Operations",
+                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/705015018"
+                },
+                "name": "Nathan Smith - 08/29/2023",
+                "notes": "work from home tuesday",
+                "object_id": "f857546418b44dfa82e1776234372bed",
+                "owner_id": {
+                    "content": "4",
+                    "displayValue": "Open Ownership",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/4"
+                },
+                "owner_team_id": {
+                    "content": "1",
+                    "displayValue": "My Team",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/team/1"
+                },
+                "pay_type": {
+                    "content": "1.0",
+                    "displayValue": "REG"
+                },
+                "payroll_phase": {
+                    "content": "099-OVERHEAD",
+                    "displayValue": "099-OVERHEAD"
+                },
+                "record_locator": "Nathan Smith - 08/29/2023",
+                "related_time_card_master": {
+                    "content": "1067885646",
+                    "displayValue": "Nathan Smith - 08/29/2023",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7f3bf69d0dc542f4bb72a37e43de82c2/1067885646"
+                },
+                "search_string": "1847010415",
+                "start_date_time": "2023-08-29T13:00:00.000Z",
+                "start_time": {
+                    "content": "0900",
+                    "displayValue": "9:00 am"
+                }
+            },
+            {
+                "created_id": {
+                    "content": "212a4d7d6f724ca9a4bb881769e5d47d",
+                    "displayValue": "Daniel Chenault",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/212a4d7d6f724ca9a4bb881769e5d47d"
+                },
+                "date_created": "2023-09-06T12:46:36.000Z",
+                "date_modified": "2023-09-12T21:38:53.000Z",
+                "elapsed_time": "1",
+                "elapsed_time_entry": "1",
+                "end_date_time": "2023-09-05T19:00:00.000Z",
+                "end_time": {
+                    "content": "1500",
+                    "displayValue": "3:00 pm"
+                },
+                "entry_date": "2023-09-05",
+                "entry_type": "",
+                "id": "1942126665",
+                "modified_id": {
+                    "content": "3",
+                    "displayValue": " System",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/3"
+                },
+                "mutliobjectlookup": {
+                    "content": "434575745",
+                    "displayValue": "SO-23-05925 - NASA Replacement Battery E231",
+                    "type": "7ba5266e8b0a42599579576ca8caf764",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7ba5266e8b0a42599579576ca8caf764/434575745"
+                },
+                "name": "Daniel Chenault - 09/05/2023",
+                "notes": "Replaced battery and travel from.",
+                "object_id": "f857546418b44dfa82e1776234372bed",
+                "owner_id": {
+                    "content": "4",
+                    "displayValue": "Open Ownership",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/4"
+                },
+                "owner_team_id": {
+                    "content": "1",
+                    "displayValue": "My Team",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/team/1"
+                },
+                "pay_type": {
+                    "content": "1.0",
+                    "displayValue": "REG"
+                },
+                "payroll_phase": {
+                    "content": "300-SERVICE",
+                    "displayValue": "300-SERVICE"
+                },
+                "record_locator": "Daniel Chenault - 09/05/2023",
+                "related_time_card_master": {
+                    "content": "1393978374",
+                    "displayValue": "Daniel Chenault - 09/05/2023",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7f3bf69d0dc542f4bb72a37e43de82c2/1393978374"
+                },
+                "search_string": "1942126665",
+                "start_date_time": "2023-09-05T18:00:00.000Z",
+                "start_time": {
+                    "content": "1400",
+                    "displayValue": "2:00 pm"
+                }
+            },
+            {
+                "created_id": {
+                    "content": "212a4d7d6f724ca9a4bb881769e5d47d",
+                    "displayValue": "Daniel Chenault",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/212a4d7d6f724ca9a4bb881769e5d47d"
+                },
+                "date_created": "2023-09-11T10:11:48.000Z",
+                "date_modified": "2023-09-12T21:36:11.000Z",
+                "elapsed_time": "8",
+                "elapsed_time_entry": "8",
+                "end_date_time": "2023-09-07T19:00:00.000Z",
+                "end_time": {
+                    "content": "1500",
+                    "displayValue": "3:00 pm"
+                },
+                "entry_date": "2023-09-07",
+                "entry_type": "",
+                "id": "1957197594",
+                "modified_id": {
+                    "content": "3",
+                    "displayValue": " System",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/3"
+                },
+                "mutliobjectlookup": {
+                    "content": "730286401",
+                    "displayValue": "Service",
+                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/730286401"
+                },
+                "name": "Daniel Chenault - 09/07/2023",
+                "notes": "General work, calls, emails, follow-ups, scheduling, and meeting. Went and did a site walk thru for Ennet opportunity.",
+                "object_id": "f857546418b44dfa82e1776234372bed",
+                "owner_id": {
+                    "content": "4",
+                    "displayValue": "Open Ownership",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/4"
+                },
+                "owner_team_id": {
+                    "content": "1",
+                    "displayValue": "My Team",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/team/1"
+                },
+                "pay_type": {
+                    "content": "1.0",
+                    "displayValue": "REG"
+                },
+                "payroll_phase": {
+                    "content": "300-SERVICE",
+                    "displayValue": "300-SERVICE"
+                },
+                "record_locator": "Daniel Chenault - 09/07/2023",
+                "related_time_card_master": {
+                    "content": "1791047110",
+                    "displayValue": "Daniel Chenault - 09/07/2023",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7f3bf69d0dc542f4bb72a37e43de82c2/1791047110"
+                },
+                "search_string": "1957197594",
+                "start_date_time": "2023-09-07T11:00:00.000Z",
+                "start_time": {
+                    "content": "0700",
+                    "displayValue": "7:00 am"
+                }
+            },
+            {
+                "created_id": {
+                    "content": "212a4d7d6f724ca9a4bb881769e5d47d",
+                    "displayValue": "Daniel Chenault",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/212a4d7d6f724ca9a4bb881769e5d47d"
+                },
+                "date_created": "2023-09-05T10:26:14.000Z",
+                "date_modified": "2023-09-05T10:43:28.000Z",
+                "elapsed_time": "3",
+                "elapsed_time_entry": "3",
+                "end_date_time": "2023-08-31T15:00:00.000Z",
+                "end_time": {
+                    "content": "1100",
+                    "displayValue": "11:00 am"
+                },
+                "entry_date": "2023-08-31",
+                "entry_type": "",
+                "id": "1979611681",
+                "modified_id": {
+                    "content": "3",
+                    "displayValue": " System",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/3"
+                },
+                "mutliobjectlookup": {
+                    "content": "730286401",
+                    "displayValue": "Service",
+                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/730286401"
+                },
+                "name": "Daniel Chenault - 2023-08-31 00:00:00",
+                "notes": "Traveled and met with new client did a site walk thru.",
+                "object_id": "f857546418b44dfa82e1776234372bed",
+                "owner_id": {
+                    "content": "4",
+                    "displayValue": "Open Ownership",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/4"
+                },
+                "owner_team_id": {
+                    "content": "1",
+                    "displayValue": "My Team",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/team/1"
+                },
+                "pay_type": {
+                    "content": "1.0",
+                    "displayValue": "REG"
+                },
+                "payroll_phase": {
+                    "content": "300-SERVICE",
+                    "displayValue": "300-SERVICE"
+                },
+                "record_locator": "Daniel Chenault - 2023-08-31 00:00:00",
+                "related_time_card_master": {
+                    "content": "1947171198",
+                    "displayValue": "Daniel Chenault - 08/31/2023",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7f3bf69d0dc542f4bb72a37e43de82c2/1947171198"
+                },
+                "search_string": "1979611681",
+                "start_date_time": "2023-08-31T12:00:00.000Z",
+                "start_time": {
+                    "content": "0800",
+                    "displayValue": "8:00 am"
+                }
+            },
+            {
+                "created_id": {
+                    "content": "1e5bb44ec77845c69a10d01df47d3f25",
+                    "displayValue": "Nathan Smith",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/1e5bb44ec77845c69a10d01df47d3f25"
+                },
+                "date_created": "2023-09-08T19:38:20.000Z",
+                "date_modified": "2023-09-12T21:37:46.000Z",
+                "elapsed_time": "8",
+                "elapsed_time_entry": "8",
+                "end_date_time": "2023-09-06T21:00:00.000Z",
+                "end_time": {
+                    "content": "1700",
+                    "displayValue": "5:00 pm"
+                },
+                "entry_date": "2023-09-06",
+                "entry_type": "",
+                "id": "1985875343",
+                "modified_id": {
+                    "content": "3",
+                    "displayValue": " System",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/3"
+                },
+                "mutliobjectlookup": {
+                    "content": "705015018",
+                    "displayValue": "Operations",
+                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/705015018"
+                },
+                "name": "Nathan Smith - 09/06/2023",
+                "notes": "office day, proposals, etc.",
+                "object_id": "f857546418b44dfa82e1776234372bed",
+                "owner_id": {
+                    "content": "4",
+                    "displayValue": "Open Ownership",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/4"
+                },
+                "owner_team_id": {
+                    "content": "1",
+                    "displayValue": "My Team",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/team/1"
+                },
+                "pay_type": {
+                    "content": "1.0",
+                    "displayValue": "REG"
+                },
+                "payroll_phase": {
+                    "content": "099-OVERHEAD",
+                    "displayValue": "099-OVERHEAD"
+                },
+                "record_locator": "Nathan Smith - 09/06/2023",
+                "related_time_card_master": {
+                    "content": "120803245",
+                    "displayValue": "Nathan Smith - 09/06/2023",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7f3bf69d0dc542f4bb72a37e43de82c2/120803245"
+                },
+                "search_string": "1985875343",
+                "start_date_time": "2023-09-06T13:00:00.000Z",
+                "start_time": {
+                    "content": "0900",
+                    "displayValue": "9:00 am"
+                }
+            },
+            {
+                "created_id": {
+                    "content": "1e5bb44ec77845c69a10d01df47d3f25",
+                    "displayValue": "Nathan Smith",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/1e5bb44ec77845c69a10d01df47d3f25"
+                },
+                "date_created": "2023-09-12T14:55:47.000Z",
+                "date_modified": "2023-09-12T21:34:49.000Z",
+                "elapsed_time": "8",
+                "elapsed_time_entry": "8",
+                "end_date_time": "2023-09-05T21:00:00.000Z",
+                "end_time": {
+                    "content": "1700",
+                    "displayValue": "5:00 pm"
+                },
+                "entry_date": "2023-09-05",
+                "entry_type": "",
+                "id": "1993340864",
+                "modified_id": {
+                    "content": "3",
+                    "displayValue": " System",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/3"
+                },
+                "mutliobjectlookup": {
+                    "content": "705015018",
+                    "displayValue": "Operations",
+                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/705015018"
+                },
+                "name": "Nathan Smith - 09/05/2023",
+                "notes": "overhead shop time work on proposals w/ty",
+                "object_id": "f857546418b44dfa82e1776234372bed",
+                "owner_id": {
+                    "content": "4",
+                    "displayValue": "Open Ownership",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/4"
+                },
+                "owner_team_id": {
+                    "content": "1",
+                    "displayValue": "My Team",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/team/1"
+                },
+                "pay_type": {
+                    "content": "1.0",
+                    "displayValue": "REG"
+                },
+                "payroll_phase": {
+                    "content": "099-OVERHEAD",
+                    "displayValue": "099-OVERHEAD"
+                },
+                "record_locator": "Nathan Smith - 09/05/2023",
+                "related_time_card_master": {
+                    "content": "2004149029",
+                    "displayValue": "Nathan Smith - 09/05/2023",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7f3bf69d0dc542f4bb72a37e43de82c2/2004149029"
+                },
+                "search_string": "1993340864",
+                "start_date_time": "2023-09-05T13:00:00.000Z",
+                "start_time": {
+                    "content": "0900",
+                    "displayValue": "9:00 am"
+                }
+            },
+            {
+                "created_id": {
+                    "content": "212a4d7d6f724ca9a4bb881769e5d47d",
+                    "displayValue": "Daniel Chenault",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/212a4d7d6f724ca9a4bb881769e5d47d"
+                },
+                "date_created": "2023-08-31T11:29:03.000Z",
+                "date_modified": "2023-09-12T21:40:51.000Z",
+                "elapsed_time": "8",
+                "elapsed_time_entry": "8",
+                "end_date_time": "2023-08-30T19:00:00.000Z",
+                "end_time": {
+                    "content": "1500",
+                    "displayValue": "3:00 pm"
+                },
+                "entry_date": "2023-08-30",
+                "entry_type": "",
+                "id": "2006885132",
+                "modified_id": {
+                    "content": "3",
+                    "displayValue": " System",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/3"
+                },
+                "mutliobjectlookup": {
+                    "content": "730286401",
+                    "displayValue": "Service",
+                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/730286401"
+                },
+                "name": "Daniel Chenault - 08/30/2023",
+                "notes": "General work, calls, emails, follow ups, scheduling, and meeting. truck maintenance.",
+                "object_id": "f857546418b44dfa82e1776234372bed",
+                "owner_id": {
+                    "content": "4",
+                    "displayValue": "Open Ownership",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/4"
+                },
+                "owner_team_id": {
+                    "content": "1",
+                    "displayValue": "My Team",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/team/1"
+                },
+                "pay_type": {
+                    "content": "1.0",
+                    "displayValue": "REG"
+                },
+                "payroll_phase": {
+                    "content": "300-SERVICE",
+                    "displayValue": "300-SERVICE"
+                },
+                "record_locator": "Daniel Chenault - 08/30/2023",
+                "related_time_card_master": {
+                    "content": "1181832575",
+                    "displayValue": "Daniel Chenault - 08/30/2023",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7f3bf69d0dc542f4bb72a37e43de82c2/1181832575"
+                },
+                "search_string": "2006885132",
+                "start_date_time": "2023-08-30T11:00:00.000Z",
+                "start_time": {
+                    "content": "0700",
+                    "displayValue": "7:00 am"
+                }
+            },
+            {
+                "created_id": {
+                    "content": "212a4d7d6f724ca9a4bb881769e5d47d",
+                    "displayValue": "Daniel Chenault",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/212a4d7d6f724ca9a4bb881769e5d47d"
+                },
+                "date_created": "2023-09-05T10:43:05.000Z",
+                "date_modified": "2023-09-05T10:43:28.000Z",
+                "elapsed_time": "5",
+                "elapsed_time_entry": "5",
+                "end_date_time": "2023-08-31T20:00:00.000Z",
+                "end_time": {
+                    "content": "1600",
+                    "displayValue": "4:00 pm"
+                },
+                "entry_date": "2023-08-31",
+                "entry_type": "",
+                "id": "2066719180",
+                "modified_id": {
+                    "content": "3",
+                    "displayValue": " System",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/3"
+                },
+                "mutliobjectlookup": {
+                    "content": "730286401",
+                    "displayValue": "Service",
+                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/730286401"
+                },
+                "name": "Daniel Chenault - 2023-08-31 00:00:00",
+                "notes": "General work, calls, emails, follow ups, meeting, and scheduling.",
+                "object_id": "f857546418b44dfa82e1776234372bed",
+                "owner_id": {
+                    "content": "4",
+                    "displayValue": "Open Ownership",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/4"
+                },
+                "owner_team_id": {
+                    "content": "1",
+                    "displayValue": "My Team",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/team/1"
+                },
+                "pay_type": {
+                    "content": "1.0",
+                    "displayValue": "REG"
+                },
+                "payroll_phase": {
+                    "content": "300-SERVICE",
+                    "displayValue": "300-SERVICE"
+                },
+                "record_locator": "Daniel Chenault - 2023-08-31 00:00:00",
+                "related_time_card_master": {
+                    "content": "1947171198",
+                    "displayValue": "Daniel Chenault - 08/31/2023",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7f3bf69d0dc542f4bb72a37e43de82c2/1947171198"
+                },
+                "search_string": "2066719180",
+                "start_date_time": "2023-08-31T15:00:00.000Z",
+                "start_time": {
+                    "content": "1100",
+                    "displayValue": "11:00 am"
+                }
+            },
+            {
+                "created_id": {
+                    "content": "d8191d0baac14244a11ff87470122b6d",
+                    "displayValue": "Tyler Baylin",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/d8191d0baac14244a11ff87470122b6d"
+                },
+                "date_created": "2023-08-30T14:22:25.000Z",
+                "date_modified": "2023-08-30T14:25:28.000Z",
+                "elapsed_time": "3",
+                "elapsed_time_entry": "3",
+                "end_date_time": "2023-08-28T21:00:00.000Z",
+                "end_time": {
+                    "content": "1700",
+                    "displayValue": "5:00 pm"
+                },
+                "entry_date": "2023-08-28",
+                "entry_type": "",
+                "id": "2125514332",
+                "modified_id": {
+                    "content": "3",
+                    "displayValue": " System",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/3"
+                },
+                "mutliobjectlookup": {
+                    "content": "546956554",
+                    "displayValue": "Information Technology",
+                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/546956554"
+                },
+                "name": "Tyler Baylin - 2023-08-28 00:00:00",
+                "notes": "IT, Overhead, STOPSO opps.",
+                "object_id": "f857546418b44dfa82e1776234372bed",
+                "owner_id": {
+                    "content": "4",
+                    "displayValue": "Open Ownership",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/4"
+                },
+                "owner_team_id": {
+                    "content": "1",
+                    "displayValue": "My Team",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/team/1"
+                },
+                "pay_type": {
+                    "content": "1.0",
+                    "displayValue": "REG"
+                },
+                "payroll_phase": {
+                    "content": "099-OVERHEAD",
+                    "displayValue": "099-OVERHEAD"
+                },
+                "record_locator": "Tyler Baylin - 2023-08-28 00:00:00",
+                "related_time_card_master": {
+                    "content": "163045284",
+                    "displayValue": "Tyler Baylin - 08/28/2023",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7f3bf69d0dc542f4bb72a37e43de82c2/163045284"
+                },
+                "search_string": "2125514332",
+                "start_date_time": "2023-08-28T18:00:00.000Z",
+                "start_time": {
+                    "content": "1400",
+                    "displayValue": "2:00 pm"
+                }
             }
-        },
-        "recordCount": "1"
+        ],
+        "recordCount": "58"
     }
 }

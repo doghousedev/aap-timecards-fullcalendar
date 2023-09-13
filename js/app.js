@@ -51,6 +51,8 @@ async function fetchAndInitializeCalendar() {
     }
 }
 
+/////////////////////////////////////////////////////////////////
+
 // Function to format time to HH:mm:ss format
 function formatTime(timeString) {
     const [hourMinute, ampm] = timeString.split(' ');
@@ -139,7 +141,6 @@ function handleEventClick(info) {
     });
 }
 
-
 // Callback function for handling event resizing
 function handleEventResize(info) {
     const eventId = info.event.id;
@@ -152,7 +153,7 @@ function handleEventResize(info) {
     updateEventsArray(updatedEvent);
 }
 
-// Callback function for handling event drop
+// Callback function for handling event drop 
 function handleEventDrop(info) {
     console.log('Event dropped:', info);
     const eventId = info.event.id;
@@ -185,7 +186,7 @@ function initializeFullCalendar(events) {
         eventDrop: handleEventDrop,
         eventResize: handleEventResize,
         eventClick: handleEventClick,
-        timeZone: 'America/New_York', // Set the time zone to 'America/New_York'
+        //  timeZone: 'America/New_York', // Set the time zone to 'America/New_York'
     })
 
     // Render the initialized calendar
@@ -287,7 +288,6 @@ function transformToFullCalendarEvents(jsonData) {
     });
 }
 
-
 // Function to update the events array
 function updateEventsArray(updatedEvent) {
     // Ensure that start and end dates are in ISO format
@@ -303,6 +303,9 @@ function updateEventsArray(updatedEvent) {
     }
     console.log('Updated events array:', events);
 }
+
+
+
 //#endregion Utility functions
 
 //#region  Time Card App Todos
