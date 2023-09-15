@@ -4,7 +4,21 @@ var calendar; // FullCalendar instance
 let events = []; // Array to store the events
 let nextEventId = 1;
 
-//#endregion decalrations
+const colorMapping = {
+    '1e5bb44ec77845c69a10d01df47d3f25': '#b8255f', //nathan
+    '212a4d7d6f724ca9a4bb881769e5d47d': '#280353', //daniel
+    '06c836a659904b9c8b0419682f7d4728': '#6accbc', //ron
+    'd8191d0baac14244a11ff87470122b6d': '#14aaf6', //tyler
+
+}
+const textColorMapping = {
+    '1e5bb44ec77845c69a10d01df47d3f25': '#ffffff', //nathan
+    '212a4d7d6f724ca9a4bb881769e5d47d': '#ffffff', //daniel
+    '06c836a659904b9c8b0419682f7d4728': '#000000', //ron
+    'd8191d0baac14244a11ff87470122b6d': '#ffffff', //tyler
+
+}
+//#endregion declarations
 
 //#region Utility functions
 // Callback function for adding a user-created event
@@ -50,8 +64,6 @@ async function fetchAndInitializeCalendar() {
         console.error('Error fetching JSON data:', error);
     }
 }
-
-/////////////////////////////////////////////////////////////////
 
 // Function to format time to HH:mm:ss format
 function formatTime(timeString) {
@@ -178,20 +190,25 @@ function handleTimeRangeSelection(info) {
 function initializeFullCalendar(events) {
     const calendarEl = document.getElementById('calendar'); // Replace with your calendar element ID
     calendar = new FullCalendar.Calendar(calendarEl, {
-        initialView: 'timeGridWeek',
-        events: events,
-        selectable: true,
-        select: handleTimeRangeSelection,
         editable: true,
+        eventBackgroundColor: 'eventColor',
+        eventClick: handleEventClick,
         eventDrop: handleEventDrop,
         eventResize: handleEventResize,
-        eventClick: handleEventClick,
-        //  timeZone: 'America/New_York', // Set the time zone to 'America/New_York'
+        events: events,
+        eventTextColor: 'eventTextColor',
+        headerToolbar: {
+            left: 'prev,next',
+            center: 'title',
+            right: 'timeGridDay,timeGridWeek,dayGridMonth'
+        },
+        initialView: 'timeGridWeek',
+        select: handleTimeRangeSelection,
+        selectable: true,
     })
 
     // Render the initialized calendar
     calendar.render();
-    console.log("Calendar time zone: ", calendar.getOption('timeZone'));
 }
 
 // Function to show a confirmation dialog
@@ -269,26 +286,42 @@ function showEventForm(title, startValue, endValue, titleValue, callback) {
     });
 }
 
-// Function to transform the platform data to FullCalendar events
+// Function to transform the platform data to FullCalendar events with custom event colors
 function transformToFullCalendarEvents(jsonData) {
     // Ensure records is an array
     let records = Array.isArray(jsonData.platform.record) ? jsonData.platform.record : [jsonData.platform.record];
 
-    console.log(jsonData)
     return records.map(record => {
+        const userId = record.created_id?.content;
         const description = record.mutliobjectlookup?.displayValue;
-        const title = `${record.id}-${record.created_id?.displayValue}-${description}`;
+        const title = `${record.created_id?.displayValue}-${description} `;
+
+        const bgColor = getColorForUserId(userId);
+        const textColor = getTextColorForUserId(userId);
 
         return {
             id: record.id,
             title: title,
             start: record.start_date_time,
-            end: record.end_date_time
+            end: record.end_date_time,
+            backgroundColor: bgColor,
+            textColor: textColor
+
         };
     });
 }
 
-// Function to update the events array
+// Function to get a color based on created_id 
+function getColorForUserId(userId) {
+    return colorMapping[userId] || '#4073ff'; // default color
+}
+
+//Function to get a text color based on the background color
+function getTextColorForUserId(userId) {
+    return textColorMapping[userId] || '#000000'; // default color
+}
+
+// Function to update the events array //
 function updateEventsArray(updatedEvent) {
     // Ensure that start and end dates are in ISO format
     console.log('Updated event:', updatedEvent);
