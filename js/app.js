@@ -24,19 +24,28 @@ const textColorMapping = {
 // Callback function for adding a user-created event
 function addUserEvent(startTime, endTime, title) {
     showEventForm('Add Timecard', startTime.toISOString(), endTime.toISOString(), title, (result) => {
+        // Extract values from Swal
         const eventTitle = Swal.getPopup().querySelector('#eventTitle').value;
-        const eventStart = new Date(Swal.getPopup().querySelector('#eventStart').value + 'T' + startTime.toISOString().split('T')[1]);
-        const eventEnd = new Date(Swal.getPopup().querySelector('#eventEnd').value + 'T' + endTime.toISOString().split('T')[1]);
+        const swalStartTime = new Date(Swal.getPopup().querySelector('#eventStart').value);
+        const swalEndTime = new Date(Swal.getPopup().querySelector('#eventEnd').value);
+
+        // Extract time from original start and end times
+        const [startHour, startMin, startSec] = [startTime.getUTCHours(), startTime.getUTCMinutes(), startTime.getUTCSeconds()];
+        const [endHour, endMin, endSec] = [endTime.getUTCHours(), endTime.getUTCMinutes(), endTime.getUTCSeconds()];
+
+        // Manually set the time components to the Swal date objects
+        swalStartTime.setUTCHours(startHour, startMin, startSec);
+        swalEndTime.setUTCHours(endHour, endMin, endSec);
 
         // Validate input and add the event
-        if (eventTitle && eventStart && eventEnd) {
-            const isValid = eventStart < eventEnd;
+        if (eventTitle && swalStartTime && swalEndTime) {
+            const isValid = swalStartTime < swalEndTime;
             if (isValid) {
                 const newUserEvent = {
                     id: generateUniqueId(),
                     title: eventTitle,
-                    start: eventStart,
-                    end: eventEnd
+                    start: swalStartTime,
+                    end: swalEndTime
                 };
                 updateEventsArray(newUserEvent);
                 calendar.addEvent(newUserEvent);
@@ -205,6 +214,7 @@ function initializeFullCalendar(events) {
         initialView: 'timeGridWeek',
         select: handleTimeRangeSelection,
         selectable: true,
+        slotMinTime: '04:00:00'  // <-- Add this line to start the calendar at 4 AM
     })
 
     // Render the initialized calendar
