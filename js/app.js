@@ -3,6 +3,7 @@
 var calendar; // FullCalendar instance  
 let events = []; // Array to store the events
 let nextEventId = 1;
+var clickedEvent = {}
 
 const colorMapping = {
     '1e5bb44ec77845c69a10d01df47d3f25': '#b8255f', //nathan
@@ -106,36 +107,15 @@ function generateUniqueId() {
     return randomId.toString();
 }
 
-// Callback function for handling event deletion
-function handleDelete(event) {
-    Swal.fire({
-        title: 'Delete Event',
-        text: 'Are you sure you want to delete this event?',
-        icon: 'warning',
-        showCancelButton: true,
-        confirmButtonText: 'Delete',
-        showLoaderOnConfirm: true,
-        preConfirm: () => {
-            // You can perform the deletion logic here
-            // Update the events array and calendar accordingly
-        }
-    }).then((result) => {
-        if (result.isConfirmed) {
-            // Delete the event from the events array
-            const eventIndex = events.findIndex(e => e.id === event.id);
-            if (eventIndex !== -1) {
-                events.splice(eventIndex, 1);
-                updateEventsArray(events);
-                calendar.getEventById(event.id).remove();
-            }
-        }
-    });
-}
-
 // Callback function for handling event click
 function handleEventClick(info) {
     const event = info.event;
-    console.log(`Event clicked: \n ${event.start} \n, ${event.end} \n ${event.title}`);
+    //create a global variable to hold the event id
+    clickedEvent = event.id;
+
+    console.log('Clicked Event Global', clickedEvent);
+
+    console.log(`Event clicked: \n ${event.start} \n, ${event.end} \n ${event.title} \n ${event.id}`);
 
     // Get the event's start and end datetime values formatted for datetime-local input
     const eventStartFormatted = formatDatetimeForInput(event.start);
@@ -158,6 +138,56 @@ function handleEventClick(info) {
             calendarEvent.setProp('title', formData.title);
             calendarEvent.setStart(updatedEvent.start);
             calendarEvent.setEnd(updatedEvent.end);
+        }
+    });
+}
+
+// Callback function for handling event deletion
+// function handleDelete(event) {
+//     Swal.fire({
+//         title: 'Delete Event',
+//         text: 'Are you sure you want to delete this event?',
+//         icon: 'warning',
+//         showCancelButton: true,
+//         confirmButtonText: 'Delete',
+//         showLoaderOnConfirm: true,
+//         preConfirm: () => {
+//             // You can perform the deletion logic here
+//             // Update the events array and calendar accordingly
+//         }
+//     }).then((result) => {
+//         if (result.isConfirmed) {
+//             // Delete the event from the events array
+//             const eventIndex = events.findIndex(e => e.id === event.id);
+//             if (eventIndex !== -1) {
+//                 events.splice(eventIndex, 1);
+//                 updateEventsArray(events);
+//                 calendar.getEventById(event.id).remove();
+//             }
+//         }
+//     });
+// }
+
+// Callback function for handling event deletion
+function handleDelete() {
+    Swal.fire({
+        title: 'Delete Event',
+        text: 'Are you sure you want to delete this event?',
+        icon: 'warning',
+        showCancelButton: true,
+        confirmButtonText: 'Delete',
+    }).then((result) => {
+        if (result.isConfirmed) {
+            const eventIndex = events.findIndex(e => e.id === clickedEvent);
+            if (eventIndex !== -1) {
+                events.splice(eventIndex, 1);
+                const calendarEvent = calendar.getEventById(clickedEvent);
+                if (calendarEvent) {
+                    calendarEvent.remove();
+                }
+            } else {
+                console.log('Event not found in events array');  // Debugging line
+            }
         }
     });
 }
