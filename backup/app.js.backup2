@@ -1,32 +1,38 @@
-//Time Card using Full Calendar.js
-//#region Global Variables
-var calendar;
-let timecards = [];
+//#region decalrations
+
+var calendar; // FullCalendar instance  
+let timecards = []; // Array to store the timecards
 let nextTimecardId = 1;
 var clickedTimecard = {}
 
-const userColorMapping = {
+// Consolidated user mapping object
+const userMapping = {
     '1e5bb44ec77845c69a10d01df47d3f25': { bgColor: '#b8255f', textColor: '#ffffff', userName: 'Nathan' },
     '212a4d7d6f724ca9a4bb881769e5d47d': { bgColor: '#280353', textColor: '#ffffff', userName: 'Daniel' },
     '06c836a659904b9c8b0419682f7d4728': { bgColor: '#6accbc', textColor: '#000000', userName: 'Ron' },
     'd8191d0baac14244a11ff87470122b6d': { bgColor: '#14aaf6', textColor: '#ffffff', userName: 'Tyler' }
 };
 
-//#endregion Global Variables
+//#endregion declarations
 
-//#region Event Handlers
+//#region Utility functions
+// Callback function for adding a user-created event
 function addUserTimecard(startTime, endTime, title, notes, related_to) {
     showTimecardForm('Add Timecard', startTime.toISOString(), endTime.toISOString(), title, notes, related_to, (result) => {
-
+        // Extract values from Swal
         const eventTitle = Swal.getPopup().querySelector('#eventTitle').value;
         const swalStartTime = new Date(Swal.getPopup().querySelector('#eventStart').value);
         const swalEndTime = new Date(Swal.getPopup().querySelector('#eventEnd').value);
+
+        // Extract time from original start and end times
         const [startHour, startMin, startSec] = [startTime.getUTCHours(), startTime.getUTCMinutes(), startTime.getUTCSeconds()];
         const [endHour, endMin, endSec] = [endTime.getUTCHours(), endTime.getUTCMinutes(), endTime.getUTCSeconds()];
 
+        // Manually set the time components to the Swal date objects
         swalStartTime.setUTCHours(startHour, startMin, startSec);
         swalEndTime.setUTCHours(endHour, endMin, endSec);
 
+        // Validate input and add the event
         if (eventTitle && swalStartTime && swalEndTime) {
             const isValid = swalStartTime < swalEndTime;
             if (isValid) {
@@ -47,12 +53,14 @@ function addUserTimecard(startTime, endTime, title, notes, related_to) {
     });
 }
 
+// Function to fetch the JSON data and initialize the calendar
 async function fetchAndInitializeCalendar() {
     try {
+        // Fetch the JSON data from the file
         const response = await fetch('./data/time_card_details.json');
         const data = await response.json();
 
-        timecards = transformToTimecards(data);
+        timecards = transformToFullCalendarTimecards(data);
 
         initializeFullCalendar(timecards);
 
@@ -61,6 +69,7 @@ async function fetchAndInitializeCalendar() {
     }
 }
 
+// Function to format time to HH:mm:ss format
 function formatTime(timeString) {
     const [hourMinute, ampm] = timeString.split(' ');
 
@@ -71,10 +80,13 @@ function formatTime(timeString) {
         hour = '00';
     }
 
+    // Ensure hour is two digits
     hour = hour.padStart(2, '0');
+
     return `${hour}:${minute}:00`;
 }
 
+// Function to format a date for datetime-local input
 function formatDatetimeForInput(date) {
     const year = date.getFullYear();
     const month = String(date.getMonth() + 1).padStart(2, '0');
@@ -85,21 +97,27 @@ function formatDatetimeForInput(date) {
 }
 
 function generateUniqueId() {
-    const randomId = Math.floor(Math.random() * 1000000);
+    const randomId = Math.floor(Math.random() * 1000000); // Generate a random number as an example
     return randomId.toString();
 }
 
+// Function to get properties based on created_id
 function getUserProperties(userId) {
-    return userMapping[userId] || { bgColor: '#4073ff', textColor: '#000000', userName: 'Unknown' };
+    return userMapping[userId] || { bgColor: '#4073ff', textColor: '#000000', userName: 'Unknown' }; // default properties
 }
 
+// Callback function for handling event click
 function handleTimecardClick(info) {
     const event = info.event;
-    const title = event.title;
-    const notes = event.extendedProps.notes;
-    const relatedTo = event.extendedProps.related_to;
 
-    clickedTimecard = event.id; //global variable
+    console.log("Full event object:", event);  // Log the entire event object
+
+    const title = event.title;
+    const notes = event.extendedProps.notes; // Correct way to access 'notes'
+    const relatedTo = event.extendedProps.related_to; // Correct way to access 'related_to'
+
+    //create a global variable to hold the event id
+    clickedTimecard = event.id;
 
     console.log(`Timecard clicked:
                 ${event.start}
@@ -109,10 +127,13 @@ function handleTimecardClick(info) {
                 ${relatedTo}
      `);
 
+    // Get the event's start and end datetime values formatted for datetime-local input
     const eventStartFormatted = formatDatetimeForInput(event.start);
     const eventEndFormatted = formatDatetimeForInput(event.end);
-    showTimecardForm('Edit Timecard', eventStartFormatted, eventEndFormatted, title, notes, relatedTo, (formData) => {
 
+    // Display the form
+    showTimecardForm('Edit Timecard', eventStartFormatted, eventEndFormatted, title, notes, relatedTo, (formData) => {
+        // Handle form submission here
         const updatedTimecard = {
             id: event.id,
             title: formData.title,
@@ -123,7 +144,8 @@ function handleTimecardClick(info) {
         };
         updateTimecardsArray(updatedTimecard);
 
-        const calendarTimecard = calendar.getEventById(event.id);
+        // Update the event in the calendar
+        const calendarTimecard = calendar.getTimecardById(event.id);
         if (calendarTimecard) {
             calendarTimecard.setProp('title', formData.title);
             calendarTimecard.setStart(updatedTimecard.start);
@@ -134,6 +156,7 @@ function handleTimecardClick(info) {
     });
 }
 
+// Callback function for handling event deletion
 function handleDelete() {
     Swal.fire({
         title: 'Delete Timecard',
@@ -146,17 +169,18 @@ function handleDelete() {
             const eventIndex = timecards.findIndex(e => e.id === clickedTimecard);
             if (eventIndex !== -1) {
                 timecards.splice(eventIndex, 1);
-                const calendarTimecard = calendar.getEventById(clickedTimecard);
+                const calendarTimecard = calendar.getTimecardById(clickedTimecard);
                 if (calendarTimecard) {
                     calendarTimecard.remove();
                 }
             } else {
-                console.log('Timecard not found in timecards array');
+                console.log('Timecard not found in timecards array');  // Debugging line
             }
         }
     });
 }
 
+// Callback function for handling event resizing
 function handleTimecardResize(info) {
     const eventId = info.event.id;
     const updatedTimecard = {
@@ -164,28 +188,34 @@ function handleTimecardResize(info) {
         start: info.event.start,
         end: info.event.end
     };
+
     updateTimecardsArray(updatedTimecard);
 }
 
+// Callback function for handling event drop 
 function handleTimecardDrop(info) {
-    //console.log('Timecard dropped:', info);
+    console.log('Timecard dropped:', info);
     const eventId = info.event.id;
     const updatedTimecard = {
         id: eventId,
         start: info.event.start,
         end: info.event.end
     };
-    handleDelete(updatedTimecard);
+
+    updateTimecardsArray(updatedTimecard);
 }
 
+// Callback function for handling time range selection
 function handleTimeRangeSelection(info) {
     const selectedStartTime = info.start;
     const selectedEndTime = info.end;
+    console.log('Selected time range:', selectedStartTime, selectedEndTime);
     addUserTimecard(selectedStartTime, selectedEndTime, 'myNameHere');
 }
 
+// Initialize FullCalendar with timecards and addUserTimecard callback
 function initializeFullCalendar(timecards) {
-    const calendarEl = document.getElementById('calendar');
+    const calendarEl = document.getElementById('calendar'); // Replace with your calendar element ID
     calendar = new FullCalendar.Calendar(calendarEl, {
         editable: true,
         eventBackgroundColor: 'eventColor',
@@ -202,12 +232,14 @@ function initializeFullCalendar(timecards) {
         initialView: 'timeGridWeek',
         select: handleTimeRangeSelection,
         selectable: true,
-        slotMinTime: '04:00:00'
+        slotMinTime: '04:00:00'  // <-- Add this line to start the calendar at 4 AM
     })
 
+    // Render the initialized calendar
     calendar.render();
 }
 
+// Function to show a confirmation dialog
 function showConfirmationDialog(title, text) {
     return Swal.fire({
         title: title,
@@ -219,7 +251,10 @@ function showConfirmationDialog(title, text) {
     });
 }
 
+// Function to show an event form
 function showTimecardForm(title, startValue, endValue, createdByValue, notes, related_to, onFormSubmit) {
+    // Your existing code for formatDateForInput remains the same
+
     Swal.fire({
         title: title,
         html: `<style>
@@ -267,7 +302,7 @@ function showTimecardForm(title, startValue, endValue, createdByValue, notes, re
             const newNotes = Swal.getPopup().querySelector('#eventNotes').value;
             const newRelatedTo = Swal.getPopup().querySelector('#eventRelated').value;
 
-            onFormSubmit({
+            callback({
                 title: newTitle,
                 start: newStart,
                 end: newEnd,
@@ -287,14 +322,20 @@ function showTimecardForm(title, startValue, endValue, createdByValue, notes, re
     });
 }
 
-function transformToTimecards(jsonData) {
-    let records = Array.isArray(jsonData.platform.record) ? jsonData.platform.record : [jsonData.platform.record];
+// Function to transform the platform data to FullCalendar timecards with custom event colors
+function transformToFullCalendarTimecards(eventDataJson) {
+    // Ensure records is an array
+    let records = Array.isArray(eventDataJson.platform.record) ? eventDataJson.platform.record : [eventDataJson.platform.record];
 
     return records.map(record => {
         const userId = record.created_id?.content;
-        const description = record.mutliobjectlookup?.displayValue;
-        const title = `${record.created_id?.displayValue}-${description} `;
-        const userSettings = userColorMapping[userId] || { bgColor: '#4073ff', textColor: '#000000', userName: 'Unknown' };
+        const title = `${record.created_id?.displayValue}`;
+
+        // Usage in your code where you are setting properties based on userId
+        const userProps = getUserProperties(userId);
+        const bgColor = userProps.bgColor;
+        const textColor = userProps.textColor;
+        const userName = userProps.userName;
 
         return {
             id: record.id,
@@ -303,15 +344,17 @@ function transformToTimecards(jsonData) {
             end: record.end_date_time,
             notes: record.notes,
             related_to: record.mutliobjectlookup.displayValue,
-            backgroundColor: userSettings.bgColor,
-            textColor: userSettings.textColor,
-            userName: userSettings.userName
+            backgroundColor: bgColor,
+            textColor: textColor
+
         };
     });
 }
 
+// Function to update the timecards array //
 function updateTimecardsArray(updatedTimecard) {
-    // console.log('Updated event:', updatedTimecard);
+    // Ensure that start and end dates are in ISO format
+    console.log('Updated event:', updatedTimecard);
     updatedTimecard.start = updatedTimecard.start.toISOString();
     updatedTimecard.end = updatedTimecard.end.toISOString();
 
@@ -321,7 +364,19 @@ function updateTimecardsArray(updatedTimecard) {
     } else {
         timecards.push(updatedTimecard);
     }
-    //console.log('Updated timecards array:', timecards);
+    console.log('Updated timecards array:', timecards);
 }
 
-//#endregion Event Handlers
+
+
+//#endregion Utility functions
+
+//#region  Time Card App Todos
+/****************************************************************************************
+
+- CRUD to REST API
+- modify the select to a single function instead of two
+- make this a svelte app so we can pack it in a single file like we do with svelte-ts-grid
+- make it TS and add the types
+*********************************************************************************************/
+//#endregion
