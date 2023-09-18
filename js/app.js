@@ -23,8 +23,8 @@ const textColorMapping = {
 
 //#region Utility functions
 // Callback function for adding a user-created event
-function addUserEvent(startTime, endTime, title) {
-    showEventForm('Add Timecard', startTime.toISOString(), endTime.toISOString(), title, (result) => {
+function addUserEvent(startTime, endTime, title, notes, related_to) {
+    showEventForm('Add Timecard', startTime.toISOString(), endTime.toISOString(), title, notes, related_to, (result) => {
         // Extract values from Swal
         const eventTitle = Swal.getPopup().querySelector('#eventTitle').value;
         const swalStartTime = new Date(Swal.getPopup().querySelector('#eventStart').value);
@@ -107,28 +107,51 @@ function generateUniqueId() {
     return randomId.toString();
 }
 
+// Function to get a color based on created_id 
+function getColorForUserId(userId) {
+    return colorMapping[userId] || '#4073ff'; // default color
+}
+
+//Function to get a text color based on the background color
+function getTextColorForUserId(userId) {
+    return textColorMapping[userId] || '#000000'; // default color
+}
+
 // Callback function for handling event click
 function handleEventClick(info) {
     const event = info.event;
+
+    console.log("Full event object:", event);  // Log the entire event object
+
+    const title = event.title;
+    const notes = event.extendedProps.notes; // Correct way to access 'notes'
+    const relatedTo = event.extendedProps.related_to; // Correct way to access 'related_to'
+
     //create a global variable to hold the event id
     clickedEvent = event.id;
 
-    console.log('Clicked Event Global', clickedEvent);
-
-    console.log(`Event clicked: \n ${event.start} \n, ${event.end} \n ${event.title} \n ${event.id}`);
+    console.log(`Event clicked:
+                ${event.start}
+                ${event.end}
+                ${event.title}
+                ${notes}
+                ${relatedTo}
+     `);
 
     // Get the event's start and end datetime values formatted for datetime-local input
     const eventStartFormatted = formatDatetimeForInput(event.start);
     const eventEndFormatted = formatDatetimeForInput(event.end);
 
     // Display the form
-    showEventForm('Edit TimeCard', eventStartFormatted, eventEndFormatted, event.title, (formData) => {
+    showEventForm('Edit Timecard', eventStartFormatted, eventEndFormatted, title, notes, relatedTo, (formData) => {
         // Handle form submission here
         const updatedEvent = {
             id: event.id,
             title: formData.title,
             start: new Date(formData.start),
-            end: new Date(formData.end)
+            end: new Date(formData.end),
+            notes: event.notes,
+            related: event.related_to,
         };
         updateEventsArray(updatedEvent);
 
@@ -138,6 +161,8 @@ function handleEventClick(info) {
             calendarEvent.setProp('title', formData.title);
             calendarEvent.setStart(updatedEvent.start);
             calendarEvent.setEnd(updatedEvent.end);
+            calendarEvent.setExtendedProp('notes', updatedEvent.notes);
+            calendarEvent.setExtendedProp('related', updatedEvent.related_to);
         }
     });
 }
@@ -264,54 +289,62 @@ function showConfirmationDialog(title, text) {
 }
 
 // Function to show an event form
-function showEventForm(title, startValue, endValue, titleValue, callback) {
-    // Function to format a date in the required format for datetime-local input
-    function formatDateForInput(date) {
-        const year = date.getFullYear();
-        const month = String(date.getMonth() + 1).padStart(2, '0');
-        const day = String(date.getDate()).padStart(2, '0');
-        const hours = String(date.getHours()).padStart(2, '0');
-        const minutes = String(date.getMinutes()).padStart(2, '0');
-        return `${year}-${month}-${day}T${hours}:${minutes}`;
-    }
-
-    startValue = formatDateForInput(new Date(startValue));
-    endValue = formatDateForInput(new Date(endValue));
+function showEventForm(title, startValue, endValue, createdByValue, notes, related_to, callback) {
+    // Your existing code for formatDateForInput remains the same
 
     Swal.fire({
         title: title,
-        html: `
-        <form class="custom-form">
-            <div class="form-row">
-                <label for="eventTitle">Title:</label>
-                <input type="text" id="eventTitle" value="${titleValue}" class="swal2-input">
-            </div>
-            <div class="form-row">
-                <label for="eventStart">Start:</label>
-                <input type="datetime-local" id="eventStart" value="${startValue}" class="swal2-input">
-            </div>
-            <div class="form-row">
-                <label for="eventEnd">End:</label>
-                <input type="datetime-local" id="eventEnd" value="${endValue}" class="swal2-input">
-            </div>
-        </form>
-      `,
+        html: `<style>
+        .custom-form {
+            display: grid;
+            grid-template-columns: auto 1fr;
+            gap: 5px;
+            align-items: center;
+        }
+        .form-row label {
+            text-align: right;
+        }
+        .swal2-input {
+            font-family: inherit;
+            font-size: inherit;
+            margin: 0;
+        }
+        #eventStart, #eventEnd {
+            color: dodgerblue;
+        }
+    </style>
+    <form class="custom-form">
+        <label for="eventCreatedBy">Owner:</label>
+        <input type="text" id="eventCreatedBy" value="${createdByValue}" class="swal2-input">
+        <label for="eventRelated">Related To:</label>
+        <input type="text" id="eventRelated" value="${related_to}" class="swal2-input">
+        <label for="eventStart">Start:</label>
+        <input type="datetime-local" id="eventStart" value="${startValue}" class="swal2-input">
+        <label for="eventEnd">End:</label>
+        <input type="datetime-local" id="eventEnd" value="${endValue}" class="swal2-input">
+        <label for="eventNotes">Notes:</label>
+        <textarea id="eventNotes" class="swal2-textarea">${notes}</textarea>
+    </form>
+    
+   `,
         showCancelButton: true,
-        showDenyButton: true, // Add the delete button
+        showDenyButton: true,
         confirmButtonText: 'Save',
-        denyButtonText: 'Delete', // Customize the delete button text
+        denyButtonText: 'Delete',
         showLoaderOnConfirm: true,
         preConfirm: () => {
-            const newTitle = Swal.getPopup().querySelector('#eventTitle').value;
+            const newTitle = Swal.getPopup().querySelector('#eventCreatedBy').value;
             const newStart = new Date(Swal.getPopup().querySelector('#eventStart').value);
             const newEnd = new Date(Swal.getPopup().querySelector('#eventEnd').value);
-            // You can perform validation and updating here
+            const newNotes = Swal.getPopup().querySelector('#eventNotes').value;
+            const newRelatedTo = Swal.getPopup().querySelector('#eventRelated').value;
 
-            // Invoke the callback with the form values
             callback({
                 title: newTitle,
                 start: newStart,
-                end: newEnd
+                end: newEnd,
+                notes: newNotes,
+                related_to: newRelatedTo
             });
         },
         customClass: {
@@ -320,11 +353,13 @@ function showEventForm(title, startValue, endValue, titleValue, callback) {
             denyButton: 'swal2-deny-button',
         }
     }).then((result) => {
-        if (result.isDenied) { // If delete button was clicked
+        if (result.isDenied) {
+            // The handleDelete function should be defined elsewhere in your code
             handleDelete(event);
         }
     });
 }
+
 
 // Function to transform the platform data to FullCalendar events with custom event colors
 function transformToFullCalendarEvents(jsonData) {
@@ -333,8 +368,7 @@ function transformToFullCalendarEvents(jsonData) {
 
     return records.map(record => {
         const userId = record.created_id?.content;
-        const description = record.mutliobjectlookup?.displayValue;
-        const title = `${record.created_id?.displayValue}-${description} `;
+        const title = `${record.created_id?.displayValue}`;
 
         const bgColor = getColorForUserId(userId);
         const textColor = getTextColorForUserId(userId);
@@ -344,21 +378,13 @@ function transformToFullCalendarEvents(jsonData) {
             title: title,
             start: record.start_date_time,
             end: record.end_date_time,
+            notes: record.notes,
+            related_to: record.mutliobjectlookup.displayValue,
             backgroundColor: bgColor,
             textColor: textColor
 
         };
     });
-}
-
-// Function to get a color based on created_id 
-function getColorForUserId(userId) {
-    return colorMapping[userId] || '#4073ff'; // default color
-}
-
-//Function to get a text color based on the background color
-function getTextColorForUserId(userId) {
-    return textColorMapping[userId] || '#000000'; // default color
 }
 
 // Function to update the events array //

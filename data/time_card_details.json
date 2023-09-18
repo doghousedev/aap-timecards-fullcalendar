@@ -20,10 +20,7 @@
                     "type": "7ba5266e8b0a42599579576ca8caf764",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/7ba5266e8b0a42599579576ca8caf764/1698452539"
                 },
-                "payroll_phase": {
-                    "content": "300-SERVICE",
-                    "displayValue": "300-SERVICE"
-                },
+                "notes": "Travel and looked at audio issue,",
                 "start_date_time": "2023-09-05T14:00:00.000Z"
             },
             {
@@ -41,52 +38,7 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/546956554"
                 },
-                "payroll_phase": {
-                    "content": "099-OVERHEAD",
-                    "displayValue": "099-OVERHEAD"
-                },
-                "start_date_time": ""
-            },
-            {
-                "created_id": {
-                    "content": "1e5bb44ec77845c69a10d01df47d3f25",
-                    "displayValue": "Nathan Smith",
-                    "type": "",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/1e5bb44ec77845c69a10d01df47d3f25"
-                },
-                "end_date_time": "",
-                "id": "30414817",
-                "mutliobjectlookup": {
-                    "content": "705015018",
-                    "displayValue": "Operations",
-                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/705015018"
-                },
-                "payroll_phase": {
-                    "content": "099-OVERHEAD",
-                    "displayValue": "099-OVERHEAD"
-                },
-                "start_date_time": ""
-            },
-            {
-                "created_id": {
-                    "content": "1e5bb44ec77845c69a10d01df47d3f25",
-                    "displayValue": "Nathan Smith",
-                    "type": "",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/1e5bb44ec77845c69a10d01df47d3f25"
-                },
-                "end_date_time": "",
-                "id": "66824458",
-                "mutliobjectlookup": {
-                    "content": "553203401",
-                    "displayValue": "5120-EN-NET-PA-SCHOOLS-DISPLAYS",
-                    "type": "c85c189652f2450da6b66c02ed927778",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/c85c189652f2450da6b66c02ed927778/553203401"
-                },
-                "payroll_phase": {
-                    "content": "515-TRAVELH",
-                    "displayValue": "515-TRAVELH"
-                },
+                "notes": "LJ IT Overhead, Proposal etc.",
                 "start_date_time": ""
             },
             {
@@ -104,32 +56,8 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/390564660"
                 },
-                "payroll_phase": {
-                    "content": "020-PROPOSAL",
-                    "displayValue": "020-PROPOSAL"
-                },
+                "notes": "Armistead Gardens",
                 "start_date_time": "2023-09-05T12:00:00.000Z"
-            },
-            {
-                "created_id": {
-                    "content": "212a4d7d6f724ca9a4bb881769e5d47d",
-                    "displayValue": "Daniel Chenault",
-                    "type": "",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/212a4d7d6f724ca9a4bb881769e5d47d"
-                },
-                "end_date_time": "",
-                "id": "142712105",
-                "mutliobjectlookup": {
-                    "content": "1336142659",
-                    "displayValue": "PTO",
-                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/1336142659"
-                },
-                "payroll_phase": {
-                    "content": "096-PTO",
-                    "displayValue": "096-PTO"
-                },
-                "start_date_time": ""
             },
             {
                 "created_id": {
@@ -146,10 +74,7 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/1336142659"
                 },
-                "payroll_phase": {
-                    "content": "096-PTO",
-                    "displayValue": "096-PTO"
-                },
+                "notes": "PTO - covid positive",
                 "start_date_time": ""
             },
             {
@@ -167,32 +92,8 @@
                     "type": "7ba5266e8b0a42599579576ca8caf764",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/7ba5266e8b0a42599579576ca8caf764/1922894207"
                 },
-                "payroll_phase": {
-                    "content": "300-SERVICE",
-                    "displayValue": "300-SERVICE"
-                },
+                "notes": "Travel and resolved the problem.",
                 "start_date_time": "2023-09-01T17:00:00.000Z"
-            },
-            {
-                "created_id": {
-                    "content": "1e5bb44ec77845c69a10d01df47d3f25",
-                    "displayValue": "Nathan Smith",
-                    "type": "",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/1e5bb44ec77845c69a10d01df47d3f25"
-                },
-                "end_date_time": "",
-                "id": "203251998",
-                "mutliobjectlookup": {
-                    "content": "553203401",
-                    "displayValue": "5120-EN-NET-PA-SCHOOLS-DISPLAYS",
-                    "type": "c85c189652f2450da6b66c02ed927778",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/c85c189652f2450da6b66c02ed927778/553203401"
-                },
-                "payroll_phase": {
-                    "content": "515-TRAVELH",
-                    "displayValue": "515-TRAVELH"
-                },
-                "start_date_time": ""
             },
             {
                 "created_id": {
@@ -209,10 +110,7 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/730286401"
                 },
-                "payroll_phase": {
-                    "content": "300-SERVICE",
-                    "displayValue": "300-SERVICE"
-                },
+                "notes": "General work, calls, emails, follow ups, scheduling.",
                 "start_date_time": "2023-09-05T11:00:00.000Z"
             },
             {
@@ -230,10 +128,7 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/730286401"
                 },
-                "payroll_phase": {
-                    "content": "300-SERVICE",
-                    "displayValue": "300-SERVICE"
-                },
+                "notes": "Calls, emails, follow ups, meeting, and scheduling.",
                 "start_date_time": "2023-08-29T12:00:00.000Z"
             },
             {
@@ -251,32 +146,8 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/705015018"
                 },
-                "payroll_phase": {
-                    "content": "099-OVERHEAD",
-                    "displayValue": "099-OVERHEAD"
-                },
+                "notes": "office work, opportunities",
                 "start_date_time": "2023-09-01T13:00:00.000Z"
-            },
-            {
-                "created_id": {
-                    "content": "d8191d0baac14244a11ff87470122b6d",
-                    "displayValue": "Tyler Baylin",
-                    "type": "",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/d8191d0baac14244a11ff87470122b6d"
-                },
-                "end_date_time": "",
-                "id": "287198172",
-                "mutliobjectlookup": {
-                    "content": "546956554",
-                    "displayValue": "Information Technology",
-                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/546956554"
-                },
-                "payroll_phase": {
-                    "content": "099-OVERHEAD",
-                    "displayValue": "099-OVERHEAD"
-                },
-                "start_date_time": ""
             },
             {
                 "created_id": {
@@ -293,137 +164,8 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/1336142659"
                 },
-                "payroll_phase": {
-                    "content": "096-PTO",
-                    "displayValue": "096-PTO"
-                },
+                "notes": "labor day holiday",
                 "start_date_time": "2023-09-04T13:00:00.000Z"
-            },
-            {
-                "created_id": {
-                    "content": "1e5bb44ec77845c69a10d01df47d3f25",
-                    "displayValue": "Nathan Smith",
-                    "type": "",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/1e5bb44ec77845c69a10d01df47d3f25"
-                },
-                "end_date_time": "",
-                "id": "309190274",
-                "mutliobjectlookup": {
-                    "content": "705015018",
-                    "displayValue": "Operations",
-                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/705015018"
-                },
-                "payroll_phase": {
-                    "content": "099-OVERHEAD",
-                    "displayValue": "099-OVERHEAD"
-                },
-                "start_date_time": ""
-            },
-            {
-                "created_id": {
-                    "content": "212a4d7d6f724ca9a4bb881769e5d47d",
-                    "displayValue": "Daniel Chenault",
-                    "type": "",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/212a4d7d6f724ca9a4bb881769e5d47d"
-                },
-                "end_date_time": "",
-                "id": "311534151",
-                "mutliobjectlookup": {
-                    "content": "553203401",
-                    "displayValue": "5120-EN-NET-PA-SCHOOLS-DISPLAYS",
-                    "type": "c85c189652f2450da6b66c02ed927778",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/c85c189652f2450da6b66c02ed927778/553203401"
-                },
-                "payroll_phase": {
-                    "content": "400-PROJECT-MGT",
-                    "displayValue": "400-PROJECT-MGT"
-                },
-                "start_date_time": ""
-            },
-            {
-                "created_id": {
-                    "content": "1e5bb44ec77845c69a10d01df47d3f25",
-                    "displayValue": "Nathan Smith",
-                    "type": "",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/1e5bb44ec77845c69a10d01df47d3f25"
-                },
-                "end_date_time": "",
-                "id": "318361326",
-                "mutliobjectlookup": {
-                    "content": "705015018",
-                    "displayValue": "Operations",
-                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/705015018"
-                },
-                "payroll_phase": {
-                    "content": "099-OVERHEAD",
-                    "displayValue": "099-OVERHEAD"
-                },
-                "start_date_time": ""
-            },
-            {
-                "created_id": {
-                    "content": "1e5bb44ec77845c69a10d01df47d3f25",
-                    "displayValue": "Nathan Smith",
-                    "type": "",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/1e5bb44ec77845c69a10d01df47d3f25"
-                },
-                "end_date_time": "",
-                "id": "354378770",
-                "mutliobjectlookup": {
-                    "content": "705015018",
-                    "displayValue": "Operations",
-                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/705015018"
-                },
-                "payroll_phase": {
-                    "content": "099-OVERHEAD",
-                    "displayValue": "099-OVERHEAD"
-                },
-                "start_date_time": ""
-            },
-            {
-                "created_id": {
-                    "content": "1e5bb44ec77845c69a10d01df47d3f25",
-                    "displayValue": "Nathan Smith",
-                    "type": "",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/1e5bb44ec77845c69a10d01df47d3f25"
-                },
-                "end_date_time": "",
-                "id": "355580795",
-                "mutliobjectlookup": {
-                    "content": "705015018",
-                    "displayValue": "Operations",
-                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/705015018"
-                },
-                "payroll_phase": {
-                    "content": "099-OVERHEAD",
-                    "displayValue": "099-OVERHEAD"
-                },
-                "start_date_time": ""
-            },
-            {
-                "created_id": {
-                    "content": "212a4d7d6f724ca9a4bb881769e5d47d",
-                    "displayValue": "Daniel Chenault",
-                    "type": "",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/212a4d7d6f724ca9a4bb881769e5d47d"
-                },
-                "end_date_time": "",
-                "id": "369649923",
-                "mutliobjectlookup": {
-                    "content": "730286401",
-                    "displayValue": "Service",
-                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/730286401"
-                },
-                "payroll_phase": {
-                    "content": "300-SERVICE",
-                    "displayValue": "300-SERVICE"
-                },
-                "start_date_time": ""
             },
             {
                 "created_id": {
@@ -440,32 +182,8 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/705015018"
                 },
-                "payroll_phase": {
-                    "content": "099-OVERHEAD",
-                    "displayValue": "099-OVERHEAD"
-                },
+                "notes": "internal, shop clean, assist tyler",
                 "start_date_time": "2023-08-31T13:00:00.000Z"
-            },
-            {
-                "created_id": {
-                    "content": "212a4d7d6f724ca9a4bb881769e5d47d",
-                    "displayValue": "Daniel Chenault",
-                    "type": "",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/212a4d7d6f724ca9a4bb881769e5d47d"
-                },
-                "end_date_time": "",
-                "id": "421202574",
-                "mutliobjectlookup": {
-                    "content": "730286401",
-                    "displayValue": "Service",
-                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/730286401"
-                },
-                "payroll_phase": {
-                    "content": "300-SERVICE",
-                    "displayValue": "300-SERVICE"
-                },
-                "start_date_time": ""
             },
             {
                 "created_id": {
@@ -482,11 +200,26 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/1400804969"
                 },
-                "payroll_phase": {
-                    "content": "099-OVERHEAD",
-                    "displayValue": "099-OVERHEAD"
-                },
+                "notes": "general business mgt",
                 "start_date_time": "2023-09-04T12:00:00.000Z"
+            },
+            {
+                "created_id": {
+                    "content": "d8191d0baac14244a11ff87470122b6d",
+                    "displayValue": "Tyler Baylin",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/d8191d0baac14244a11ff87470122b6d"
+                },
+                "end_date_time": "2023-09-16T11:00:00.000Z",
+                "id": "430025119",
+                "mutliobjectlookup": {
+                    "content": "390564660",
+                    "displayValue": "Sales",
+                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/390564660"
+                },
+                "notes": "Steve TN Opportunity finalizing",
+                "start_date_time": "2023-09-16T09:00:00.000Z"
             },
             {
                 "created_id": {
@@ -503,53 +236,8 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/1400804969"
                 },
-                "payroll_phase": {
-                    "content": "099-OVERHEAD",
-                    "displayValue": "099-OVERHEAD"
-                },
+                "notes": "General Admin",
                 "start_date_time": "2023-09-07T14:00:00.000Z"
-            },
-            {
-                "created_id": {
-                    "content": "1e5bb44ec77845c69a10d01df47d3f25",
-                    "displayValue": "Nathan Smith",
-                    "type": "",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/1e5bb44ec77845c69a10d01df47d3f25"
-                },
-                "end_date_time": "",
-                "id": "445812382",
-                "mutliobjectlookup": {
-                    "content": "705015018",
-                    "displayValue": "Operations",
-                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/705015018"
-                },
-                "payroll_phase": {
-                    "content": "099-OVERHEAD",
-                    "displayValue": "099-OVERHEAD"
-                },
-                "start_date_time": ""
-            },
-            {
-                "created_id": {
-                    "content": "1e5bb44ec77845c69a10d01df47d3f25",
-                    "displayValue": "Nathan Smith",
-                    "type": "",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/1e5bb44ec77845c69a10d01df47d3f25"
-                },
-                "end_date_time": "",
-                "id": "474405917",
-                "mutliobjectlookup": {
-                    "content": "705015018",
-                    "displayValue": "Operations",
-                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/705015018"
-                },
-                "payroll_phase": {
-                    "content": "099-OVERHEAD",
-                    "displayValue": "099-OVERHEAD"
-                },
-                "start_date_time": ""
             },
             {
                 "created_id": {
@@ -566,10 +254,7 @@
                     "type": "7ba5266e8b0a42599579576ca8caf764",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/7ba5266e8b0a42599579576ca8caf764/156537771"
                 },
-                "payroll_phase": {
-                    "content": "515-TRAVELH",
-                    "displayValue": "515-TRAVELH"
-                },
+                "notes": "Travel to New York for service call.",
                 "start_date_time": ""
             },
             {
@@ -587,11 +272,26 @@
                     "type": "c85c189652f2450da6b66c02ed927778",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/c85c189652f2450da6b66c02ed927778/393840490"
                 },
-                "payroll_phase": {
-                    "content": "515-TRAVELH",
-                    "displayValue": "515-TRAVELH"
-                },
+                "notes": "Travel back from Bechtel Reston",
                 "start_date_time": "2023-08-25T19:00:00.000Z"
+            },
+            {
+                "created_id": {
+                    "content": "d8191d0baac14244a11ff87470122b6d",
+                    "displayValue": "Tyler Baylin",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/d8191d0baac14244a11ff87470122b6d"
+                },
+                "end_date_time": "2023-09-13T00:00:00.000Z",
+                "id": "550126042",
+                "mutliobjectlookup": {
+                    "content": "546956554",
+                    "displayValue": "Information Technology",
+                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/546956554"
+                },
+                "notes": "Sales, Opps, Ted Sales, More Opps",
+                "start_date_time": "2023-09-12T16:00:00.000Z"
             },
             {
                 "created_id": {
@@ -608,10 +308,7 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/705015018"
                 },
-                "payroll_phase": {
-                    "content": "099-OVERHEAD",
-                    "displayValue": "099-OVERHEAD"
-                },
+                "notes": "shop work, quotes, po reconcile, etc",
                 "start_date_time": "2023-09-11T13:00:00.000Z"
             },
             {
@@ -629,10 +326,7 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/705015018"
                 },
-                "payroll_phase": {
-                    "content": "099-OVERHEAD",
-                    "displayValue": "099-OVERHEAD"
-                },
+                "notes": "take offs, quotes, etc",
                 "start_date_time": ""
             },
             {
@@ -650,10 +344,7 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/730286401"
                 },
-                "payroll_phase": {
-                    "content": "300-SERVICE",
-                    "displayValue": "300-SERVICE"
-                },
+                "notes": "General work, calls, emails, follolw ups, meeting, worked on sales opportunity.",
                 "start_date_time": "2023-09-11T11:00:00.000Z"
             },
             {
@@ -671,10 +362,7 @@
                     "type": "c85c189652f2450da6b66c02ed927778",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/c85c189652f2450da6b66c02ed927778/974368252"
                 },
-                "payroll_phase": {
-                    "content": "220-INSTALL",
-                    "displayValue": "220-INSTALL"
-                },
+                "notes": "assist danny in installation of new SmartBoard on second floor",
                 "start_date_time": "2023-08-29T18:50:00.000Z"
             },
             {
@@ -692,10 +380,7 @@
                     "type": "7ba5266e8b0a42599579576ca8caf764",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/7ba5266e8b0a42599579576ca8caf764/951539393"
                 },
-                "payroll_phase": {
-                    "content": "300-SERVICE",
-                    "displayValue": "300-SERVICE"
-                },
+                "notes": "Travel and loaded lift. met driver and helped pick up.",
                 "start_date_time": "2023-09-08T18:00:00.000Z"
             },
             {
@@ -713,32 +398,8 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/546956554"
                 },
-                "payroll_phase": {
-                    "content": "099-OVERHEAD",
-                    "displayValue": "099-OVERHEAD"
-                },
+                "notes": "various items and sales and stuff",
                 "start_date_time": "2023-09-12T13:00:00.000Z"
-            },
-            {
-                "created_id": {
-                    "content": "d8191d0baac14244a11ff87470122b6d",
-                    "displayValue": "Tyler Baylin",
-                    "type": "",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/d8191d0baac14244a11ff87470122b6d"
-                },
-                "end_date_time": "",
-                "id": "656961232",
-                "mutliobjectlookup": {
-                    "content": "390564660",
-                    "displayValue": "Sales",
-                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/390564660"
-                },
-                "payroll_phase": {
-                    "content": "020-PROPOSAL",
-                    "displayValue": "020-PROPOSAL"
-                },
-                "start_date_time": ""
             },
             {
                 "created_id": {
@@ -755,10 +416,7 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/390564660"
                 },
-                "payroll_phase": {
-                    "content": "300-SERVICE",
-                    "displayValue": "300-SERVICE"
-                },
+                "notes": "General work, calls, emails, follow ups, meeting, training. sales opportunity.",
                 "start_date_time": "2023-09-14T11:00:00.000Z"
             },
             {
@@ -776,10 +434,7 @@
                     "type": "c85c189652f2450da6b66c02ed927778",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/c85c189652f2450da6b66c02ed927778/393840490"
                 },
-                "payroll_phase": {
-                    "content": "515-TRAVELH",
-                    "displayValue": "515-TRAVELH"
-                },
+                "notes": "Travel From Bechtel Reston",
                 "start_date_time": ""
             },
             {
@@ -797,32 +452,8 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/390564660"
                 },
-                "payroll_phase": {
-                    "content": "020-PROPOSAL",
-                    "displayValue": "020-PROPOSAL"
-                },
+                "notes": "Armistead Gradens and  other",
                 "start_date_time": "2023-08-31T13:00:00.000Z"
-            },
-            {
-                "created_id": {
-                    "content": "212a4d7d6f724ca9a4bb881769e5d47d",
-                    "displayValue": "Daniel Chenault",
-                    "type": "",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/212a4d7d6f724ca9a4bb881769e5d47d"
-                },
-                "end_date_time": "",
-                "id": "695556489",
-                "mutliobjectlookup": {
-                    "content": "730286401",
-                    "displayValue": "Service",
-                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/730286401"
-                },
-                "payroll_phase": {
-                    "content": "300-SERVICE",
-                    "displayValue": "300-SERVICE"
-                },
-                "start_date_time": ""
             },
             {
                 "created_id": {
@@ -839,10 +470,7 @@
                     "type": "c85c189652f2450da6b66c02ed927778",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/c85c189652f2450da6b66c02ed927778/393840490"
                 },
-                "payroll_phase": {
-                    "content": "220-INSTALL",
-                    "displayValue": "220-INSTALL"
-                },
+                "notes": "Travel to, located and tested cat6 line. Installed wireless mic receiver.",
                 "start_date_time": "2023-08-28T10:00:00.000Z"
             },
             {
@@ -860,11 +488,26 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/390564660"
                 },
-                "payroll_phase": {
-                    "content": "020-PROPOSAL",
-                    "displayValue": "020-PROPOSAL"
-                },
+                "notes": "TENNESSEE ANG \nARMISTED\nSIPR NIPR",
                 "start_date_time": "2023-09-14T14:00:00.000Z"
+            },
+            {
+                "created_id": {
+                    "content": "212a4d7d6f724ca9a4bb881769e5d47d",
+                    "displayValue": "Daniel Chenault",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/212a4d7d6f724ca9a4bb881769e5d47d"
+                },
+                "end_date_time": "2023-09-15T19:00:00.000Z",
+                "id": "746151187",
+                "mutliobjectlookup": {
+                    "content": "730286401",
+                    "displayValue": "Service",
+                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/730286401"
+                },
+                "notes": "Went to APG and did service.",
+                "start_date_time": "2023-09-15T11:00:00.000Z"
             },
             {
                 "created_id": {
@@ -881,10 +524,7 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/546956554"
                 },
-                "payroll_phase": {
-                    "content": "099-OVERHEAD",
-                    "displayValue": "099-OVERHEAD"
-                },
+                "notes": "Sales, Proposals, Ted proposal, Chong Opps review, manage beoing project.",
                 "start_date_time": "2023-09-01T13:00:00.000Z"
             },
             {
@@ -902,10 +542,7 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/390564660"
                 },
-                "payroll_phase": {
-                    "content": "020-PROPOSAL",
-                    "displayValue": "020-PROPOSAL"
-                },
+                "notes": "STOPSO Tennessee ANG",
                 "start_date_time": "2023-09-15T04:00:00.000Z"
             },
             {
@@ -923,10 +560,7 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/546956554"
                 },
-                "payroll_phase": {
-                    "content": "099-OVERHEAD",
-                    "displayValue": "099-OVERHEAD"
-                },
+                "notes": "opportunities, ted meetings, greg smith remote support",
                 "start_date_time": "2023-09-08T14:00:00.000Z"
             },
             {
@@ -944,52 +578,7 @@
                     "type": "c85c189652f2450da6b66c02ed927778",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/c85c189652f2450da6b66c02ed927778/393840490"
                 },
-                "payroll_phase": {
-                    "content": "515-TRAVELH",
-                    "displayValue": "515-TRAVELH"
-                },
-                "start_date_time": ""
-            },
-            {
-                "created_id": {
-                    "content": "d8191d0baac14244a11ff87470122b6d",
-                    "displayValue": "Tyler Baylin",
-                    "type": "",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/d8191d0baac14244a11ff87470122b6d"
-                },
-                "end_date_time": "",
-                "id": "811692916",
-                "mutliobjectlookup": {
-                    "content": "705015018",
-                    "displayValue": "Operations",
-                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/705015018"
-                },
-                "payroll_phase": {
-                    "content": "099-OVERHEAD",
-                    "displayValue": "099-OVERHEAD"
-                },
-                "start_date_time": ""
-            },
-            {
-                "created_id": {
-                    "content": "212a4d7d6f724ca9a4bb881769e5d47d",
-                    "displayValue": "Daniel Chenault",
-                    "type": "",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/212a4d7d6f724ca9a4bb881769e5d47d"
-                },
-                "end_date_time": "",
-                "id": "813806941",
-                "mutliobjectlookup": {
-                    "content": "730286401",
-                    "displayValue": "Service",
-                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/730286401"
-                },
-                "payroll_phase": {
-                    "content": "300-SERVICE",
-                    "displayValue": "300-SERVICE"
-                },
+                "notes": "Travel to Bechtel Reston",
                 "start_date_time": ""
             },
             {
@@ -1007,10 +596,7 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/705015018"
                 },
-                "payroll_phase": {
-                    "content": "099-OVERHEAD",
-                    "displayValue": "099-OVERHEAD"
-                },
+                "notes": "worked on business management",
                 "start_date_time": ""
             },
             {
@@ -1028,32 +614,8 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/390564660"
                 },
-                "payroll_phase": {
-                    "content": "020-PROPOSAL",
-                    "displayValue": "020-PROPOSAL"
-                },
+                "notes": "Sales proposal for Steve Chong and APG form entry",
                 "start_date_time": "2023-08-25T20:30:00.000Z"
-            },
-            {
-                "created_id": {
-                    "content": "1e5bb44ec77845c69a10d01df47d3f25",
-                    "displayValue": "Nathan Smith",
-                    "type": "",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/1e5bb44ec77845c69a10d01df47d3f25"
-                },
-                "end_date_time": "",
-                "id": "843078903",
-                "mutliobjectlookup": {
-                    "content": "705015018",
-                    "displayValue": "Operations",
-                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/705015018"
-                },
-                "payroll_phase": {
-                    "content": "099-OVERHEAD",
-                    "displayValue": "099-OVERHEAD"
-                },
-                "start_date_time": ""
             },
             {
                 "created_id": {
@@ -1070,10 +632,7 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/730286401"
                 },
-                "payroll_phase": {
-                    "content": "300-SERVICE",
-                    "displayValue": "300-SERVICE"
-                },
+                "notes": "General work, calls, emails, follow ups, and scheduling.",
                 "start_date_time": ""
             },
             {
@@ -1083,19 +642,16 @@
                     "type": "",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/user/d8191d0baac14244a11ff87470122b6d"
                 },
-                "end_date_time": "",
-                "id": "871383762",
+                "end_date_time": "2023-09-15T09:00:00.000Z",
+                "id": "847548475",
                 "mutliobjectlookup": {
                     "content": "390564660",
                     "displayValue": "Sales",
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/390564660"
                 },
-                "payroll_phase": {
-                    "content": "020-PROPOSAL",
-                    "displayValue": "020-PROPOSAL"
-                },
-                "start_date_time": ""
+                "notes": "Steve Opp TN 4 Rooms",
+                "start_date_time": "2023-09-15T07:00:00.000Z"
             },
             {
                 "created_id": {
@@ -1112,10 +668,7 @@
                     "type": "7ba5266e8b0a42599579576ca8caf764",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/7ba5266e8b0a42599579576ca8caf764/156537771"
                 },
-                "payroll_phase": {
-                    "content": "220-INSTALL",
-                    "displayValue": "220-INSTALL"
-                },
+                "notes": "Reinstalled repaired QSC. configured,  and tested. travel back to bmore.",
                 "start_date_time": ""
             },
             {
@@ -1125,40 +678,16 @@
                     "type": "",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/user/d8191d0baac14244a11ff87470122b6d"
                 },
-                "end_date_time": "",
-                "id": "873928623",
+                "end_date_time": "2023-09-12T00:00:00.000Z",
+                "id": "874645202",
                 "mutliobjectlookup": {
                     "content": "390564660",
                     "displayValue": "Sales",
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/390564660"
                 },
-                "payroll_phase": {
-                    "content": "099-OVERHEAD",
-                    "displayValue": "099-OVERHEAD"
-                },
-                "start_date_time": ""
-            },
-            {
-                "created_id": {
-                    "content": "d8191d0baac14244a11ff87470122b6d",
-                    "displayValue": "Tyler Baylin",
-                    "type": "",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/d8191d0baac14244a11ff87470122b6d"
-                },
-                "end_date_time": "",
-                "id": "877016483",
-                "mutliobjectlookup": {
-                    "content": "390564660",
-                    "displayValue": "Sales",
-                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/390564660"
-                },
-                "payroll_phase": {
-                    "content": "020-PROPOSAL",
-                    "displayValue": "020-PROPOSAL"
-                },
-                "start_date_time": ""
+                "notes": "Sales, Opps, Ted Sales, More Opps",
+                "start_date_time": "2023-09-11T16:00:00.000Z"
             },
             {
                 "created_id": {
@@ -1175,10 +704,7 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/1336142659"
                 },
-                "payroll_phase": {
-                    "content": "096-PTO",
-                    "displayValue": "096-PTO"
-                },
+                "notes": "PTO - covid positive",
                 "start_date_time": "2023-08-24T13:00:00.000Z"
             },
             {
@@ -1196,10 +722,7 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/730286401"
                 },
-                "payroll_phase": {
-                    "content": "300-SERVICE",
-                    "displayValue": "300-SERVICE"
-                },
+                "notes": "Emails, calls, follow-ups, scheduling, data entry.",
                 "start_date_time": "2023-08-28T10:30:00.000Z"
             },
             {
@@ -1217,10 +740,7 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/705015018"
                 },
-                "payroll_phase": {
-                    "content": "099-OVERHEAD",
-                    "displayValue": "099-OVERHEAD"
-                },
+                "notes": "General Management and related items",
                 "start_date_time": "2023-08-24T12:30:00.000Z"
             },
             {
@@ -1238,10 +758,7 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/705015018"
                 },
-                "payroll_phase": {
-                    "content": "099-OVERHEAD",
-                    "displayValue": "099-OVERHEAD"
-                },
+                "notes": "shop work, proposals, quotes, meetings",
                 "start_date_time": "2023-09-12T13:00:00.000Z"
             },
             {
@@ -1259,10 +776,7 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/705015018"
                 },
-                "payroll_phase": {
-                    "content": "099-OVERHEAD",
-                    "displayValue": "099-OVERHEAD"
-                },
+                "notes": "in office before leaving sick",
                 "start_date_time": ""
             },
             {
@@ -1280,10 +794,7 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/390564660"
                 },
-                "payroll_phase": {
-                    "content": "099-OVERHEAD",
-                    "displayValue": "099-OVERHEAD"
-                },
+                "notes": "General office work. Sa1les and take offs",
                 "start_date_time": ""
             },
             {
@@ -1301,10 +812,7 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/705015018"
                 },
-                "payroll_phase": {
-                    "content": "099-OVERHEAD",
-                    "displayValue": "099-OVERHEAD"
-                },
+                "notes": "general office work - working on dynacon take off",
                 "start_date_time": ""
             },
             {
@@ -1322,10 +830,7 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/390564660"
                 },
-                "payroll_phase": {
-                    "content": "099-OVERHEAD",
-                    "displayValue": "099-OVERHEAD"
-                },
+                "notes": "working on proposals with nathan",
                 "start_date_time": "2023-09-13T14:00:00.000Z"
             },
             {
@@ -1343,10 +848,7 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/1336142659"
                 },
-                "payroll_phase": {
-                    "content": "096-PTO",
-                    "displayValue": "096-PTO"
-                },
+                "notes": "PTO sick PTO sick PTO sick",
                 "start_date_time": "2023-08-29T13:00:00.000Z"
             },
             {
@@ -1364,10 +866,7 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/705015018"
                 },
-                "payroll_phase": {
-                    "content": "099-OVERHEAD",
-                    "displayValue": "099-OVERHEAD"
-                },
+                "notes": "shop work, proposals, quotes, meetings",
                 "start_date_time": "2023-09-13T13:00:00.000Z"
             },
             {
@@ -1385,10 +884,7 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/730286401"
                 },
-                "payroll_phase": {
-                    "content": "300-SERVICE",
-                    "displayValue": "300-SERVICE"
-                },
+                "notes": "General work, calls, emails, follow ups and scheduling.  Meeting and reviewed project.",
                 "start_date_time": "2023-09-08T13:00:00.000Z"
             },
             {
@@ -1406,10 +902,7 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/390564660"
                 },
-                "payroll_phase": {
-                    "content": "020-PROPOSAL",
-                    "displayValue": "020-PROPOSAL"
-                },
+                "notes": "FFCU Quotes.",
                 "start_date_time": "2023-09-08T12:30:00.000Z"
             },
             {
@@ -1427,32 +920,8 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/705015018"
                 },
-                "payroll_phase": {
-                    "content": "099-OVERHEAD",
-                    "displayValue": "099-OVERHEAD"
-                },
+                "notes": "work from home monday",
                 "start_date_time": "2023-08-28T13:00:00.000Z"
-            },
-            {
-                "created_id": {
-                    "content": "212a4d7d6f724ca9a4bb881769e5d47d",
-                    "displayValue": "Daniel Chenault",
-                    "type": "",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/212a4d7d6f724ca9a4bb881769e5d47d"
-                },
-                "end_date_time": "",
-                "id": "991395888",
-                "mutliobjectlookup": {
-                    "content": "730286401",
-                    "displayValue": "Service",
-                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/730286401"
-                },
-                "payroll_phase": {
-                    "content": "300-SERVICE",
-                    "displayValue": "300-SERVICE"
-                },
-                "start_date_time": ""
             },
             {
                 "created_id": {
@@ -1469,10 +938,7 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/705015018"
                 },
-                "payroll_phase": {
-                    "content": "099-OVERHEAD",
-                    "displayValue": "099-OVERHEAD"
-                },
+                "notes": "shop work, proposals, quotes, meetings",
                 "start_date_time": "2023-09-14T13:00:00.000Z"
             },
             {
@@ -1490,10 +956,7 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/390564660"
                 },
-                "payroll_phase": {
-                    "content": "020-PROPOSAL",
-                    "displayValue": "020-PROPOSAL"
-                },
+                "notes": "Armistead Garden\nTennessee AGN",
                 "start_date_time": "2023-09-15T14:30:00.000Z"
             },
             {
@@ -1511,31 +974,7 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/730286401"
                 },
-                "payroll_phase": {
-                    "content": "220-INSTALL",
-                    "displayValue": "220-INSTALL"
-                },
-                "start_date_time": ""
-            },
-            {
-                "created_id": {
-                    "content": "d8191d0baac14244a11ff87470122b6d",
-                    "displayValue": "Tyler Baylin",
-                    "type": "",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/d8191d0baac14244a11ff87470122b6d"
-                },
-                "end_date_time": "",
-                "id": "1025352656",
-                "mutliobjectlookup": {
-                    "content": "390564660",
-                    "displayValue": "Sales",
-                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/390564660"
-                },
-                "payroll_phase": {
-                    "content": "020-PROPOSAL",
-                    "displayValue": "020-PROPOSAL"
-                },
+                "notes": "General work, calls, emails, meetings, follow ups.",
                 "start_date_time": ""
             },
             {
@@ -1553,10 +992,7 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/390564660"
                 },
-                "payroll_phase": {
-                    "content": "099-OVERHEAD",
-                    "displayValue": "099-OVERHEAD"
-                },
+                "notes": "Ted talk, help Nathan with take off",
                 "start_date_time": ""
             },
             {
@@ -1574,10 +1010,7 @@
                     "type": "7ba5266e8b0a42599579576ca8caf764",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/7ba5266e8b0a42599579576ca8caf764/951539393"
                 },
-                "payroll_phase": {
-                    "content": "310-WARRANTY",
-                    "displayValue": "310-WARRANTY"
-                },
+                "notes": "Travel. Picked up lift. delivered to site. called freight company. arranged delivery time.",
                 "start_date_time": ""
             },
             {
@@ -1595,10 +1028,7 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/546956554"
                 },
-                "payroll_phase": {
-                    "content": "020-PROPOSAL",
-                    "displayValue": "020-PROPOSAL"
-                },
+                "notes": "opportunities, ted meetings",
                 "start_date_time": "2023-09-07T13:00:00.000Z"
             },
             {
@@ -1616,32 +1046,8 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/730286401"
                 },
-                "payroll_phase": {
-                    "content": "300-SERVICE",
-                    "displayValue": "300-SERVICE"
-                },
+                "notes": "Meeting with new client and Stopso. travel from, general work, calls, emails follow-ups, and scheduling.",
                 "start_date_time": "2023-08-25T15:00:00.000Z"
-            },
-            {
-                "created_id": {
-                    "content": "212a4d7d6f724ca9a4bb881769e5d47d",
-                    "displayValue": "Daniel Chenault",
-                    "type": "",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/212a4d7d6f724ca9a4bb881769e5d47d"
-                },
-                "end_date_time": "",
-                "id": "1096535574",
-                "mutliobjectlookup": {
-                    "content": "1336142659",
-                    "displayValue": "PTO",
-                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/1336142659"
-                },
-                "payroll_phase": {
-                    "content": "096-PTO",
-                    "displayValue": "096-PTO"
-                },
-                "start_date_time": ""
             },
             {
                 "created_id": {
@@ -1658,10 +1064,7 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/705015018"
                 },
-                "payroll_phase": {
-                    "content": "020-PROPOSAL",
-                    "displayValue": "020-PROPOSAL"
-                },
+                "notes": "Worked on pricing and getting the roles defined for the sales processes.",
                 "start_date_time": "2023-08-30T13:00:00.000Z"
             },
             {
@@ -1679,32 +1082,8 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/390564660"
                 },
-                "payroll_phase": {
-                    "content": "099-OVERHEAD",
-                    "displayValue": "099-OVERHEAD"
-                },
+                "notes": "IT, Overhead, STOPSO opps.",
                 "start_date_time": "2023-08-29T15:00:00.000Z"
-            },
-            {
-                "created_id": {
-                    "content": "1e5bb44ec77845c69a10d01df47d3f25",
-                    "displayValue": "Nathan Smith",
-                    "type": "",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/1e5bb44ec77845c69a10d01df47d3f25"
-                },
-                "end_date_time": "",
-                "id": "1114393992",
-                "mutliobjectlookup": {
-                    "content": "1336142659",
-                    "displayValue": "PTO",
-                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/1336142659"
-                },
-                "payroll_phase": {
-                    "content": "096-PTO",
-                    "displayValue": "096-PTO"
-                },
-                "start_date_time": ""
             },
             {
                 "created_id": {
@@ -1721,53 +1100,8 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/1336142659"
                 },
-                "payroll_phase": {
-                    "content": "096-PTO",
-                    "displayValue": "096-PTO"
-                },
+                "notes": "PTO L Day pto pto",
                 "start_date_time": "2023-09-04T13:00:00.000Z"
-            },
-            {
-                "created_id": {
-                    "content": "212a4d7d6f724ca9a4bb881769e5d47d",
-                    "displayValue": "Daniel Chenault",
-                    "type": "",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/212a4d7d6f724ca9a4bb881769e5d47d"
-                },
-                "end_date_time": "",
-                "id": "1127300928",
-                "mutliobjectlookup": {
-                    "content": "730286401",
-                    "displayValue": "Service",
-                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/730286401"
-                },
-                "payroll_phase": {
-                    "content": "300-SERVICE",
-                    "displayValue": "300-SERVICE"
-                },
-                "start_date_time": ""
-            },
-            {
-                "created_id": {
-                    "content": "212a4d7d6f724ca9a4bb881769e5d47d",
-                    "displayValue": "Daniel Chenault",
-                    "type": "",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/212a4d7d6f724ca9a4bb881769e5d47d"
-                },
-                "end_date_time": "",
-                "id": "1127927324",
-                "mutliobjectlookup": {
-                    "content": "1420336529",
-                    "displayValue": "SO-23-05909 - Problem with sound masking system.",
-                    "type": "7ba5266e8b0a42599579576ca8caf764",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7ba5266e8b0a42599579576ca8caf764/1420336529"
-                },
-                "payroll_phase": {
-                    "content": "300-SERVICE",
-                    "displayValue": "300-SERVICE"
-                },
-                "start_date_time": ""
             },
             {
                 "created_id": {
@@ -1784,10 +1118,7 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/546956554"
                 },
-                "payroll_phase": {
-                    "content": "020-PROPOSAL",
-                    "displayValue": "020-PROPOSAL"
-                },
+                "notes": "opportunities, ted meetings",
                 "start_date_time": "2023-09-06T13:00:00.000Z"
             },
             {
@@ -1805,10 +1136,7 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/390564660"
                 },
-                "payroll_phase": {
-                    "content": "020-PROPOSAL",
-                    "displayValue": "020-PROPOSAL"
-                },
+                "notes": "Worked on several quotes including the Armistead",
                 "start_date_time": ""
             },
             {
@@ -1826,10 +1154,7 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/705015018"
                 },
-                "payroll_phase": {
-                    "content": "099-OVERHEAD",
-                    "displayValue": "099-OVERHEAD"
-                },
+                "notes": "shop work, proposals, quotes, meetings",
                 "start_date_time": "2023-09-15T13:00:00.000Z"
             },
             {
@@ -1847,10 +1172,7 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/546956554"
                 },
-                "payroll_phase": {
-                    "content": "099-OVERHEAD",
-                    "displayValue": "099-OVERHEAD"
-                },
+                "notes": "sfsdfsdfsdfsdfsdf",
                 "start_date_time": "2023-09-06T14:00:00.000Z"
             },
             {
@@ -1868,10 +1190,7 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/546956554"
                 },
-                "payroll_phase": {
-                    "content": "099-OVERHEAD",
-                    "displayValue": "099-OVERHEAD"
-                },
+                "notes": "Agile, Overhead, Ted sales, etc..",
                 "start_date_time": "2023-08-31T14:50:00.000Z"
             },
             {
@@ -1889,10 +1208,7 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/730286401"
                 },
-                "payroll_phase": {
-                    "content": "300-SERVICE",
-                    "displayValue": "300-SERVICE"
-                },
+                "notes": "General work, calls, emails, follow ups, meeting, and scheduling.",
                 "start_date_time": "2023-09-01T11:00:00.000Z"
             },
             {
@@ -1910,32 +1226,8 @@
                     "type": "c85c189652f2450da6b66c02ed927778",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/c85c189652f2450da6b66c02ed927778/393840490"
                 },
-                "payroll_phase": {
-                    "content": "110-PROGRAMMING",
-                    "displayValue": "110-PROGRAMMING"
-                },
+                "notes": "programming and final audio system tweaks",
                 "start_date_time": "2023-08-25T13:00:00.000Z"
-            },
-            {
-                "created_id": {
-                    "content": "1e5bb44ec77845c69a10d01df47d3f25",
-                    "displayValue": "Nathan Smith",
-                    "type": "",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/1e5bb44ec77845c69a10d01df47d3f25"
-                },
-                "end_date_time": "",
-                "id": "1369879802",
-                "mutliobjectlookup": {
-                    "content": "553203401",
-                    "displayValue": "5120-EN-NET-PA-SCHOOLS-DISPLAYS",
-                    "type": "c85c189652f2450da6b66c02ed927778",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/c85c189652f2450da6b66c02ed927778/553203401"
-                },
-                "payroll_phase": {
-                    "content": "515-TRAVELH",
-                    "displayValue": "515-TRAVELH"
-                },
-                "start_date_time": ""
             },
             {
                 "created_id": {
@@ -1952,31 +1244,7 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/390564660"
                 },
-                "payroll_phase": {
-                    "content": "099-OVERHEAD",
-                    "displayValue": "099-OVERHEAD"
-                },
-                "start_date_time": ""
-            },
-            {
-                "created_id": {
-                    "content": "212a4d7d6f724ca9a4bb881769e5d47d",
-                    "displayValue": "Daniel Chenault",
-                    "type": "",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/212a4d7d6f724ca9a4bb881769e5d47d"
-                },
-                "end_date_time": "",
-                "id": "1380482955",
-                "mutliobjectlookup": {
-                    "content": "1336142659",
-                    "displayValue": "PTO",
-                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/1336142659"
-                },
-                "payroll_phase": {
-                    "content": "096-PTO",
-                    "displayValue": "096-PTO"
-                },
+                "notes": "Meet with Steve Chong STOPSO",
                 "start_date_time": ""
             },
             {
@@ -1994,10 +1262,7 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/390564660"
                 },
-                "payroll_phase": {
-                    "content": "099-OVERHEAD",
-                    "displayValue": "099-OVERHEAD"
-                },
+                "notes": "Working on the Armistead Quote",
                 "start_date_time": "2023-08-28T12:00:00.000Z"
             },
             {
@@ -2015,10 +1280,7 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/546956554"
                 },
-                "payroll_phase": {
-                    "content": "099-OVERHEAD",
-                    "displayValue": "099-OVERHEAD"
-                },
+                "notes": "opportunities, ted meetings",
                 "start_date_time": "2023-09-05T13:00:00.000Z"
             },
             {
@@ -2036,10 +1298,7 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/730286401"
                 },
-                "payroll_phase": {
-                    "content": "300-SERVICE",
-                    "displayValue": "300-SERVICE"
-                },
+                "notes": "General work, agile app training,  calls, emails, follow ups, shop time.",
                 "start_date_time": "2023-09-06T11:00:00.000Z"
             },
             {
@@ -2057,10 +1316,7 @@
                     "type": "7ba5266e8b0a42599579576ca8caf764",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/7ba5266e8b0a42599579576ca8caf764/1963527184"
                 },
-                "payroll_phase": {
-                    "content": "300-SERVICE",
-                    "displayValue": "300-SERVICE"
-                },
+                "notes": "Travel and Serviced projectors",
                 "start_date_time": "2023-09-08T10:00:00.000Z"
             },
             {
@@ -2078,10 +1334,7 @@
                     "type": "7ba5266e8b0a42599579576ca8caf764",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/7ba5266e8b0a42599579576ca8caf764/951539393"
                 },
-                "payroll_phase": {
-                    "content": "300-SERVICE",
-                    "displayValue": "300-SERVICE"
-                },
+                "notes": "Waited on delivery, called delivery company, and received the display.  spoke with the client, and scheduled installation.",
                 "start_date_time": "2023-08-28T15:30:00.000Z"
             },
             {
@@ -2099,11 +1352,26 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/730286401"
                 },
-                "payroll_phase": {
-                    "content": "300-SERVICE",
-                    "displayValue": "300-SERVICE"
-                },
+                "notes": "General work, calls, emails, follow ups, meeting, training. Sales meeting.",
                 "start_date_time": "2023-09-12T11:00:00.000Z"
+            },
+            {
+                "created_id": {
+                    "content": "d8191d0baac14244a11ff87470122b6d",
+                    "displayValue": "Tyler Baylin",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/d8191d0baac14244a11ff87470122b6d"
+                },
+                "end_date_time": "2023-09-15T06:00:00.000Z",
+                "id": "1470240556",
+                "mutliobjectlookup": {
+                    "content": "390564660",
+                    "displayValue": "Sales",
+                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/390564660"
+                },
+                "notes": "LJ IT overhead, Sales, Steve Opp",
+                "start_date_time": "2023-09-14T15:00:00.000Z"
             },
             {
                 "created_id": {
@@ -2120,10 +1388,7 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/28916361"
                 },
-                "payroll_phase": {
-                    "content": "020-PROPOSAL",
-                    "displayValue": "020-PROPOSAL"
-                },
+                "notes": "fthyrtyrtytrytrytrytrytryry",
                 "start_date_time": ""
             },
             {
@@ -2141,11 +1406,26 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/1336142659"
                 },
-                "payroll_phase": {
-                    "content": "096-PTO",
-                    "displayValue": "096-PTO"
-                },
+                "notes": "PTO - covid positive",
                 "start_date_time": "2023-08-25T13:00:00.000Z"
+            },
+            {
+                "created_id": {
+                    "content": "d8191d0baac14244a11ff87470122b6d",
+                    "displayValue": "Tyler Baylin",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/d8191d0baac14244a11ff87470122b6d"
+                },
+                "end_date_time": "2023-09-14T00:00:00.000Z",
+                "id": "1525559299",
+                "mutliobjectlookup": {
+                    "content": "390564660",
+                    "displayValue": "Sales",
+                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/390564660"
+                },
+                "notes": "Sales, Opps, Ted Sales, More Opps, Steve Opps",
+                "start_date_time": "2023-09-13T16:00:00.000Z"
             },
             {
                 "created_id": {
@@ -2162,10 +1442,7 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/546956554"
                 },
-                "payroll_phase": {
-                    "content": "099-OVERHEAD",
-                    "displayValue": "099-OVERHEAD"
-                },
+                "notes": "fixing the timecards java class",
                 "start_date_time": "2023-09-03T00:00:00.000Z"
             },
             {
@@ -2183,32 +1460,8 @@
                     "type": "c85c189652f2450da6b66c02ed927778",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/c85c189652f2450da6b66c02ed927778/393840490"
                 },
-                "payroll_phase": {
-                    "content": "515-TRAVELH",
-                    "displayValue": "515-TRAVELH"
-                },
+                "notes": "Travel to Bechtel Reston",
                 "start_date_time": "2023-08-25T12:00:00.000Z"
-            },
-            {
-                "created_id": {
-                    "content": "1e5bb44ec77845c69a10d01df47d3f25",
-                    "displayValue": "Nathan Smith",
-                    "type": "",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/1e5bb44ec77845c69a10d01df47d3f25"
-                },
-                "end_date_time": "",
-                "id": "1566844768",
-                "mutliobjectlookup": {
-                    "content": "553203401",
-                    "displayValue": "5120-EN-NET-PA-SCHOOLS-DISPLAYS",
-                    "type": "c85c189652f2450da6b66c02ed927778",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/c85c189652f2450da6b66c02ed927778/553203401"
-                },
-                "payroll_phase": {
-                    "content": "220-INSTALL",
-                    "displayValue": "220-INSTALL"
-                },
-                "start_date_time": ""
             },
             {
                 "created_id": {
@@ -2225,10 +1478,7 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/1336142659"
                 },
-                "payroll_phase": {
-                    "content": "099-OVERHEAD",
-                    "displayValue": "099-OVERHEAD"
-                },
+                "notes": "PTO sick PTO sick PTO sick",
                 "start_date_time": "2023-08-28T13:00:00.000Z"
             },
             {
@@ -2246,10 +1496,7 @@
                     "type": "7ba5266e8b0a42599579576ca8caf764",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/7ba5266e8b0a42599579576ca8caf764/951539393"
                 },
-                "payroll_phase": {
-                    "content": "300-SERVICE",
-                    "displayValue": "300-SERVICE"
-                },
+                "notes": "Travel and swapped out displays, packed display to be shipped back.",
                 "start_date_time": "2023-08-29T18:00:00.000Z"
             },
             {
@@ -2267,10 +1514,7 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/1336142659"
                 },
-                "payroll_phase": {
-                    "content": "096-PTO",
-                    "displayValue": "096-PTO"
-                },
+                "notes": "Happy labor day!!",
                 "start_date_time": "2023-09-04T11:00:00.000Z"
             },
             {
@@ -2288,32 +1532,8 @@
                     "type": "7ba5266e8b0a42599579576ca8caf764",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/7ba5266e8b0a42599579576ca8caf764/789510892"
                 },
-                "payroll_phase": {
-                    "content": "300-SERVICE",
-                    "displayValue": "300-SERVICE"
-                },
+                "notes": "visit and meet with evan. look at rooms",
                 "start_date_time": "2023-08-31T12:00:00.000Z"
-            },
-            {
-                "created_id": {
-                    "content": "212a4d7d6f724ca9a4bb881769e5d47d",
-                    "displayValue": "Daniel Chenault",
-                    "type": "",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/212a4d7d6f724ca9a4bb881769e5d47d"
-                },
-                "end_date_time": "",
-                "id": "1614620732",
-                "mutliobjectlookup": {
-                    "content": "730286401",
-                    "displayValue": "Service",
-                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/730286401"
-                },
-                "payroll_phase": {
-                    "content": "300-SERVICE",
-                    "displayValue": "300-SERVICE"
-                },
-                "start_date_time": ""
             },
             {
                 "created_id": {
@@ -2330,10 +1550,7 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/705015018"
                 },
-                "payroll_phase": {
-                    "content": "099-OVERHEAD",
-                    "displayValue": "099-OVERHEAD"
-                },
+                "notes": "office day, proposals, etc.",
                 "start_date_time": "2023-09-07T13:00:00.000Z"
             },
             {
@@ -2351,10 +1568,7 @@
                     "type": "c85c189652f2450da6b66c02ed927778",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/c85c189652f2450da6b66c02ed927778/1313159781"
                 },
-                "payroll_phase": {
-                    "content": "130-COMMISSION",
-                    "displayValue": "130-COMMISSION"
-                },
+                "notes": "Installed new Clapper code but it didn't work.Repatched temp fix. Adjusted auto input selections to show correct HDMI input on source selection",
                 "start_date_time": "2023-08-29T09:00:00.000Z"
             },
             {
@@ -2372,10 +1586,7 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/705015018"
                 },
-                "payroll_phase": {
-                    "content": "099-OVERHEAD",
-                    "displayValue": "099-OVERHEAD"
-                },
+                "notes": "pickup lift from towson, coordinate cleartouch pckup w/Danny, office day, proposals, etc.",
                 "start_date_time": "2023-09-08T12:00:00.000Z"
             },
             {
@@ -2393,10 +1604,7 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/546956554"
                 },
-                "payroll_phase": {
-                    "content": "099-OVERHEAD",
-                    "displayValue": "099-OVERHEAD"
-                },
+                "notes": "LJ IT Overhead, Help Danny, NYC",
                 "start_date_time": ""
             },
             {
@@ -2414,10 +1622,7 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/705015018"
                 },
-                "payroll_phase": {
-                    "content": "099-OVERHEAD",
-                    "displayValue": "099-OVERHEAD"
-                },
+                "notes": "work on armistead quote, towson valt",
                 "start_date_time": "2023-08-30T13:00:00.000Z"
             },
             {
@@ -2435,32 +1640,8 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/1336142659"
                 },
-                "payroll_phase": {
-                    "content": "099-OVERHEAD",
-                    "displayValue": "099-OVERHEAD"
-                },
+                "notes": "PTO day for the day",
                 "start_date_time": "2023-09-01T14:00:00.000Z"
-            },
-            {
-                "created_id": {
-                    "content": "212a4d7d6f724ca9a4bb881769e5d47d",
-                    "displayValue": "Daniel Chenault",
-                    "type": "",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/212a4d7d6f724ca9a4bb881769e5d47d"
-                },
-                "end_date_time": "",
-                "id": "1730460499",
-                "mutliobjectlookup": {
-                    "content": "553203401",
-                    "displayValue": "5120-EN-NET-PA-SCHOOLS-DISPLAYS",
-                    "type": "c85c189652f2450da6b66c02ed927778",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/c85c189652f2450da6b66c02ed927778/553203401"
-                },
-                "payroll_phase": {
-                    "content": "220-INSTALL",
-                    "displayValue": "220-INSTALL"
-                },
-                "start_date_time": ""
             },
             {
                 "created_id": {
@@ -2477,74 +1658,8 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/546956554"
                 },
-                "payroll_phase": {
-                    "content": "099-OVERHEAD",
-                    "displayValue": "099-OVERHEAD"
-                },
+                "notes": "testing timecards applications",
                 "start_date_time": "2023-09-11T12:00:00.000Z"
-            },
-            {
-                "created_id": {
-                    "content": "212a4d7d6f724ca9a4bb881769e5d47d",
-                    "displayValue": "Daniel Chenault",
-                    "type": "",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/212a4d7d6f724ca9a4bb881769e5d47d"
-                },
-                "end_date_time": "",
-                "id": "1771566808",
-                "mutliobjectlookup": {
-                    "content": "951539393",
-                    "displayValue": "SO-23-05923 - Clear Touch Wont Power On",
-                    "type": "7ba5266e8b0a42599579576ca8caf764",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7ba5266e8b0a42599579576ca8caf764/951539393"
-                },
-                "payroll_phase": {
-                    "content": "300-SERVICE",
-                    "displayValue": "300-SERVICE"
-                },
-                "start_date_time": ""
-            },
-            {
-                "created_id": {
-                    "content": "d8191d0baac14244a11ff87470122b6d",
-                    "displayValue": "Tyler Baylin",
-                    "type": "",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/d8191d0baac14244a11ff87470122b6d"
-                },
-                "end_date_time": "",
-                "id": "1795435056",
-                "mutliobjectlookup": {
-                    "content": "1313159781",
-                    "displayValue": "5122-BOEING-FT-BELVOIR-2AB01",
-                    "type": "c85c189652f2450da6b66c02ed927778",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/c85c189652f2450da6b66c02ed927778/1313159781"
-                },
-                "payroll_phase": {
-                    "content": "110-PROGRAMMING",
-                    "displayValue": "110-PROGRAMMING"
-                },
-                "start_date_time": ""
-            },
-            {
-                "created_id": {
-                    "content": "212a4d7d6f724ca9a4bb881769e5d47d",
-                    "displayValue": "Daniel Chenault",
-                    "type": "",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/212a4d7d6f724ca9a4bb881769e5d47d"
-                },
-                "end_date_time": "",
-                "id": "1814585029",
-                "mutliobjectlookup": {
-                    "content": "1336142659",
-                    "displayValue": "PTO",
-                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/1336142659"
-                },
-                "payroll_phase": {
-                    "content": "096-PTO",
-                    "displayValue": "096-PTO"
-                },
-                "start_date_time": ""
             },
             {
                 "created_id": {
@@ -2561,10 +1676,7 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/730286401"
                 },
-                "payroll_phase": {
-                    "content": "300-SERVICE",
-                    "displayValue": "300-SERVICE"
-                },
+                "notes": "General work, calls, emails, follow ups, meeting, training.",
                 "start_date_time": "2023-09-13T11:00:00.000Z"
             },
             {
@@ -2582,10 +1694,7 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/546956554"
                 },
-                "payroll_phase": {
-                    "content": "099-OVERHEAD",
-                    "displayValue": "099-OVERHEAD"
-                },
+                "notes": "agile, IT, Overhead, Ted Meetings, System fixes",
                 "start_date_time": "2023-08-30T13:00:00.000Z"
             },
             {
@@ -2603,95 +1712,8 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/705015018"
                 },
-                "payroll_phase": {
-                    "content": "099-OVERHEAD",
-                    "displayValue": "099-OVERHEAD"
-                },
+                "notes": "work from home tuesday",
                 "start_date_time": "2023-08-29T13:00:00.000Z"
-            },
-            {
-                "created_id": {
-                    "content": "212a4d7d6f724ca9a4bb881769e5d47d",
-                    "displayValue": "Daniel Chenault",
-                    "type": "",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/212a4d7d6f724ca9a4bb881769e5d47d"
-                },
-                "end_date_time": "",
-                "id": "1863147275",
-                "mutliobjectlookup": {
-                    "content": "1336142659",
-                    "displayValue": "PTO",
-                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/1336142659"
-                },
-                "payroll_phase": {
-                    "content": "099-OVERHEAD",
-                    "displayValue": "099-OVERHEAD"
-                },
-                "start_date_time": ""
-            },
-            {
-                "created_id": {
-                    "content": "1e5bb44ec77845c69a10d01df47d3f25",
-                    "displayValue": "Nathan Smith",
-                    "type": "",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/1e5bb44ec77845c69a10d01df47d3f25"
-                },
-                "end_date_time": "",
-                "id": "1869551826",
-                "mutliobjectlookup": {
-                    "content": "705015018",
-                    "displayValue": "Operations",
-                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/705015018"
-                },
-                "payroll_phase": {
-                    "content": "099-OVERHEAD",
-                    "displayValue": "099-OVERHEAD"
-                },
-                "start_date_time": ""
-            },
-            {
-                "created_id": {
-                    "content": "d8191d0baac14244a11ff87470122b6d",
-                    "displayValue": "Tyler Baylin",
-                    "type": "",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/d8191d0baac14244a11ff87470122b6d"
-                },
-                "end_date_time": "",
-                "id": "1885740289",
-                "mutliobjectlookup": {
-                    "content": "390564660",
-                    "displayValue": "Sales",
-                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/390564660"
-                },
-                "payroll_phase": {
-                    "content": "020-PROPOSAL",
-                    "displayValue": "020-PROPOSAL"
-                },
-                "start_date_time": ""
-            },
-            {
-                "created_id": {
-                    "content": "1e5bb44ec77845c69a10d01df47d3f25",
-                    "displayValue": "Nathan Smith",
-                    "type": "",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/1e5bb44ec77845c69a10d01df47d3f25"
-                },
-                "end_date_time": "",
-                "id": "1891707998",
-                "mutliobjectlookup": {
-                    "content": "705015018",
-                    "displayValue": "Operations",
-                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/705015018"
-                },
-                "payroll_phase": {
-                    "content": "099-OVERHEAD",
-                    "displayValue": "099-OVERHEAD"
-                },
-                "start_date_time": ""
             },
             {
                 "created_id": {
@@ -2708,10 +1730,7 @@
                     "type": "7ba5266e8b0a42599579576ca8caf764",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/7ba5266e8b0a42599579576ca8caf764/434575745"
                 },
-                "payroll_phase": {
-                    "content": "300-SERVICE",
-                    "displayValue": "300-SERVICE"
-                },
+                "notes": "Replaced battery and travel from.",
                 "start_date_time": "2023-09-05T18:00:00.000Z"
             },
             {
@@ -2729,32 +1748,8 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/730286401"
                 },
-                "payroll_phase": {
-                    "content": "300-SERVICE",
-                    "displayValue": "300-SERVICE"
-                },
+                "notes": "General work, calls, emails, follow-ups, scheduling, and meeting. Went and did a site walk thru for Ennet opportunity.",
                 "start_date_time": "2023-09-07T11:00:00.000Z"
-            },
-            {
-                "created_id": {
-                    "content": "1e5bb44ec77845c69a10d01df47d3f25",
-                    "displayValue": "Nathan Smith",
-                    "type": "",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/1e5bb44ec77845c69a10d01df47d3f25"
-                },
-                "end_date_time": "",
-                "id": "1971442843",
-                "mutliobjectlookup": {
-                    "content": "553203401",
-                    "displayValue": "5120-EN-NET-PA-SCHOOLS-DISPLAYS",
-                    "type": "c85c189652f2450da6b66c02ed927778",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/c85c189652f2450da6b66c02ed927778/553203401"
-                },
-                "payroll_phase": {
-                    "content": "220-INSTALL",
-                    "displayValue": "220-INSTALL"
-                },
-                "start_date_time": ""
             },
             {
                 "created_id": {
@@ -2771,10 +1766,7 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/730286401"
                 },
-                "payroll_phase": {
-                    "content": "300-SERVICE",
-                    "displayValue": "300-SERVICE"
-                },
+                "notes": "Traveled and met with new client did a site walk thru.",
                 "start_date_time": "2023-08-31T12:00:00.000Z"
             },
             {
@@ -2792,10 +1784,7 @@
                     "type": "c85c189652f2450da6b66c02ed927778",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/c85c189652f2450da6b66c02ed927778/393840490"
                 },
-                "payroll_phase": {
-                    "content": "110-PROGRAMMING",
-                    "displayValue": "110-PROGRAMMING"
-                },
+                "notes": "bechtel reston programming conf room",
                 "start_date_time": "2023-08-22T12:00:00.000Z"
             },
             {
@@ -2813,10 +1802,7 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/705015018"
                 },
-                "payroll_phase": {
-                    "content": "099-OVERHEAD",
-                    "displayValue": "099-OVERHEAD"
-                },
+                "notes": "office day, proposals, etc.",
                 "start_date_time": "2023-09-06T13:00:00.000Z"
             },
             {
@@ -2834,32 +1820,8 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/705015018"
                 },
-                "payroll_phase": {
-                    "content": "099-OVERHEAD",
-                    "displayValue": "099-OVERHEAD"
-                },
+                "notes": "overhead shop time work on proposals w/ty",
                 "start_date_time": "2023-09-05T13:00:00.000Z"
-            },
-            {
-                "created_id": {
-                    "content": "1e5bb44ec77845c69a10d01df47d3f25",
-                    "displayValue": "Nathan Smith",
-                    "type": "",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/1e5bb44ec77845c69a10d01df47d3f25"
-                },
-                "end_date_time": "",
-                "id": "1999253191",
-                "mutliobjectlookup": {
-                    "content": "705015018",
-                    "displayValue": "Operations",
-                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/705015018"
-                },
-                "payroll_phase": {
-                    "content": "099-OVERHEAD",
-                    "displayValue": "099-OVERHEAD"
-                },
-                "start_date_time": ""
             },
             {
                 "created_id": {
@@ -2876,10 +1838,7 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/730286401"
                 },
-                "payroll_phase": {
-                    "content": "300-SERVICE",
-                    "displayValue": "300-SERVICE"
-                },
+                "notes": "General work, calls, emails, follow ups, scheduling, and meeting. truck maintenance.",
                 "start_date_time": "2023-08-30T11:00:00.000Z"
             },
             {
@@ -2897,10 +1856,7 @@
                     "type": "7ba5266e8b0a42599579576ca8caf764",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/7ba5266e8b0a42599579576ca8caf764/1321620799"
                 },
-                "payroll_phase": {
-                    "content": "300-SERVICE",
-                    "displayValue": "300-SERVICE"
-                },
+                "notes": "Travel and installed hdmi interface, put pass-thru for power and video in credenza. Installed neat bar in Boston room. tested extron tx/rx. troubleshooting audio issues.",
                 "start_date_time": "2023-08-25T10:00:00.000Z"
             },
             {
@@ -2918,10 +1874,7 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/730286401"
                 },
-                "payroll_phase": {
-                    "content": "300-SERVICE",
-                    "displayValue": "300-SERVICE"
-                },
+                "notes": "Calls, emails, follow-ups, scheduling.",
                 "start_date_time": ""
             },
             {
@@ -2939,53 +1892,8 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/730286401"
                 },
-                "payroll_phase": {
-                    "content": "300-SERVICE",
-                    "displayValue": "300-SERVICE"
-                },
+                "notes": "General work, calls, emails, follow ups, meeting, and scheduling.",
                 "start_date_time": "2023-08-31T15:00:00.000Z"
-            },
-            {
-                "created_id": {
-                    "content": "1e5bb44ec77845c69a10d01df47d3f25",
-                    "displayValue": "Nathan Smith",
-                    "type": "",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/1e5bb44ec77845c69a10d01df47d3f25"
-                },
-                "end_date_time": "",
-                "id": "2072626704",
-                "mutliobjectlookup": {
-                    "content": "553203401",
-                    "displayValue": "5120-EN-NET-PA-SCHOOLS-DISPLAYS",
-                    "type": "c85c189652f2450da6b66c02ed927778",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/c85c189652f2450da6b66c02ed927778/553203401"
-                },
-                "payroll_phase": {
-                    "content": "515-TRAVELH",
-                    "displayValue": "515-TRAVELH"
-                },
-                "start_date_time": ""
-            },
-            {
-                "created_id": {
-                    "content": "1e5bb44ec77845c69a10d01df47d3f25",
-                    "displayValue": "Nathan Smith",
-                    "type": "",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/1e5bb44ec77845c69a10d01df47d3f25"
-                },
-                "end_date_time": "",
-                "id": "2082870991",
-                "mutliobjectlookup": {
-                    "content": "705015018",
-                    "displayValue": "Operations",
-                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/705015018"
-                },
-                "payroll_phase": {
-                    "content": "099-OVERHEAD",
-                    "displayValue": "099-OVERHEAD"
-                },
-                "start_date_time": ""
             },
             {
                 "created_id": {
@@ -3002,10 +1910,7 @@
                     "type": "c85c189652f2450da6b66c02ed927778",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/c85c189652f2450da6b66c02ed927778/393840490"
                 },
-                "payroll_phase": {
-                    "content": "110-PROGRAMMING",
-                    "displayValue": "110-PROGRAMMING"
-                },
+                "notes": "Bechtel Reston new mics programming/installation and tuning room",
                 "start_date_time": ""
             },
             {
@@ -3023,34 +1928,28 @@
                     "type": "5520d6ff09864d5d9b2fc9c711f6d729",
                     "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/546956554"
                 },
-                "payroll_phase": {
-                    "content": "099-OVERHEAD",
-                    "displayValue": "099-OVERHEAD"
-                },
+                "notes": "IT, Overhead, STOPSO opps.",
                 "start_date_time": "2023-08-28T18:00:00.000Z"
             },
             {
                 "created_id": {
-                    "content": "212a4d7d6f724ca9a4bb881769e5d47d",
-                    "displayValue": "Daniel Chenault",
+                    "content": "d8191d0baac14244a11ff87470122b6d",
+                    "displayValue": "Tyler Baylin",
                     "type": "",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/212a4d7d6f724ca9a4bb881769e5d47d"
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/user/d8191d0baac14244a11ff87470122b6d"
                 },
-                "end_date_time": "",
-                "id": "2134867374",
+                "end_date_time": "2023-09-18T21:00:00.000Z",
+                "id": "2125514332",
                 "mutliobjectlookup": {
-                    "content": "2120698636",
-                    "displayValue": "SO-23-05905 - Rally bar in conference room seems dead",
-                    "type": "7ba5266e8b0a42599579576ca8caf764",
-                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/7ba5266e8b0a42599579576ca8caf764/2120698636"
+                    "content": "546956554",
+                    "displayValue": "Information Technology",
+                    "type": "5520d6ff09864d5d9b2fc9c711f6d729",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/5520d6ff09864d5d9b2fc9c711f6d729/546956554"
                 },
-                "payroll_phase": {
-                    "content": "310-WARRANTY",
-                    "displayValue": "310-WARRANTY"
-                },
-                "start_date_time": ""
+                "notes": "IT, Overhead, STOPSO opps.",
+                "start_date_time": "2023-09-18T18:00:00.000Z"
             }
         ],
-        "recordCount": "145"
+        "recordCount": "107"
     }
 }
