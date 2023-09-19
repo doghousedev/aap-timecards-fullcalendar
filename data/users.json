@@ -1,0 +1,41 @@
+{
+    "platform": {
+        "message": {
+            "code": "0",
+            "description": "Success"
+        },
+        "record": [
+            {
+                "first_name": "Daniel",
+                "id": "212a4d7d6f724ca9a4bb881769e5d47d",
+                "last_name": "Chenault"
+            },
+            {
+                "first_name": "Evelyn",
+                "id": "78c23fe706c04084b2c1e6b611a79e1b",
+                "last_name": "Baylin"
+            },
+            {
+                "first_name": "Nathan",
+                "id": "1e5bb44ec77845c69a10d01df47d3f25",
+                "last_name": "Smith"
+            },
+            {
+                "first_name": "Ronald",
+                "id": "06c836a659904b9c8b0419682f7d4728",
+                "last_name": "Baylin"
+            },
+            {
+                "first_name": "Ted",
+                "id": "b863f3415e124e40ad8f247877dc228a",
+                "last_name": "Koblick"
+            },
+            {
+                "first_name": "Tyler",
+                "id": "d8191d0baac14244a11ff87470122b6d",
+                "last_name": "Baylin"
+            }
+        ],
+        "recordCount": "6"
+    }
+}

@@ -12,32 +12,41 @@ const userColorMapping = {
     'd8191d0baac14244a11ff87470122b6d': { bgColor: '#14aaf6', textColor: '#ffffff', userName: 'Tyler' }
 };
 
+let usersArray = [];
+
 //#endregion Global Variables
 
 //#region Event Handlers
-function addUserTimecard(startTime, endTime, title, notes, related_to) {
-    showTimecardForm('Add Timecard', startTime.toISOString(), endTime.toISOString(), title, notes, related_to, (result) => {
 
-        const eventTitle = Swal.getPopup().querySelector('#eventTitle').value;
-        const swalStartTime = new Date(Swal.getPopup().querySelector('#eventStart').value);
-        const swalEndTime = new Date(Swal.getPopup().querySelector('#eventEnd').value);
-        const [startHour, startMin, startSec] = [startTime.getUTCHours(), startTime.getUTCMinutes(), startTime.getUTCSeconds()];
-        const [endHour, endMin, endSec] = [endTime.getUTCHours(), endTime.getUTCMinutes(), endTime.getUTCSeconds()];
+function addUserTimecard(startTime, endTime) {
+    // Initialize title, notes, and related_to as empty for new timecards
+    const title = "";
+    const notes = "";
+    const related_to = "";
 
-        swalStartTime.setUTCHours(startHour, startMin, startSec);
-        swalEndTime.setUTCHours(endHour, endMin, endSec);
-
-        if (eventTitle && swalStartTime && swalEndTime) {
-            const isValid = swalStartTime < swalEndTime;
+    // Call the refactored Swal form function
+    showAddTimecardForm('Add Timecard', formatDatetimeForInput(startTime), formatDatetimeForInput(endTime), (formData) => {
+        if (formData.title && formData.start && formData.end) {
+            const isValid = formData.start < formData.end;
             if (isValid) {
                 const newUserTimecard = {
                     id: generateUniqueId(),
-                    title: eventTitle,
-                    start: swalStartTime,
-                    end: swalEndTime
+                    title: formData.title,
+                    related_to: formData.related_to,
+                    user_id: formData.user_id,
+                    start: formData.start,
+                    end: formData.end,
+                    notes: formData.notes,
                 };
+
+                // Update the timecards array
                 updateTimecardsArray(newUserTimecard);
-                calendar.addTimecard(newUserTimecard);
+
+                // Send POST request to update the DB (dummy function for now)
+                sendPOSTRequest(newUserTimecard);
+
+                // Add the new timecard to the calendar
+                calendar.addEvent(newUserTimecard);
             } else {
                 Swal.showValidationMessage('End time must be after start time');
             }
@@ -51,14 +60,27 @@ async function fetchAndInitializeCalendar() {
     try {
         const response = await fetch('./data/time_card_details.json');
         const data = await response.json();
-
         timecards = transformToTimecards(data);
+
+        const users = await fetch('./data/users.json');
+        const userData = await users.json();
+        usersArray = userData.platform.record;
 
         initializeFullCalendar(timecards);
 
     } catch (error) {
         console.error('Error fetching JSON data:', error);
     }
+}
+
+function formatDatetimeForInput(dateTimeString) {
+    const date = new Date(dateTimeString);
+    const year = date.getFullYear();
+    const month = String(date.getMonth() + 1).padStart(2, '0');
+    const day = String(date.getDate()).padStart(2, '0');
+    const hours = String(date.getHours()).padStart(2, '0');
+    const minutes = String(date.getMinutes()).padStart(2, '0');
+    return `${year}-${month}-${day}T${hours}:${minutes}`;
 }
 
 function formatTime(timeString) {
@@ -75,15 +97,6 @@ function formatTime(timeString) {
     return `${hour}:${minute}:00`;
 }
 
-function formatDatetimeForInput(date) {
-    const year = date.getFullYear();
-    const month = String(date.getMonth() + 1).padStart(2, '0');
-    const day = String(date.getDate()).padStart(2, '0');
-    const hours = String(date.getHours()).padStart(2, '0');
-    const minutes = String(date.getMinutes()).padStart(2, '0');
-    return `${year}-${month}-${day}T${hours}:${minutes}`;
-}
-
 function generateUniqueId() {
     const randomId = Math.floor(Math.random() * 1000000);
     return randomId.toString();
@@ -95,32 +108,36 @@ function getUserProperties(userId) {
 
 function handleTimecardClick(info) {
     const event = info.event;
+    const id = event.id;
+    const relatedTo = event.extendedProps.related_to;
+    const userName = event.extendedProps.userName;
     const title = event.title;
     const notes = event.extendedProps.notes;
-    const relatedTo = event.extendedProps.related_to;
 
     clickedTimecard = event.id; //global variable
 
     console.log(`Timecard clicked:
+                ${event.id}
+                ${event.title}
+                ${relatedTo}
+                ${userName}
                 ${event.start}
                 ${event.end}
-                ${event.title}
                 ${notes}
-                ${relatedTo}
      `);
 
     const eventStartFormatted = formatDatetimeForInput(event.start);
     const eventEndFormatted = formatDatetimeForInput(event.end);
-    showTimecardForm('Edit Timecard', eventStartFormatted, eventEndFormatted, title, notes, relatedTo, (formData) => {
-
+    showTimecardForm('Edit Timecard', id, eventStartFormatted, eventEndFormatted, title, notes, relatedTo, (formData) => {
         const updatedTimecard = {
             id: event.id,
             title: formData.title,
             start: new Date(formData.start),
             end: new Date(formData.end),
-            notes: event.notes,
-            related: event.related_to,
+            notes: formData.notes,  // Updated to use formData
+            related_to: formData.related_to,  // Updated to use formData
         };
+
         updateTimecardsArray(updatedTimecard);
 
         const calendarTimecard = calendar.getEventById(event.id);
@@ -134,7 +151,7 @@ function handleTimecardClick(info) {
     });
 }
 
-function handleDelete() {
+function handleTimeCardDelete(id) {
     Swal.fire({
         title: 'Delete Timecard',
         text: 'Are you sure you want to delete this event?',
@@ -146,9 +163,10 @@ function handleDelete() {
             const eventIndex = timecards.findIndex(e => e.id === clickedTimecard);
             if (eventIndex !== -1) {
                 timecards.splice(eventIndex, 1);
-                const calendarTimecard = calendar.getEventById(clickedTimecard);
+                const calendarTimecard = calendar.getEventById(id);
                 if (calendarTimecard) {
                     calendarTimecard.remove();
+                    sendDELETERequest(id)
                 }
             } else {
                 console.log('Timecard not found in timecards array');
@@ -158,13 +176,17 @@ function handleDelete() {
 }
 
 function handleTimecardResize(info) {
+    console.log('Timecard resized:', info);
     const eventId = info.event.id;
     const updatedTimecard = {
         id: eventId,
         start: info.event.start,
-        end: info.event.end
+        end: info.event.end,
+        notes: info.event.extendedProps.notes,
+        related_to: info.event.extendedProps.related_to
     };
     updateTimecardsArray(updatedTimecard);
+    sendPUTRequest(updatedTimecard);
 }
 
 function handleTimecardDrop(info) {
@@ -175,7 +197,8 @@ function handleTimecardDrop(info) {
         start: info.event.start,
         end: info.event.end
     };
-    handleDelete(updatedTimecard);
+    updateTimecardsArray(updatedTimecard);
+    sendPUTRequest(updatedTimecard);
 }
 
 function handleTimeRangeSelection(info) {
@@ -184,6 +207,7 @@ function handleTimeRangeSelection(info) {
     addUserTimecard(selectedStartTime, selectedEndTime, 'myNameHere');
 }
 
+// Function to initialize the Full Calendar
 function initializeFullCalendar(timecards) {
     const calendarEl = document.getElementById('calendar');
     calendar = new FullCalendar.Calendar(calendarEl, {
@@ -208,18 +232,149 @@ function initializeFullCalendar(timecards) {
     calendar.render();
 }
 
-function showConfirmationDialog(title, text) {
-    return Swal.fire({
+// Function to send a dummy DELETE request to update the DB
+async function sendDELETERequest(timecardId) {
+    try {
+        const url = `https://net-av.agileappscloud.com/networking/rest/record/time_card_details/${timecardId}`;
+        const response = await fetch(url, {
+            method: 'DELETE',
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        });
+
+        if (response.ok) {
+            const data = await response.json();
+            console.log('Success:', data);
+        } else {
+            console.log('Failed:', response.status);
+        }
+    } catch (error) {
+        console.error('***An error occurred while sending DELETE request:', error.message);
+        alert('Testing development -  sending DELETE request');
+    }
+}
+
+// Function to send a dummy POST request to update the DB
+async function sendPOSTRequest(newTimecard) {
+    try {
+        const url = `https://net-av.agileappscloud.com/networking/rest/record/time_card_details/${newTimecard.id}`;
+        const response = await fetch(url, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(newTimecard)
+        });
+
+        if (response.ok) {
+            const data = await response.json();
+            console.log('Success:', data);
+        } else {
+            console.log('Failed:', response.status);
+        }
+    } catch (error) {
+        console.error('***An error occurred while sending POST request:', error.message);
+        alert('Testing development - sending POST request');
+    }
+}
+
+// Call the function to send the PUT request
+async function sendPUTRequest(updatedTimecard) {
+    try {
+        const url = `https://net-av.agileappscloud.com/networking/rest/record/time_card_details/${updatedTimecard.id}`;
+        const response = await fetch(url, {
+            method: 'GET',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(updatedTimecard)
+        });
+
+        if (response.ok) {
+            const data = await response.json();
+            console.log('Success:', data);
+        } else {
+            console.log('Failed:', response.status);
+        }
+    } catch (error) {
+        console.error('***An error occurred while sending PUT request:', error.message);
+        alert('Testing development - sending PUT request');
+    }
+};
+
+// Function show the Swal form when clicked to add a new record
+function showAddTimecardForm(title, startValue, endValue, onFormSubmit) {
+    Swal.fire({
         title: title,
-        text: text,
-        icon: 'question',
+        html: `
+        <style>
+        .custom-form {
+            display: grid;
+            grid-template-columns: auto 1fr;
+            gap: 5px;
+            align-items: center;
+        }
+        .form-row label {
+            text-align: right;
+        }
+        .swal2-input {
+            font-family: inherit;
+            font-size: inherit;
+            margin: 0;
+        }
+        #eventStart, #eventEnd {
+            color: dodgerblue;
+        }
+    </style>
+    <form class="custom-form">
+        <label for="eventCreatedBy">Owner:</label>
+        <input type="text" id="eventCreatedBy" value="" placeholder = "your name" class="swal2-input">
+        <label for="eventRelatedTo">Related To:</label>
+        <input type="text" id="eventRelatedTo" value="" placeholder = "select from dropdown" class="swal2-input">
+        <label for="eventStart">Start:</label>
+        <input type="datetime-local" id="eventStart" value="${startValue}" class="swal2-input">
+        <label for="eventEnd">End:</label>
+        <input type="datetime-local" id="eventEnd" value="${endValue}" class="swal2-input">
+        <label for="eventNotes">Notes:</label>
+        <textarea id="eventNotes" class="swal2-textarea" placeholder="enter notes 15 characters"></textarea>
+    </form>
+        `,
         showCancelButton: true,
-        confirmButtonText: 'Yes',
-        cancelButtonText: 'No'
+        confirmButtonText: 'Save',
+        showLoaderOnConfirm: true,
+        preConfirm: () => {
+            const newTitle = Swal.getPopup().querySelector('#eventCreatedBy').value + '-' + Swal.getPopup().querySelector('#eventRelatedTo').value;
+            const newRelatedTo = Swal.getPopup().querySelector('#eventRelatedTo').value;
+            const newStart = new Date(Swal.getPopup().querySelector('#eventStart').value);
+            const newEnd = new Date(Swal.getPopup().querySelector('#eventEnd').value);
+            const newNotes = Swal.getPopup().querySelector('#eventNotes').value;
+
+            onFormSubmit({
+                title: newTitle,
+                start: newStart,
+                related_to: newRelatedTo,
+                end: newEnd,
+                notes: newNotes,
+            });
+        }
     });
 }
 
-function showTimecardForm(title, startValue, endValue, createdByValue, notes, related_to, onFormSubmit) {
+// Function show the Swal form when clicked to edit or delete the record
+function showTimecardForm(title, id, startValue, endValue, createdByValue, notes, related_to, onFormSubmit) {
+
+    const userOptions = usersArray.map(user => {
+        return `<option value="${user.id}">${user.first_name} ${user.last_name}</option>`;
+    }).join('');
+
+    const userDropdown = `
+        <label for="userId">User:</label>
+        <select id="userId" class="swal2-input">
+          ${userOptions}
+        </select>
+      `;
+
     Swal.fire({
         title: title,
         html: `<style>
@@ -244,8 +399,11 @@ function showTimecardForm(title, startValue, endValue, createdByValue, notes, re
     <form class="custom-form">
         <label for="eventCreatedBy">Owner:</label>
         <input type="text" id="eventCreatedBy" value="${createdByValue}" class="swal2-input">
-        <label for="eventRelated">Related To:</label>
-        <input type="text" id="eventRelated" value="${related_to}" class="swal2-input">
+
+        ${userDropdown}
+
+        <label for="eventRelatedTo">Related To:</label>
+        <input type="text" id="eventRelatedTo" value="${related_to}" class="swal2-input">
         <label for="eventStart">Start:</label>
         <input type="datetime-local" id="eventStart" value="${startValue}" class="swal2-input">
         <label for="eventEnd">End:</label>
@@ -262,17 +420,19 @@ function showTimecardForm(title, startValue, endValue, createdByValue, notes, re
         showLoaderOnConfirm: true,
         preConfirm: () => {
             const newTitle = Swal.getPopup().querySelector('#eventCreatedBy').value;
+            const newUserId = Swal.getPopup().querySelector('#userId').value;
+            const newRelatedTo = Swal.getPopup().querySelector('#eventRelatedTo').value;
             const newStart = new Date(Swal.getPopup().querySelector('#eventStart').value);
             const newEnd = new Date(Swal.getPopup().querySelector('#eventEnd').value);
             const newNotes = Swal.getPopup().querySelector('#eventNotes').value;
-            const newRelatedTo = Swal.getPopup().querySelector('#eventRelated').value;
 
             onFormSubmit({
                 title: newTitle,
+                user_id: newUserId,
+                related_to: newRelatedTo,
                 start: newStart,
                 end: newEnd,
                 notes: newNotes,
-                related_to: newRelatedTo
             });
         },
         customClass: {
@@ -282,7 +442,7 @@ function showTimecardForm(title, startValue, endValue, createdByValue, notes, re
         }
     }).then((result) => {
         if (result.isDenied) {
-            handleDelete(event);
+            handleTimeCardDelete(id);
         }
     });
 }
@@ -292,8 +452,9 @@ function transformToTimecards(jsonData) {
 
     return records.map(record => {
         const userId = record.created_id?.content;
-        const description = record.mutliobjectlookup?.displayValue;
-        const title = `${record.created_id?.displayValue}-${description} `;
+        const createdByValue = record.created_id?.displayValue;
+        const relatedTo = record.mutliobjectlookup?.displayValue;
+        const title = `${createdByValue}-${relatedTo}`;
         const userSettings = userColorMapping[userId] || { bgColor: '#4073ff', textColor: '#000000', userName: 'Unknown' };
 
         return {
@@ -311,7 +472,7 @@ function transformToTimecards(jsonData) {
 }
 
 function updateTimecardsArray(updatedTimecard) {
-    // console.log('Updated event:', updatedTimecard);
+
     updatedTimecard.start = updatedTimecard.start.toISOString();
     updatedTimecard.end = updatedTimecard.end.toISOString();
 
@@ -321,7 +482,16 @@ function updateTimecardsArray(updatedTimecard) {
     } else {
         timecards.push(updatedTimecard);
     }
-    //console.log('Updated timecards array:', timecards);
 }
 
 //#endregion Event Handlers
+
+/**********************************
+ * add error checking on forms
+ * put the function arguments in order or in an object
+ * vite or other roll up version of the code for single bundle
+ * 
+ *   
+ * 
+ * ********************************/
+
