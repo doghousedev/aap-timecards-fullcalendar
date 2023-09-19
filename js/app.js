@@ -32,8 +32,8 @@ function addUserTimecard(startTime, endTime) {
                 const newUserTimecard = {
                     id: generateUniqueId(),
                     title: formData.title,
-                    related_to: formData.related_to,
                     user_id: formData.user_id,
+                    related_to: formData.related_to,
                     start: formData.start,
                     end: formData.end,
                     notes: formData.notes,
@@ -106,12 +106,18 @@ function getUserProperties(userId) {
     return userMapping[userId] || { bgColor: '#4073ff', textColor: '#000000', userName: 'Unknown' };
 }
 
+///////////////////////////////
+
+///////////////////////////////
+
 function handleTimecardClick(info) {
     const event = info.event;
     const id = event.id;
-    const relatedTo = event.extendedProps.related_to;
-    const userName = event.extendedProps.userName;
     const title = event.title;
+    const userId = event.extendedProps.userId;
+    const relatedTo = event.extendedProps.related_to;
+    const startTime = formatDatetimeForInput(event.start);
+    const endTime = formatDatetimeForInput(event.end);
     const notes = event.extendedProps.notes;
 
     clickedTimecard = event.id; //global variable
@@ -120,15 +126,13 @@ function handleTimecardClick(info) {
                 ${event.id}
                 ${event.title}
                 ${relatedTo}
-                ${userName}
+                ${userId}
                 ${event.start}
                 ${event.end}
                 ${notes}
      `);
 
-    const eventStartFormatted = formatDatetimeForInput(event.start);
-    const eventEndFormatted = formatDatetimeForInput(event.end);
-    showTimecardForm('Edit Timecard', id, eventStartFormatted, eventEndFormatted, title, notes, relatedTo, (formData) => {
+    showTimecardForm('Edit Timecard', id, startTime, endTime, title, notes, relatedTo, (formData) => {
         const updatedTimecard = {
             id: event.id,
             title: formData.title,
@@ -136,6 +140,7 @@ function handleTimecardClick(info) {
             end: new Date(formData.end),
             notes: formData.notes,  // Updated to use formData
             related_to: formData.related_to,  // Updated to use formData
+            userId: formData.userId,
         };
 
         updateTimecardsArray(updatedTimecard);
@@ -147,6 +152,7 @@ function handleTimecardClick(info) {
             calendarTimecard.setEnd(updatedTimecard.end);
             calendarTimecard.setExtendedProp('notes', updatedTimecard.notes);
             calendarTimecard.setExtendedProp('related', updatedTimecard.related_to);
+            calendarTimecard.setExtendedProp('related', updatedTimecard.userId);
         }
     });
 }
@@ -399,9 +405,7 @@ function showTimecardForm(title, id, startValue, endValue, createdByValue, notes
     <form class="custom-form">
         <label for="eventCreatedBy">Owner:</label>
         <input type="text" id="eventCreatedBy" value="${createdByValue}" class="swal2-input">
-
         ${userDropdown}
-
         <label for="eventRelatedTo">Related To:</label>
         <input type="text" id="eventRelatedTo" value="${related_to}" class="swal2-input">
         <label for="eventStart">Start:</label>
@@ -428,7 +432,7 @@ function showTimecardForm(title, id, startValue, endValue, createdByValue, notes
 
             onFormSubmit({
                 title: newTitle,
-                user_id: newUserId,
+                userId: newUserId,
                 related_to: newRelatedTo,
                 start: newStart,
                 end: newEnd,
@@ -472,7 +476,7 @@ function transformToTimecards(jsonData) {
 }
 
 function updateTimecardsArray(updatedTimecard) {
-
+    console.log(updatedTimecard);
     updatedTimecard.start = updatedTimecard.start.toISOString();
     updatedTimecard.end = updatedTimecard.end.toISOString();
 
@@ -490,8 +494,8 @@ function updateTimecardsArray(updatedTimecard) {
  * add error checking on forms
  * put the function arguments in order or in an object
  * vite or other roll up version of the code for single bundle
- * 
- *   
- * 
+ * move all the data into an object to make it more usable as an object instead of desrtucturing it into variables
+ * fix the mutliobjectlookup normal name like related_to
+ * incorporate the user Event Mapping into the User DB insideof AAP and set it up from there instead of hard coded
  * ********************************/
 
