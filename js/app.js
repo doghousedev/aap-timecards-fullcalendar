@@ -493,8 +493,8 @@ function updateTimecardsArray(updatedTimecard) {
 /**********************************
  * add error checking on forms
  * put the function arguments in order or in an object
- * vite or other roll up version of the code for single bundle
  * move all the data into an object to make it more usable as an object instead of desrtucturing it into variables
+ * vite or other roll up version of the code for single bundle
  * fix the mutliobjectlookup normal name like related_to
  * incorporate the user Event Mapping into the User DB insideof AAP and set it up from there instead of hard coded
  * ********************************/
